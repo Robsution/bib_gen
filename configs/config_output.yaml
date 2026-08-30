@@ -1,0 +1,23 @@
+experiment_name: "base_run"
+device: "cuda"
+data_dir: "./data/processed/large10"
+save_dir: "./checkpointsLarge10NewGAN"
+plot_dir: "./plots/plotdaughtersLarge10NewGAN"
+
+# Training Hyperparameters
+epochs: 1000
+batch_size: 128
+num_workers: 8          # For DataLoader
+lr_g: 0.0001
+lr_d: 0.0001
+n_critic: 5             # Train D 5 times for every G step
+lambda_gp: 10.0         # Gradient Penalty coefficient
+lambda_aux: 1.0        # Auxiliary Loss (Multiplicity) coefficient
+
+# Model Architecture
+z_dim: 128              # Latent noise dimension
+hidden_dim: 256         # Base hidden dimension for MLPs
+
+# Other things
+min_daughters: 0
+max_daughters: 10 #real max is 13001 

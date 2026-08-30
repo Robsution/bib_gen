@@ -1,0 +1,2543 @@
+[Epoch 1/3000] D Loss: 0.6330 | G Loss: 0.3191 | W Dist: 0.0132 | Aux MSE: 0.1190
+
+[Epoch 2/3000] D Loss: 0.3078 | G Loss: 0.2288 | W Dist: 0.0347 | Aux MSE: 0.0207
+
+[Epoch 3/3000] D Loss: 0.2505 | G Loss: 0.2184 | W Dist: 0.0634 | Aux MSE: 0.0070
+
+[Epoch 4/3000] D Loss: 0.2196 | G Loss: 0.2059 | W Dist: 0.0893 | Aux MSE: 0.0036
+
+[Epoch 5/3000] D Loss: 0.1689 | G Loss: 0.1928 | W Dist: 0.1202 | Aux MSE: 0.0022
+
+[Epoch 6/3000] D Loss: 0.1337 | G Loss: 0.1547 | W Dist: 0.1499 | Aux MSE: 0.0014
+
+[Epoch 7/3000] D Loss: 0.1061 | G Loss: 0.1304 | W Dist: 0.1818 | Aux MSE: 0.0010
+
+[Epoch 8/3000] D Loss: 0.0731 | G Loss: 0.1037 | W Dist: 0.2137 | Aux MSE: 0.0007
+
+[Epoch 9/3000] D Loss: 0.0301 | G Loss: 0.1169 | W Dist: 0.2484 | Aux MSE: 0.0005
+
+[Epoch 10/3000] D Loss: 0.0120 | G Loss: 0.1364 | W Dist: 0.2868 | Aux MSE: 0.0003
+
+[Epoch 11/3000] D Loss: -0.0466 | G Loss: 0.1370 | W Dist: 0.3296 | Aux MSE: 0.0002
+
+[Epoch 12/3000] D Loss: -0.0818 | G Loss: 0.1423 | W Dist: 0.3685 | Aux MSE: 0.0002
+
+[Epoch 13/3000] D Loss: -0.1476 | G Loss: 0.1598 | W Dist: 0.4322 | Aux MSE: 0.0001
+
+[Epoch 14/3000] D Loss: -0.1848 | G Loss: 0.1976 | W Dist: 0.4860 | Aux MSE: 0.0001
+
+[Epoch 15/3000] D Loss: -0.2448 | G Loss: 0.2358 | W Dist: 0.5532 | Aux MSE: 0.0001
+
+[Epoch 16/3000] D Loss: -0.2966 | G Loss: 0.2570 | W Dist: 0.6189 | Aux MSE: 0.0000
+
+[Epoch 17/3000] D Loss: -0.3503 | G Loss: 0.2943 | W Dist: 0.6977 | Aux MSE: 0.0000
+
+[Epoch 18/3000] D Loss: -0.4246 | G Loss: 0.3524 | W Dist: 0.7534 | Aux MSE: 0.0000
+
+[Epoch 19/3000] D Loss: -0.5598 | G Loss: 0.4325 | W Dist: 0.9052 | Aux MSE: 0.0000
+
+[Epoch 20/3000] D Loss: -0.6592 | G Loss: 0.5536 | W Dist: 1.0087 | Aux MSE: 0.0000
+
+[Epoch 21/3000] D Loss: -0.7176 | G Loss: 0.6225 | W Dist: 1.0892 | Aux MSE: 0.0000
+
+[Epoch 22/3000] D Loss: -0.8192 | G Loss: 0.7006 | W Dist: 1.2134 | Aux MSE: 0.0000
+
+[Epoch 23/3000] D Loss: -1.0416 | G Loss: 0.7656 | W Dist: 1.4659 | Aux MSE: 0.0000
+
+[Epoch 24/3000] D Loss: -1.1270 | G Loss: 0.8435 | W Dist: 1.6154 | Aux MSE: 0.0000
+
+[Epoch 25/3000] D Loss: -1.1757 | G Loss: 0.8899 | W Dist: 1.6649 | Aux MSE: 0.0000
+
+[Epoch 26/3000] D Loss: -1.3760 | G Loss: 1.0121 | W Dist: 1.8949 | Aux MSE: 0.0000
+
+[Epoch 27/3000] D Loss: -1.4445 | G Loss: 1.0547 | W Dist: 1.9792 | Aux MSE: 0.0000
+
+[Epoch 28/3000] D Loss: -1.4847 | G Loss: 1.1184 | W Dist: 2.1374 | Aux MSE: 0.0000
+
+[Epoch 29/3000] D Loss: -1.6095 | G Loss: 1.1420 | W Dist: 2.2425 | Aux MSE: 0.0000
+
+[Epoch 30/3000] D Loss: -1.7174 | G Loss: 1.2407 | W Dist: 2.3625 | Aux MSE: 0.0000
+
+[Epoch 31/3000] D Loss: -1.8366 | G Loss: 1.2043 | W Dist: 2.5350 | Aux MSE: 0.0000
+
+[Epoch 32/3000] D Loss: -1.9421 | G Loss: 1.2477 | W Dist: 2.7263 | Aux MSE: 0.0000
+
+[Epoch 33/3000] D Loss: -1.8656 | G Loss: 1.1964 | W Dist: 2.7071 | Aux MSE: 0.0000
+
+[Epoch 34/3000] D Loss: -1.9813 | G Loss: 1.1320 | W Dist: 2.8763 | Aux MSE: 0.0000
+
+[Epoch 35/3000] D Loss: -1.9948 | G Loss: 0.9889 | W Dist: 2.8339 | Aux MSE: 0.0000
+
+[Epoch 36/3000] D Loss: -2.0498 | G Loss: 0.9329 | W Dist: 2.9278 | Aux MSE: 0.0000
+
+[Epoch 37/3000] D Loss: -2.1543 | G Loss: 0.9126 | W Dist: 2.9734 | Aux MSE: 0.0000
+
+[Epoch 38/3000] D Loss: -2.1013 | G Loss: 0.8631 | W Dist: 2.9476 | Aux MSE: 0.0000
+
+[Epoch 39/3000] D Loss: -2.0586 | G Loss: 0.6982 | W Dist: 2.9314 | Aux MSE: 0.0000
+
+[Epoch 40/3000] D Loss: -1.7652 | G Loss: 0.4785 | W Dist: 2.8795 | Aux MSE: 0.0000
+
+[Epoch 41/3000] D Loss: -1.8746 | G Loss: 0.4221 | W Dist: 2.9181 | Aux MSE: 0.0000
+
+[Epoch 42/3000] D Loss: -1.9906 | G Loss: 0.4334 | W Dist: 2.9613 | Aux MSE: 0.0000
+
+[Epoch 43/3000] D Loss: -1.8077 | G Loss: 0.4043 | W Dist: 2.8533 | Aux MSE: 0.0000
+
+[Epoch 44/3000] D Loss: -2.0526 | G Loss: 0.4603 | W Dist: 2.9155 | Aux MSE: 0.0000
+
+[Epoch 45/3000] D Loss: -2.2407 | G Loss: 0.4731 | W Dist: 3.1214 | Aux MSE: 0.0000
+
+[Epoch 46/3000] D Loss: -2.4611 | G Loss: 0.4902 | W Dist: 3.3309 | Aux MSE: 0.0000
+
+[Epoch 47/3000] D Loss: -2.9119 | G Loss: 0.5432 | W Dist: 3.7099 | Aux MSE: 0.0000
+
+[Epoch 48/3000] D Loss: -3.3032 | G Loss: 0.6627 | W Dist: 4.1138 | Aux MSE: 0.0000
+
+[Epoch 49/3000] D Loss: -3.1496 | G Loss: 0.6229 | W Dist: 4.1415 | Aux MSE: 0.0000
+
+[Epoch 50/3000] D Loss: -3.2355 | G Loss: 0.5551 | W Dist: 4.3359 | Aux MSE: 0.0000
+
+[Epoch 51/3000] D Loss: -3.6324 | G Loss: 0.4992 | W Dist: 4.6034 | Aux MSE: 0.0000
+
+[Epoch 52/3000] D Loss: -3.6732 | G Loss: 0.5886 | W Dist: 4.7206 | Aux MSE: 0.0000
+
+[Epoch 53/3000] D Loss: -3.9976 | G Loss: 0.6459 | W Dist: 4.9666 | Aux MSE: 0.0000
+
+[Epoch 54/3000] D Loss: -4.1848 | G Loss: 0.6744 | W Dist: 5.1588 | Aux MSE: 0.0000
+
+[Epoch 55/3000] D Loss: -4.2685 | G Loss: 0.6977 | W Dist: 5.4454 | Aux MSE: 0.0000
+
+[Epoch 56/3000] D Loss: -4.0857 | G Loss: 0.4988 | W Dist: 5.2637 | Aux MSE: 0.0000
+
+[Epoch 57/3000] D Loss: -4.3697 | G Loss: 0.5189 | W Dist: 5.7501 | Aux MSE: 0.0000
+
+[Epoch 58/3000] D Loss: -4.4649 | G Loss: 0.4788 | W Dist: 5.6843 | Aux MSE: 0.0000
+
+[Epoch 59/3000] D Loss: -4.9757 | G Loss: 0.6402 | W Dist: 6.1787 | Aux MSE: 0.0000
+
+[Epoch 60/3000] D Loss: -5.3511 | G Loss: 0.8748 | W Dist: 6.6793 | Aux MSE: 0.0000
+
+[Epoch 61/3000] D Loss: -5.0111 | G Loss: 0.9793 | W Dist: 6.7193 | Aux MSE: 0.0001
+
+[Epoch 62/3000] D Loss: -4.4982 | G Loss: 0.9139 | W Dist: 6.5872 | Aux MSE: 0.0009
+
+[Epoch 63/3000] D Loss: -3.1380 | G Loss: 0.6382 | W Dist: 6.1422 | Aux MSE: 0.0015
+
+[Epoch 64/3000] D Loss: -2.9634 | G Loss: 0.4585 | W Dist: 5.8218 | Aux MSE: 0.0010
+
+[Epoch 65/3000] D Loss: -2.2986 | G Loss: 0.4242 | W Dist: 5.5613 | Aux MSE: 0.0018
+
+[Epoch 66/3000] D Loss: -3.0149 | G Loss: 0.4618 | W Dist: 5.4674 | Aux MSE: 0.0008
+
+[Epoch 67/3000] D Loss: -3.6109 | G Loss: 0.7042 | W Dist: 5.4192 | Aux MSE: 0.0004
+
+[Epoch 68/3000] D Loss: -3.8709 | G Loss: 0.7944 | W Dist: 5.5644 | Aux MSE: 0.0002
+
+[Epoch 69/3000] D Loss: -4.0305 | G Loss: 0.7796 | W Dist: 5.6834 | Aux MSE: 0.0001
+
+[Epoch 70/3000] D Loss: -3.9097 | G Loss: 0.5679 | W Dist: 5.5343 | Aux MSE: 0.0001
+
+[Epoch 71/3000] D Loss: -4.3118 | G Loss: 0.6194 | W Dist: 5.7996 | Aux MSE: 0.0001
+
+[Epoch 72/3000] D Loss: -3.5789 | G Loss: 0.6945 | W Dist: 5.6035 | Aux MSE: 0.0001
+
+[Epoch 73/3000] D Loss: -3.8766 | G Loss: 0.8675 | W Dist: 5.6815 | Aux MSE: 0.0001
+
+[Epoch 74/3000] D Loss: -3.5579 | G Loss: 0.9404 | W Dist: 5.5730 | Aux MSE: 0.0003
+
+[Epoch 75/3000] D Loss: -3.9817 | G Loss: 0.9197 | W Dist: 5.6139 | Aux MSE: 0.0002
+
+[Epoch 76/3000] D Loss: -4.1267 | G Loss: 0.8839 | W Dist: 5.7680 | Aux MSE: 0.0001
+
+[Epoch 77/3000] D Loss: -4.1996 | G Loss: 0.9586 | W Dist: 5.8317 | Aux MSE: 0.0001
+
+[Epoch 78/3000] D Loss: -4.4553 | G Loss: 1.0634 | W Dist: 5.9871 | Aux MSE: 0.0001
+
+[Epoch 79/3000] D Loss: -4.8578 | G Loss: 1.4078 | W Dist: 6.4842 | Aux MSE: 0.0001
+
+[Epoch 80/3000] D Loss: -4.4123 | G Loss: 1.5159 | W Dist: 6.3209 | Aux MSE: 0.0000
+
+[Epoch 81/3000] D Loss: -4.7095 | G Loss: 1.6046 | W Dist: 6.6432 | Aux MSE: 0.0000
+
+[Epoch 82/3000] D Loss: -4.8250 | G Loss: 1.7283 | W Dist: 6.7279 | Aux MSE: 0.0000
+
+[Epoch 83/3000] D Loss: -4.1732 | G Loss: 1.8788 | W Dist: 6.6683 | Aux MSE: 0.0000
+
+[Epoch 84/3000] D Loss: -3.9730 | G Loss: 1.7863 | W Dist: 6.4507 | Aux MSE: 0.0000
+
+[Epoch 85/3000] D Loss: -2.4822 | G Loss: 1.6454 | W Dist: 6.0216 | Aux MSE: 0.0000
+
+[Epoch 86/3000] D Loss: -2.7994 | G Loss: 1.5379 | W Dist: 5.5466 | Aux MSE: 0.0000
+
+[Epoch 87/3000] D Loss: -2.9105 | G Loss: 1.5450 | W Dist: 5.6219 | Aux MSE: 0.0000
+
+[Epoch 88/3000] D Loss: -4.1569 | G Loss: 1.7324 | W Dist: 5.9473 | Aux MSE: 0.0000
+
+[Epoch 89/3000] D Loss: -4.0386 | G Loss: 2.1109 | W Dist: 6.1149 | Aux MSE: 0.0000
+
+[Epoch 90/3000] D Loss: -4.0435 | G Loss: 2.4214 | W Dist: 6.2058 | Aux MSE: 0.0000
+
+[Epoch 91/3000] D Loss: -2.2836 | G Loss: 2.4806 | W Dist: 6.0634 | Aux MSE: 0.0000
+
+[Epoch 92/3000] D Loss: -1.4054 | G Loss: 2.3509 | W Dist: 5.5345 | Aux MSE: 0.0000
+
+[Epoch 93/3000] D Loss: -3.4324 | G Loss: 2.2507 | W Dist: 5.4396 | Aux MSE: 0.0000
+
+[Epoch 94/3000] D Loss: -3.0351 | G Loss: 2.3020 | W Dist: 5.4491 | Aux MSE: 0.0000
+
+[Epoch 95/3000] D Loss: -2.2699 | G Loss: 2.1610 | W Dist: 5.2353 | Aux MSE: 0.0000
+
+[Epoch 96/3000] D Loss: -2.3805 | G Loss: 1.9553 | W Dist: 4.9631 | Aux MSE: 0.0001
+
+[Epoch 97/3000] D Loss: -1.6797 | G Loss: 1.7795 | W Dist: 4.7099 | Aux MSE: 0.0026
+
+[Epoch 98/3000] D Loss: 0.4843 | G Loss: 1.4157 | W Dist: 3.8109 | Aux MSE: 0.0015
+
+[Epoch 99/3000] D Loss: -0.1051 | G Loss: 1.3917 | W Dist: 3.6697 | Aux MSE: 0.0007
+
+[Epoch 100/3000] D Loss: -0.7757 | G Loss: 1.3472 | W Dist: 3.4682 | Aux MSE: 0.0276
+
+[Epoch 101/3000] D Loss: -1.5760 | G Loss: 1.2299 | W Dist: 3.4761 | Aux MSE: 0.0208
+
+[Epoch 102/3000] D Loss: -1.8930 | G Loss: 1.3135 | W Dist: 3.6210 | Aux MSE: 0.0028
+
+[Epoch 103/3000] D Loss: -1.7574 | G Loss: 1.3161 | W Dist: 3.5772 | Aux MSE: 0.0007
+
+[Epoch 104/3000] D Loss: -1.5259 | G Loss: 1.3074 | W Dist: 3.5875 | Aux MSE: 0.0004
+
+[Epoch 105/3000] D Loss: -0.5080 | G Loss: 1.3171 | W Dist: 3.2102 | Aux MSE: 0.0003
+
+[Epoch 106/3000] D Loss: -0.1091 | G Loss: 1.1689 | W Dist: 2.9666 | Aux MSE: 0.0004
+
+[Epoch 107/3000] D Loss: -1.1260 | G Loss: 1.0412 | W Dist: 2.8737 | Aux MSE: 0.0002
+
+[Epoch 108/3000] D Loss: -1.8482 | G Loss: 1.0301 | W Dist: 3.0911 | Aux MSE: 0.0002
+
+[Epoch 109/3000] D Loss: -2.1025 | G Loss: 1.0236 | W Dist: 3.2391 | Aux MSE: 0.0002
+
+[Epoch 110/3000] D Loss: -2.2422 | G Loss: 1.0800 | W Dist: 3.4780 | Aux MSE: 0.0002
+
+[Epoch 111/3000] D Loss: -2.0253 | G Loss: 1.1305 | W Dist: 3.4524 | Aux MSE: 0.0001
+
+[Epoch 112/3000] D Loss: -1.8970 | G Loss: 1.1405 | W Dist: 3.3269 | Aux MSE: 0.0001
+
+[Epoch 113/3000] D Loss: -1.8869 | G Loss: 1.2013 | W Dist: 3.3028 | Aux MSE: 0.0000
+
+[Epoch 114/3000] D Loss: -1.1460 | G Loss: 1.0772 | W Dist: 3.2395 | Aux MSE: 0.0000
+
+[Epoch 115/3000] D Loss: -0.3772 | G Loss: 0.9115 | W Dist: 2.8307 | Aux MSE: 0.0000
+
+[Epoch 116/3000] D Loss: 0.5316 | G Loss: 0.6384 | W Dist: 2.4469 | Aux MSE: 0.0000
+
+[Epoch 117/3000] D Loss: 0.1600 | G Loss: 0.3710 | W Dist: 2.1797 | Aux MSE: 0.0000
+
+[Epoch 118/3000] D Loss: -0.2880 | G Loss: 0.2402 | W Dist: 1.9926 | Aux MSE: 0.0000
+
+[Epoch 119/3000] D Loss: -0.0604 | G Loss: 0.2200 | W Dist: 1.8841 | Aux MSE: 0.0000
+
+[Epoch 120/3000] D Loss: 0.1984 | G Loss: 0.2964 | W Dist: 1.7096 | Aux MSE: 0.0000
+
+[Epoch 121/3000] D Loss: -0.2639 | G Loss: 0.4487 | W Dist: 1.6485 | Aux MSE: 0.0000
+
+[Epoch 122/3000] D Loss: -0.6082 | G Loss: 0.6584 | W Dist: 1.6860 | Aux MSE: 0.0000
+
+[Epoch 123/3000] D Loss: -0.7376 | G Loss: 0.8592 | W Dist: 1.7211 | Aux MSE: 0.0001
+
+[Epoch 124/3000] D Loss: -0.6832 | G Loss: 0.9783 | W Dist: 1.7564 | Aux MSE: 0.0010
+
+[Epoch 125/3000] D Loss: -0.9357 | G Loss: 1.1116 | W Dist: 1.8755 | Aux MSE: 0.0003
+
+[Epoch 126/3000] D Loss: -1.0365 | G Loss: 1.1922 | W Dist: 1.9125 | Aux MSE: 0.0003
+
+[Epoch 127/3000] D Loss: -0.9387 | G Loss: 1.2500 | W Dist: 1.8734 | Aux MSE: 0.0002
+
+[Epoch 128/3000] D Loss: -1.0676 | G Loss: 1.2483 | W Dist: 1.9629 | Aux MSE: 0.0002
+
+[Epoch 129/3000] D Loss: -1.1128 | G Loss: 1.2754 | W Dist: 2.0623 | Aux MSE: 0.0002
+
+[Epoch 130/3000] D Loss: -1.2463 | G Loss: 1.3810 | W Dist: 2.1800 | Aux MSE: 0.0001
+
+[Epoch 131/3000] D Loss: -1.2442 | G Loss: 1.4362 | W Dist: 2.2018 | Aux MSE: 0.0001
+
+[Epoch 132/3000] D Loss: -1.1894 | G Loss: 1.4579 | W Dist: 2.2071 | Aux MSE: 0.0001
+
+[Epoch 133/3000] D Loss: -1.2056 | G Loss: 1.5202 | W Dist: 2.2318 | Aux MSE: 0.0001
+
+[Epoch 134/3000] D Loss: -1.2422 | G Loss: 1.5220 | W Dist: 2.1684 | Aux MSE: 0.0001
+
+[Epoch 135/3000] D Loss: -0.9399 | G Loss: 1.4986 | W Dist: 2.0237 | Aux MSE: 0.0001
+
+[Epoch 136/3000] D Loss: -0.8297 | G Loss: 1.4383 | W Dist: 1.9540 | Aux MSE: 0.0000
+
+[Epoch 137/3000] D Loss: -0.7364 | G Loss: 1.3867 | W Dist: 1.7992 | Aux MSE: 0.0000
+
+[Epoch 138/3000] D Loss: -0.8615 | G Loss: 1.5001 | W Dist: 1.7743 | Aux MSE: 0.0000
+
+[Epoch 139/3000] D Loss: -0.7887 | G Loss: 1.4869 | W Dist: 1.7614 | Aux MSE: 0.0000
+
+[Epoch 140/3000] D Loss: -0.8441 | G Loss: 1.5013 | W Dist: 1.8062 | Aux MSE: 0.0000
+
+[Epoch 141/3000] D Loss: -0.6799 | G Loss: 1.4349 | W Dist: 1.7262 | Aux MSE: 0.0000
+
+[Epoch 142/3000] D Loss: -0.6524 | G Loss: 1.3249 | W Dist: 1.5956 | Aux MSE: 0.0000
+
+[Epoch 143/3000] D Loss: -0.6897 | G Loss: 1.2001 | W Dist: 1.5564 | Aux MSE: 0.0000
+
+[Epoch 144/3000] D Loss: -0.7332 | G Loss: 1.1369 | W Dist: 1.5549 | Aux MSE: 0.0000
+
+[Epoch 145/3000] D Loss: -0.6870 | G Loss: 1.1108 | W Dist: 1.5387 | Aux MSE: 0.0000
+
+[Epoch 146/3000] D Loss: -0.5976 | G Loss: 1.0651 | W Dist: 1.4841 | Aux MSE: 0.0000
+
+[Epoch 147/3000] D Loss: -0.5356 | G Loss: 0.9736 | W Dist: 1.4501 | Aux MSE: 0.0000
+
+[Epoch 148/3000] D Loss: -0.6087 | G Loss: 0.9007 | W Dist: 1.4975 | Aux MSE: 0.0000
+
+[Epoch 149/3000] D Loss: -0.6847 | G Loss: 0.8687 | W Dist: 1.4724 | Aux MSE: 0.0000
+
+[Epoch 150/3000] D Loss: -0.7102 | G Loss: 0.8900 | W Dist: 1.4838 | Aux MSE: 0.0000
+
+[Epoch 151/3000] D Loss: -0.8359 | G Loss: 0.9293 | W Dist: 1.5763 | Aux MSE: 0.0000
+
+[Epoch 152/3000] D Loss: -0.7901 | G Loss: 0.9985 | W Dist: 1.5710 | Aux MSE: 0.0000
+
+[Epoch 153/3000] D Loss: -0.8666 | G Loss: 0.9861 | W Dist: 1.6529 | Aux MSE: 0.0000
+
+[Epoch 154/3000] D Loss: -0.8000 | G Loss: 0.9342 | W Dist: 1.5819 | Aux MSE: 0.0000
+
+[Epoch 155/3000] D Loss: -0.8978 | G Loss: 0.9445 | W Dist: 1.6661 | Aux MSE: 0.0000
+
+[Epoch 156/3000] D Loss: -0.7666 | G Loss: 0.9549 | W Dist: 1.6644 | Aux MSE: 0.0000
+
+[Epoch 157/3000] D Loss: -0.8559 | G Loss: 0.9357 | W Dist: 1.6461 | Aux MSE: 0.0000
+
+[Epoch 158/3000] D Loss: -0.8710 | G Loss: 1.0040 | W Dist: 1.7238 | Aux MSE: 0.0000
+
+[Epoch 159/3000] D Loss: -0.8313 | G Loss: 1.0015 | W Dist: 1.6571 | Aux MSE: 0.0000
+
+[Epoch 160/3000] D Loss: -0.8077 | G Loss: 0.9551 | W Dist: 1.6266 | Aux MSE: 0.0000
+
+[Epoch 161/3000] D Loss: -0.8031 | G Loss: 0.9575 | W Dist: 1.6438 | Aux MSE: 0.0000
+
+[Epoch 162/3000] D Loss: -0.8309 | G Loss: 0.9485 | W Dist: 1.6161 | Aux MSE: 0.0000
+
+[Epoch 163/3000] D Loss: -0.8655 | G Loss: 0.9720 | W Dist: 1.6053 | Aux MSE: 0.0000
+
+[Epoch 164/3000] D Loss: -0.8930 | G Loss: 0.9843 | W Dist: 1.6643 | Aux MSE: 0.0000
+
+[Epoch 165/3000] D Loss: -0.9460 | G Loss: 1.0006 | W Dist: 1.7082 | Aux MSE: 0.0000
+
+[Epoch 166/3000] D Loss: -1.0874 | G Loss: 1.0775 | W Dist: 1.7791 | Aux MSE: 0.0000
+
+[Epoch 167/3000] D Loss: -1.1630 | G Loss: 1.1130 | W Dist: 1.9001 | Aux MSE: 0.0000
+
+[Epoch 168/3000] D Loss: -1.0273 | G Loss: 1.0759 | W Dist: 1.8665 | Aux MSE: 0.0000
+
+[Epoch 169/3000] D Loss: -1.0593 | G Loss: 1.0137 | W Dist: 1.8715 | Aux MSE: 0.0000
+
+[Epoch 170/3000] D Loss: -1.0357 | G Loss: 0.9663 | W Dist: 1.8308 | Aux MSE: 0.0000
+
+[Epoch 171/3000] D Loss: -1.0585 | G Loss: 0.9635 | W Dist: 1.8194 | Aux MSE: 0.0000
+
+[Epoch 172/3000] D Loss: -1.0478 | G Loss: 0.9736 | W Dist: 1.7837 | Aux MSE: 0.0000
+
+[Epoch 173/3000] D Loss: -1.1115 | G Loss: 1.0116 | W Dist: 1.8628 | Aux MSE: 0.0000
+
+[Epoch 174/3000] D Loss: -1.1112 | G Loss: 0.9989 | W Dist: 1.8586 | Aux MSE: 0.0000
+
+[Epoch 175/3000] D Loss: -0.9582 | G Loss: 0.9830 | W Dist: 1.8082 | Aux MSE: 0.0000
+
+[Epoch 176/3000] D Loss: -0.9840 | G Loss: 0.8914 | W Dist: 1.7707 | Aux MSE: 0.0000
+
+[Epoch 177/3000] D Loss: -0.8502 | G Loss: 0.9094 | W Dist: 1.7081 | Aux MSE: 0.0000
+
+[Epoch 178/3000] D Loss: -0.8772 | G Loss: 0.8883 | W Dist: 1.7207 | Aux MSE: 0.0000
+
+[Epoch 179/3000] D Loss: -0.9997 | G Loss: 0.9162 | W Dist: 1.7204 | Aux MSE: 0.0000
+
+[Epoch 180/3000] D Loss: -1.1450 | G Loss: 1.0044 | W Dist: 1.8339 | Aux MSE: 0.0000
+
+[Epoch 181/3000] D Loss: -1.0456 | G Loss: 1.0563 | W Dist: 1.8162 | Aux MSE: 0.0000
+
+[Epoch 182/3000] D Loss: -1.1347 | G Loss: 1.0603 | W Dist: 1.8588 | Aux MSE: 0.0000
+
+[Epoch 183/3000] D Loss: -1.1578 | G Loss: 1.1654 | W Dist: 1.9002 | Aux MSE: 0.0000
+
+[Epoch 184/3000] D Loss: -1.1307 | G Loss: 1.2655 | W Dist: 1.9407 | Aux MSE: 0.0000
+
+[Epoch 185/3000] D Loss: -1.1102 | G Loss: 1.3290 | W Dist: 1.9072 | Aux MSE: 0.0000
+
+[Epoch 186/3000] D Loss: -1.1544 | G Loss: 1.4606 | W Dist: 2.0050 | Aux MSE: 0.0000
+
+[Epoch 187/3000] D Loss: -1.1266 | G Loss: 1.5297 | W Dist: 2.0110 | Aux MSE: 0.0000
+
+[Epoch 188/3000] D Loss: -1.0995 | G Loss: 1.5492 | W Dist: 1.9258 | Aux MSE: 0.0000
+
+[Epoch 189/3000] D Loss: -1.1424 | G Loss: 1.5234 | W Dist: 1.9471 | Aux MSE: 0.0000
+
+[Epoch 190/3000] D Loss: -1.1550 | G Loss: 1.5690 | W Dist: 2.1153 | Aux MSE: 0.0000
+
+[Epoch 191/3000] D Loss: -1.2057 | G Loss: 1.5279 | W Dist: 2.1479 | Aux MSE: 0.0000
+
+[Epoch 192/3000] D Loss: -0.8928 | G Loss: 1.4765 | W Dist: 2.0731 | Aux MSE: 0.0000
+
+[Epoch 193/3000] D Loss: -1.0014 | G Loss: 1.3495 | W Dist: 2.1300 | Aux MSE: 0.0000
+
+[Epoch 194/3000] D Loss: -1.1699 | G Loss: 1.2992 | W Dist: 2.1339 | Aux MSE: 0.0000
+
+[Epoch 195/3000] D Loss: -1.0813 | G Loss: 1.2442 | W Dist: 2.0890 | Aux MSE: 0.0000
+
+[Epoch 196/3000] D Loss: -1.3820 | G Loss: 1.2853 | W Dist: 2.1796 | Aux MSE: 0.0000
+
+[Epoch 197/3000] D Loss: -1.3968 | G Loss: 1.3812 | W Dist: 2.2928 | Aux MSE: 0.0000
+
+[Epoch 198/3000] D Loss: -1.4633 | G Loss: 1.3966 | W Dist: 2.4685 | Aux MSE: 0.0000
+
+[Epoch 199/3000] D Loss: -1.1246 | G Loss: 1.2877 | W Dist: 2.3272 | Aux MSE: 0.0000
+
+[Epoch 200/3000] D Loss: -0.8320 | G Loss: 1.1384 | W Dist: 2.1646 | Aux MSE: 0.0000
+
+[Epoch 201/3000] D Loss: -0.8859 | G Loss: 0.9525 | W Dist: 2.0248 | Aux MSE: 0.0000
+
+[Epoch 202/3000] D Loss: -0.7708 | G Loss: 0.7970 | W Dist: 1.9175 | Aux MSE: 0.0000
+
+[Epoch 203/3000] D Loss: -0.8843 | G Loss: 0.7404 | W Dist: 1.8377 | Aux MSE: 0.0000
+
+[Epoch 204/3000] D Loss: -0.7474 | G Loss: 0.6715 | W Dist: 1.7288 | Aux MSE: 0.0000
+
+[Epoch 205/3000] D Loss: -0.9380 | G Loss: 0.6367 | W Dist: 1.7808 | Aux MSE: 0.0000
+
+[Epoch 206/3000] D Loss: -0.9203 | G Loss: 0.6436 | W Dist: 1.7896 | Aux MSE: 0.0000
+
+[Epoch 207/3000] D Loss: -1.0100 | G Loss: 0.6072 | W Dist: 1.8560 | Aux MSE: 0.0000
+
+[Epoch 208/3000] D Loss: -0.9512 | G Loss: 0.5737 | W Dist: 1.8276 | Aux MSE: 0.0000
+
+[Epoch 209/3000] D Loss: -0.9988 | G Loss: 0.5021 | W Dist: 1.8293 | Aux MSE: 0.0000
+
+[Epoch 210/3000] D Loss: -1.3299 | G Loss: 0.6520 | W Dist: 2.0615 | Aux MSE: 0.0000
+
+[Epoch 211/3000] D Loss: -1.3788 | G Loss: 0.8698 | W Dist: 2.2022 | Aux MSE: 0.0000
+
+[Epoch 212/3000] D Loss: -1.4421 | G Loss: 0.9021 | W Dist: 2.3396 | Aux MSE: 0.0000
+
+[Epoch 213/3000] D Loss: -1.2766 | G Loss: 0.8043 | W Dist: 2.1972 | Aux MSE: 0.0000
+
+[Epoch 214/3000] D Loss: -1.0149 | G Loss: 0.6495 | W Dist: 2.1042 | Aux MSE: 0.0000
+
+[Epoch 215/3000] D Loss: -1.1283 | G Loss: 0.4779 | W Dist: 2.0530 | Aux MSE: 0.0000
+
+[Epoch 216/3000] D Loss: -1.2191 | G Loss: 0.3202 | W Dist: 2.0062 | Aux MSE: 0.0000
+
+[Epoch 217/3000] D Loss: -1.2389 | G Loss: 0.2106 | W Dist: 2.0599 | Aux MSE: 0.0000
+
+[Epoch 218/3000] D Loss: -1.4825 | G Loss: 0.1951 | W Dist: 2.2053 | Aux MSE: 0.0000
+
+[Epoch 219/3000] D Loss: -1.5724 | G Loss: 0.3226 | W Dist: 2.3662 | Aux MSE: 0.0000
+
+[Epoch 220/3000] D Loss: -1.6831 | G Loss: 0.5392 | W Dist: 2.5334 | Aux MSE: 0.0000
+
+[Epoch 221/3000] D Loss: -1.4841 | G Loss: 0.7247 | W Dist: 2.4968 | Aux MSE: 0.0000
+
+[Epoch 222/3000] D Loss: -1.1266 | G Loss: 0.6024 | W Dist: 2.3903 | Aux MSE: 0.0000
+
+[Epoch 223/3000] D Loss: -0.8349 | G Loss: 0.3523 | W Dist: 2.1392 | Aux MSE: 0.0000
+
+[Epoch 224/3000] D Loss: -1.1224 | G Loss: 0.1882 | W Dist: 2.0566 | Aux MSE: 0.0000
+
+[Epoch 225/3000] D Loss: -1.0296 | G Loss: 0.0835 | W Dist: 1.9442 | Aux MSE: 0.0000
+
+[Epoch 226/3000] D Loss: -0.9531 | G Loss: -0.0099 | W Dist: 1.8188 | Aux MSE: 0.0000
+
+[Epoch 227/3000] D Loss: -1.0100 | G Loss: -0.0011 | W Dist: 1.8798 | Aux MSE: 0.0001
+
+[Epoch 228/3000] D Loss: -1.0035 | G Loss: -0.0370 | W Dist: 1.8829 | Aux MSE: 0.0000
+
+[Epoch 229/3000] D Loss: -0.9834 | G Loss: -0.0405 | W Dist: 1.8340 | Aux MSE: 0.0000
+
+[Epoch 230/3000] D Loss: -0.9685 | G Loss: -0.0461 | W Dist: 1.7862 | Aux MSE: 0.0000
+
+[Epoch 231/3000] D Loss: -0.9735 | G Loss: -0.0663 | W Dist: 1.8257 | Aux MSE: 0.0000
+
+[Epoch 232/3000] D Loss: -0.9103 | G Loss: -0.1125 | W Dist: 1.7899 | Aux MSE: 0.0001
+
+[Epoch 233/3000] D Loss: -1.0559 | G Loss: -0.0730 | W Dist: 1.8287 | Aux MSE: 0.0001
+
+[Epoch 234/3000] D Loss: -1.0902 | G Loss: -0.0058 | W Dist: 1.8792 | Aux MSE: 0.0000
+
+[Epoch 235/3000] D Loss: -0.6025 | G Loss: -0.0493 | W Dist: 1.7277 | Aux MSE: 0.0000
+
+[Epoch 236/3000] D Loss: -0.4507 | G Loss: -0.0864 | W Dist: 1.5706 | Aux MSE: 0.0001
+
+[Epoch 237/3000] D Loss: -0.5149 | G Loss: -0.1067 | W Dist: 1.5121 | Aux MSE: 0.0001
+
+[Epoch 238/3000] D Loss: -0.6419 | G Loss: -0.0644 | W Dist: 1.5233 | Aux MSE: 0.0001
+
+[Epoch 239/3000] D Loss: -0.7577 | G Loss: 0.0382 | W Dist: 1.5755 | Aux MSE: 0.0000
+
+[Epoch 240/3000] D Loss: -0.8490 | G Loss: 0.2172 | W Dist: 1.6639 | Aux MSE: 0.0000
+
+[Epoch 241/3000] D Loss: -0.9145 | G Loss: 0.3957 | W Dist: 1.7846 | Aux MSE: 0.0000
+
+[Epoch 242/3000] D Loss: -0.9406 | G Loss: 0.5997 | W Dist: 1.8299 | Aux MSE: 0.0000
+
+[Epoch 243/3000] D Loss: -1.0013 | G Loss: 0.6802 | W Dist: 1.8925 | Aux MSE: 0.0000
+
+[Epoch 244/3000] D Loss: -0.8717 | G Loss: 0.6320 | W Dist: 1.8592 | Aux MSE: 0.0000
+
+[Epoch 245/3000] D Loss: -0.8284 | G Loss: 0.4784 | W Dist: 1.7766 | Aux MSE: 0.0000
+
+[Epoch 246/3000] D Loss: -0.9835 | G Loss: 0.4053 | W Dist: 1.7991 | Aux MSE: 0.0000
+
+[Epoch 247/3000] D Loss: -1.1487 | G Loss: 0.3983 | W Dist: 1.9070 | Aux MSE: 0.0000
+
+[Epoch 248/3000] D Loss: -1.2904 | G Loss: 0.3714 | W Dist: 2.0376 | Aux MSE: 0.0000
+
+[Epoch 249/3000] D Loss: -1.1868 | G Loss: 0.3031 | W Dist: 2.0438 | Aux MSE: 0.0000
+
+[Epoch 250/3000] D Loss: -1.0816 | G Loss: 0.1724 | W Dist: 2.0099 | Aux MSE: 0.0001
+
+[Epoch 251/3000] D Loss: -1.0717 | G Loss: 0.0318 | W Dist: 1.9404 | Aux MSE: 0.0000
+
+[Epoch 252/3000] D Loss: -1.0231 | G Loss: -0.1587 | W Dist: 1.9451 | Aux MSE: 0.0001
+
+[Epoch 253/3000] D Loss: -0.9720 | G Loss: -0.2433 | W Dist: 1.8910 | Aux MSE: 0.0001
+
+[Epoch 254/3000] D Loss: -0.9014 | G Loss: -0.3070 | W Dist: 1.8584 | Aux MSE: 0.0000
+
+[Epoch 255/3000] D Loss: -0.8373 | G Loss: -0.3465 | W Dist: 1.7138 | Aux MSE: 0.0001
+
+[Epoch 256/3000] D Loss: -1.0314 | G Loss: -0.4055 | W Dist: 1.7736 | Aux MSE: 0.0001
+
+[Epoch 257/3000] D Loss: -0.9760 | G Loss: -0.4409 | W Dist: 1.6915 | Aux MSE: 0.0001
+
+[Epoch 258/3000] D Loss: -1.0882 | G Loss: -0.4379 | W Dist: 1.8310 | Aux MSE: 0.0000
+
+[Epoch 259/3000] D Loss: -1.1602 | G Loss: -0.3999 | W Dist: 1.8808 | Aux MSE: 0.0002
+
+[Epoch 260/3000] D Loss: -1.0603 | G Loss: -0.3897 | W Dist: 1.8705 | Aux MSE: 0.0001
+
+[Epoch 261/3000] D Loss: -1.1829 | G Loss: -0.3649 | W Dist: 1.9435 | Aux MSE: 0.0000
+
+[Epoch 262/3000] D Loss: -1.1199 | G Loss: -0.4305 | W Dist: 1.9504 | Aux MSE: 0.0000
+
+[Epoch 263/3000] D Loss: -1.2492 | G Loss: -0.4640 | W Dist: 1.9806 | Aux MSE: 0.0001
+
+[Epoch 264/3000] D Loss: -1.2798 | G Loss: -0.4563 | W Dist: 2.0535 | Aux MSE: 0.0000
+
+[Epoch 265/3000] D Loss: -1.3526 | G Loss: -0.4599 | W Dist: 2.0504 | Aux MSE: 0.0000
+
+[Epoch 266/3000] D Loss: -1.4514 | G Loss: -0.4581 | W Dist: 2.1557 | Aux MSE: 0.0000
+
+[Epoch 267/3000] D Loss: -1.5017 | G Loss: -0.4850 | W Dist: 2.1751 | Aux MSE: 0.0000
+
+[Epoch 268/3000] D Loss: -1.5799 | G Loss: -0.5308 | W Dist: 2.3275 | Aux MSE: 0.0000
+
+[Epoch 269/3000] D Loss: -1.4667 | G Loss: -0.5866 | W Dist: 2.3354 | Aux MSE: 0.0000
+
+[Epoch 270/3000] D Loss: -1.4074 | G Loss: -0.6221 | W Dist: 2.3115 | Aux MSE: 0.0000
+
+[Epoch 271/3000] D Loss: -1.5187 | G Loss: -0.5824 | W Dist: 2.2905 | Aux MSE: 0.0000
+
+[Epoch 272/3000] D Loss: -1.5132 | G Loss: -0.4967 | W Dist: 2.3641 | Aux MSE: 0.0000
+
+[Epoch 273/3000] D Loss: -1.4479 | G Loss: -0.4481 | W Dist: 2.2897 | Aux MSE: 0.0000
+
+[Epoch 274/3000] D Loss: -1.5552 | G Loss: -0.4092 | W Dist: 2.3435 | Aux MSE: 0.0000
+
+[Epoch 275/3000] D Loss: -1.6462 | G Loss: -0.3975 | W Dist: 2.4351 | Aux MSE: 0.0000
+
+[Epoch 276/3000] D Loss: -1.6324 | G Loss: -0.4116 | W Dist: 2.4361 | Aux MSE: 0.0000
+
+[Epoch 277/3000] D Loss: -1.4741 | G Loss: -0.4266 | W Dist: 2.4251 | Aux MSE: 0.0000
+
+[Epoch 278/3000] D Loss: -1.5872 | G Loss: -0.4274 | W Dist: 2.4153 | Aux MSE: 0.0000
+
+[Epoch 279/3000] D Loss: -1.6916 | G Loss: -0.4242 | W Dist: 2.5138 | Aux MSE: 0.0000
+
+[Epoch 280/3000] D Loss: -1.6726 | G Loss: -0.3730 | W Dist: 2.5207 | Aux MSE: 0.0000
+
+[Epoch 281/3000] D Loss: -1.6781 | G Loss: -0.2421 | W Dist: 2.6277 | Aux MSE: 0.0000
+
+[Epoch 282/3000] D Loss: -1.7728 | G Loss: -0.1232 | W Dist: 2.6632 | Aux MSE: 0.0000
+
+[Epoch 283/3000] D Loss: -1.7792 | G Loss: -0.0403 | W Dist: 2.7058 | Aux MSE: 0.0000
+
+[Epoch 284/3000] D Loss: -1.7229 | G Loss: -0.0670 | W Dist: 2.7403 | Aux MSE: 0.0000
+
+[Epoch 285/3000] D Loss: -1.7550 | G Loss: -0.1059 | W Dist: 2.7251 | Aux MSE: 0.0000
+
+[Epoch 286/3000] D Loss: -1.9541 | G Loss: -0.1332 | W Dist: 2.8534 | Aux MSE: 0.0000
+
+[Epoch 287/3000] D Loss: -2.1086 | G Loss: -0.1603 | W Dist: 2.9736 | Aux MSE: 0.0000
+
+[Epoch 288/3000] D Loss: -2.0840 | G Loss: -0.1803 | W Dist: 3.0298 | Aux MSE: 0.0000
+
+[Epoch 289/3000] D Loss: -2.2010 | G Loss: -0.1086 | W Dist: 3.1112 | Aux MSE: 0.0000
+
+[Epoch 290/3000] D Loss: -1.9742 | G Loss: -0.1179 | W Dist: 3.0807 | Aux MSE: 0.0000
+
+[Epoch 291/3000] D Loss: -1.9391 | G Loss: -0.1292 | W Dist: 2.9936 | Aux MSE: 0.0000
+
+[Epoch 292/3000] D Loss: -2.0242 | G Loss: -0.1176 | W Dist: 2.9782 | Aux MSE: 0.0000
+
+[Epoch 293/3000] D Loss: -1.9217 | G Loss: -0.0923 | W Dist: 2.8959 | Aux MSE: 0.0000
+
+[Epoch 294/3000] D Loss: -2.0009 | G Loss: -0.1325 | W Dist: 2.9126 | Aux MSE: 0.0000
+
+[Epoch 295/3000] D Loss: -1.8660 | G Loss: -0.1084 | W Dist: 2.8561 | Aux MSE: 0.0000
+
+[Epoch 296/3000] D Loss: -1.7844 | G Loss: -0.1632 | W Dist: 2.7372 | Aux MSE: 0.0000
+
+[Epoch 297/3000] D Loss: -1.7583 | G Loss: -0.2139 | W Dist: 2.7291 | Aux MSE: 0.0000
+
+[Epoch 298/3000] D Loss: -1.7952 | G Loss: -0.2619 | W Dist: 2.6551 | Aux MSE: 0.0000
+
+[Epoch 299/3000] D Loss: -1.8449 | G Loss: -0.3027 | W Dist: 2.6766 | Aux MSE: 0.0000
+
+[Epoch 300/3000] D Loss: -1.8949 | G Loss: -0.2699 | W Dist: 2.7734 | Aux MSE: 0.0000
+
+[Epoch 301/3000] D Loss: -1.9156 | G Loss: -0.2023 | W Dist: 2.8193 | Aux MSE: 0.0000
+
+[Epoch 302/3000] D Loss: -1.7384 | G Loss: -0.2073 | W Dist: 2.7930 | Aux MSE: 0.0000
+
+[Epoch 303/3000] D Loss: -1.8115 | G Loss: -0.1855 | W Dist: 2.8181 | Aux MSE: 0.0000
+
+[Epoch 304/3000] D Loss: -1.6114 | G Loss: -0.1586 | W Dist: 2.7030 | Aux MSE: 0.0000
+
+[Epoch 305/3000] D Loss: -1.5844 | G Loss: -0.0575 | W Dist: 2.6647 | Aux MSE: 0.0000
+
+[Epoch 306/3000] D Loss: -1.7864 | G Loss: -0.0610 | W Dist: 2.7229 | Aux MSE: 0.0000
+
+[Epoch 307/3000] D Loss: -1.8243 | G Loss: -0.0146 | W Dist: 2.7418 | Aux MSE: 0.0000
+
+[Epoch 308/3000] D Loss: -2.0746 | G Loss: -0.0074 | W Dist: 2.9099 | Aux MSE: 0.0000
+
+[Epoch 309/3000] D Loss: -2.3721 | G Loss: -0.0137 | W Dist: 3.1411 | Aux MSE: 0.0000
+
+[Epoch 310/3000] D Loss: -2.5294 | G Loss: 0.0353 | W Dist: 3.3488 | Aux MSE: 0.0000
+
+[Epoch 311/3000] D Loss: -2.6385 | G Loss: -0.0612 | W Dist: 3.4716 | Aux MSE: 0.0000
+
+[Epoch 312/3000] D Loss: -2.9877 | G Loss: -0.1070 | W Dist: 3.8378 | Aux MSE: 0.0000
+
+[Epoch 313/3000] D Loss: -3.0834 | G Loss: -0.0980 | W Dist: 4.0293 | Aux MSE: 0.0000
+
+[Epoch 314/3000] D Loss: -3.1417 | G Loss: -0.1173 | W Dist: 4.0686 | Aux MSE: 0.0000
+
+[Epoch 315/3000] D Loss: -3.1953 | G Loss: -0.1111 | W Dist: 4.2072 | Aux MSE: 0.0000
+
+[Epoch 316/3000] D Loss: -3.0902 | G Loss: -0.1313 | W Dist: 4.2850 | Aux MSE: 0.0000
+
+[Epoch 317/3000] D Loss: -2.8053 | G Loss: -0.1163 | W Dist: 4.0460 | Aux MSE: 0.0000
+
+[Epoch 318/3000] D Loss: -2.5703 | G Loss: -0.0342 | W Dist: 3.9316 | Aux MSE: 0.0000
+
+[Epoch 319/3000] D Loss: -2.1233 | G Loss: 0.0004 | W Dist: 3.7184 | Aux MSE: 0.0000
+
+[Epoch 320/3000] D Loss: -2.0957 | G Loss: -0.1987 | W Dist: 3.5121 | Aux MSE: 0.0000
+
+[Epoch 321/3000] D Loss: -1.9469 | G Loss: -0.3240 | W Dist: 3.3603 | Aux MSE: 0.0000
+
+[Epoch 322/3000] D Loss: -1.7270 | G Loss: -0.3834 | W Dist: 3.1468 | Aux MSE: 0.0000
+
+[Epoch 323/3000] D Loss: -1.4538 | G Loss: -0.3429 | W Dist: 2.9017 | Aux MSE: 0.0000
+
+[Epoch 324/3000] D Loss: 0.0017 | G Loss: -0.2774 | W Dist: 2.3029 | Aux MSE: 0.0000
+
+[Epoch 325/3000] D Loss: 0.5655 | G Loss: -0.3897 | W Dist: 1.6053 | Aux MSE: 0.0000
+
+[Epoch 326/3000] D Loss: 0.6772 | G Loss: -0.4803 | W Dist: 1.2194 | Aux MSE: 0.0000
+
+[Epoch 327/3000] D Loss: -0.0148 | G Loss: -0.3969 | W Dist: 1.3435 | Aux MSE: 0.0000
+
+[Epoch 328/3000] D Loss: -0.3460 | G Loss: -0.3782 | W Dist: 1.4807 | Aux MSE: 0.0000
+
+[Epoch 329/3000] D Loss: -0.8671 | G Loss: -0.3084 | W Dist: 1.6552 | Aux MSE: 0.0000
+
+[Epoch 330/3000] D Loss: -0.9440 | G Loss: -0.2538 | W Dist: 1.8256 | Aux MSE: 0.0000
+
+[Epoch 331/3000] D Loss: -0.9258 | G Loss: -0.2332 | W Dist: 1.7713 | Aux MSE: 0.0000
+
+[Epoch 332/3000] D Loss: -0.8204 | G Loss: -0.3222 | W Dist: 1.7289 | Aux MSE: 0.0000
+
+[Epoch 333/3000] D Loss: -0.9987 | G Loss: -0.2438 | W Dist: 1.8056 | Aux MSE: 0.0001
+
+[Epoch 334/3000] D Loss: -1.2153 | G Loss: -0.1890 | W Dist: 1.9303 | Aux MSE: 0.0000
+
+[Epoch 335/3000] D Loss: -1.0525 | G Loss: -0.1043 | W Dist: 1.9472 | Aux MSE: 0.0000
+
+[Epoch 336/3000] D Loss: -1.1109 | G Loss: 0.0266 | W Dist: 1.9091 | Aux MSE: 0.0000
+
+[Epoch 337/3000] D Loss: -1.1158 | G Loss: 0.1491 | W Dist: 1.9839 | Aux MSE: 0.0001
+
+[Epoch 338/3000] D Loss: -1.0462 | G Loss: 0.0741 | W Dist: 1.9576 | Aux MSE: 0.0000
+
+[Epoch 339/3000] D Loss: -1.1375 | G Loss: 0.0001 | W Dist: 1.9350 | Aux MSE: 0.0000
+
+[Epoch 340/3000] D Loss: -0.9561 | G Loss: -0.0543 | W Dist: 1.8968 | Aux MSE: 0.0000
+
+[Epoch 341/3000] D Loss: -0.8244 | G Loss: -0.2037 | W Dist: 1.7996 | Aux MSE: 0.0000
+
+[Epoch 342/3000] D Loss: -1.0243 | G Loss: -0.2526 | W Dist: 1.8364 | Aux MSE: 0.0000
+
+[Epoch 343/3000] D Loss: -1.1588 | G Loss: -0.2792 | W Dist: 1.8864 | Aux MSE: 0.0000
+
+[Epoch 344/3000] D Loss: -1.1709 | G Loss: -0.3813 | W Dist: 1.9458 | Aux MSE: 0.0000
+
+[Epoch 345/3000] D Loss: -1.2226 | G Loss: -0.4385 | W Dist: 2.0118 | Aux MSE: 0.0000
+
+[Epoch 346/3000] D Loss: -1.3363 | G Loss: -0.4357 | W Dist: 2.1454 | Aux MSE: 0.0000
+
+[Epoch 347/3000] D Loss: -1.5967 | G Loss: -0.3614 | W Dist: 2.3384 | Aux MSE: 0.0000
+
+[Epoch 348/3000] D Loss: -1.6612 | G Loss: -0.2612 | W Dist: 2.4465 | Aux MSE: 0.0000
+
+[Epoch 349/3000] D Loss: -1.6004 | G Loss: -0.2177 | W Dist: 2.5351 | Aux MSE: 0.0001
+
+[Epoch 350/3000] D Loss: -1.5421 | G Loss: -0.1908 | W Dist: 2.4685 | Aux MSE: 0.0000
+
+[Epoch 351/3000] D Loss: -1.6304 | G Loss: -0.1366 | W Dist: 2.4987 | Aux MSE: 0.0000
+
+[Epoch 352/3000] D Loss: -1.4521 | G Loss: -0.1684 | W Dist: 2.4248 | Aux MSE: 0.0000
+
+[Epoch 353/3000] D Loss: -1.2854 | G Loss: -0.1635 | W Dist: 2.2532 | Aux MSE: 0.0000
+
+[Epoch 354/3000] D Loss: -1.5889 | G Loss: -0.0980 | W Dist: 2.3226 | Aux MSE: 0.0000
+
+[Epoch 355/3000] D Loss: -1.9797 | G Loss: 0.1584 | W Dist: 2.6753 | Aux MSE: 0.0000
+
+[Epoch 356/3000] D Loss: -1.9287 | G Loss: 0.3204 | W Dist: 2.7449 | Aux MSE: 0.0000
+
+[Epoch 357/3000] D Loss: -2.1663 | G Loss: 0.3808 | W Dist: 2.9194 | Aux MSE: 0.0000
+
+[Epoch 358/3000] D Loss: -2.1672 | G Loss: 0.4632 | W Dist: 3.1413 | Aux MSE: 0.0000
+
+[Epoch 359/3000] D Loss: -2.1912 | G Loss: 0.5356 | W Dist: 3.1747 | Aux MSE: 0.0000
+
+[Epoch 360/3000] D Loss: -2.1816 | G Loss: 0.4060 | W Dist: 3.2258 | Aux MSE: 0.0000
+
+[Epoch 361/3000] D Loss: -1.4874 | G Loss: 0.0051 | W Dist: 2.8093 | Aux MSE: 0.0000
+
+[Epoch 362/3000] D Loss: -1.5890 | G Loss: -0.2253 | W Dist: 2.6295 | Aux MSE: 0.0000
+
+[Epoch 363/3000] D Loss: -2.0331 | G Loss: 0.0552 | W Dist: 2.9790 | Aux MSE: 0.0000
+
+[Epoch 364/3000] D Loss: -2.3284 | G Loss: 0.0535 | W Dist: 3.1816 | Aux MSE: 0.0000
+
+[Epoch 365/3000] D Loss: -2.3215 | G Loss: 0.0983 | W Dist: 3.2690 | Aux MSE: 0.0000
+
+[Epoch 366/3000] D Loss: -2.3651 | G Loss: 0.1966 | W Dist: 3.3217 | Aux MSE: 0.0000
+
+[Epoch 367/3000] D Loss: -2.3990 | G Loss: 0.0823 | W Dist: 3.2682 | Aux MSE: 0.0000
+
+[Epoch 368/3000] D Loss: -3.0654 | G Loss: 0.2467 | W Dist: 3.9079 | Aux MSE: 0.0000
+
+[Epoch 369/3000] D Loss: -2.8767 | G Loss: 0.2025 | W Dist: 3.9724 | Aux MSE: 0.0000
+
+[Epoch 370/3000] D Loss: -1.9740 | G Loss: -0.1427 | W Dist: 3.8099 | Aux MSE: 0.0000
+
+[Epoch 371/3000] D Loss: -1.5837 | G Loss: -0.2747 | W Dist: 3.4192 | Aux MSE: 0.0000
+
+[Epoch 372/3000] D Loss: -1.4557 | G Loss: -0.3678 | W Dist: 3.3098 | Aux MSE: 0.0000
+
+[Epoch 373/3000] D Loss: -1.5399 | G Loss: -0.4786 | W Dist: 3.1341 | Aux MSE: 0.0000
+
+[Epoch 374/3000] D Loss: -0.6706 | G Loss: -0.5602 | W Dist: 2.9326 | Aux MSE: 0.0000
+
+[Epoch 375/3000] D Loss: -1.0763 | G Loss: -0.9109 | W Dist: 2.6086 | Aux MSE: 0.0000
+
+[Epoch 376/3000] D Loss: -1.2491 | G Loss: -1.0077 | W Dist: 2.5255 | Aux MSE: 0.0000
+
+[Epoch 377/3000] D Loss: -1.5466 | G Loss: -0.8743 | W Dist: 2.5609 | Aux MSE: 0.0000
+
+[Epoch 378/3000] D Loss: -1.6987 | G Loss: -0.6817 | W Dist: 2.6734 | Aux MSE: 0.0000
+
+[Epoch 379/3000] D Loss: -1.7850 | G Loss: -0.4908 | W Dist: 2.7478 | Aux MSE: 0.0000
+
+[Epoch 380/3000] D Loss: -1.4841 | G Loss: -0.3929 | W Dist: 2.7090 | Aux MSE: 0.0000
+
+[Epoch 381/3000] D Loss: -1.6641 | G Loss: -0.3430 | W Dist: 2.6679 | Aux MSE: 0.0000
+
+[Epoch 382/3000] D Loss: -1.9214 | G Loss: -0.2130 | W Dist: 2.8892 | Aux MSE: 0.0000
+
+[Epoch 383/3000] D Loss: -1.6188 | G Loss: -0.1030 | W Dist: 2.9386 | Aux MSE: 0.0000
+
+[Epoch 384/3000] D Loss: -1.2898 | G Loss: -0.3020 | W Dist: 2.6593 | Aux MSE: 0.0000
+
+[Epoch 385/3000] D Loss: -1.6993 | G Loss: -0.3679 | W Dist: 2.6892 | Aux MSE: 0.0000
+
+[Epoch 386/3000] D Loss: -2.1559 | G Loss: -0.3667 | W Dist: 2.9853 | Aux MSE: 0.0000
+
+[Epoch 387/3000] D Loss: -1.8284 | G Loss: -0.3935 | W Dist: 3.0455 | Aux MSE: 0.0000
+
+[Epoch 388/3000] D Loss: -1.7084 | G Loss: -0.4270 | W Dist: 3.0352 | Aux MSE: 0.0000
+
+[Epoch 389/3000] D Loss: -1.4395 | G Loss: -0.5130 | W Dist: 2.8201 | Aux MSE: 0.0000
+
+[Epoch 390/3000] D Loss: -1.4806 | G Loss: -0.6044 | W Dist: 2.6367 | Aux MSE: 0.0000
+
+[Epoch 391/3000] D Loss: -1.3609 | G Loss: -0.7117 | W Dist: 2.6181 | Aux MSE: 0.0000
+
+[Epoch 392/3000] D Loss: -1.2652 | G Loss: -0.7808 | W Dist: 2.5491 | Aux MSE: 0.0000
+
+[Epoch 393/3000] D Loss: -1.1008 | G Loss: -0.7951 | W Dist: 2.4708 | Aux MSE: 0.0000
+
+[Epoch 394/3000] D Loss: -0.9157 | G Loss: -0.8539 | W Dist: 2.2930 | Aux MSE: 0.0000
+
+[Epoch 395/3000] D Loss: -1.0941 | G Loss: -0.8006 | W Dist: 2.2796 | Aux MSE: 0.0001
+
+[Epoch 396/3000] D Loss: -1.3855 | G Loss: -0.7129 | W Dist: 2.2869 | Aux MSE: 0.0000
+
+[Epoch 397/3000] D Loss: -1.5071 | G Loss: -0.6792 | W Dist: 2.4018 | Aux MSE: 0.0000
+
+[Epoch 398/3000] D Loss: -1.5118 | G Loss: -0.6842 | W Dist: 2.4869 | Aux MSE: 0.0000
+
+[Epoch 399/3000] D Loss: -1.3700 | G Loss: -0.7945 | W Dist: 2.4389 | Aux MSE: 0.0000
+
+[Epoch 400/3000] D Loss: -1.2089 | G Loss: -0.9044 | W Dist: 2.3115 | Aux MSE: 0.0000
+
+[Epoch 401/3000] D Loss: -1.4242 | G Loss: -0.9464 | W Dist: 2.3521 | Aux MSE: 0.0001
+
+[Epoch 402/3000] D Loss: -1.5186 | G Loss: -0.9081 | W Dist: 2.4051 | Aux MSE: 0.0000
+
+[Epoch 403/3000] D Loss: -1.5170 | G Loss: -0.9620 | W Dist: 2.4527 | Aux MSE: 0.0000
+
+[Epoch 404/3000] D Loss: -1.6884 | G Loss: -1.0067 | W Dist: 2.5693 | Aux MSE: 0.0000
+
+[Epoch 405/3000] D Loss: -1.4982 | G Loss: -1.0180 | W Dist: 2.5956 | Aux MSE: 0.0000
+
+[Epoch 406/3000] D Loss: -1.0974 | G Loss: -1.0768 | W Dist: 2.3193 | Aux MSE: 0.0000
+
+[Epoch 407/3000] D Loss: -1.1719 | G Loss: -1.0258 | W Dist: 2.2374 | Aux MSE: 0.0000
+
+[Epoch 408/3000] D Loss: -1.1243 | G Loss: -1.0090 | W Dist: 2.2580 | Aux MSE: 0.0000
+
+[Epoch 409/3000] D Loss: -1.0261 | G Loss: -1.1075 | W Dist: 2.1726 | Aux MSE: 0.0000
+
+[Epoch 410/3000] D Loss: -1.0539 | G Loss: -1.2489 | W Dist: 2.1310 | Aux MSE: 0.0000
+
+[Epoch 411/3000] D Loss: -1.3022 | G Loss: -1.3740 | W Dist: 2.1145 | Aux MSE: 0.0000
+
+[Epoch 412/3000] D Loss: -1.4377 | G Loss: -1.4460 | W Dist: 2.2033 | Aux MSE: 0.0000
+
+[Epoch 413/3000] D Loss: -1.5310 | G Loss: -1.4823 | W Dist: 2.2762 | Aux MSE: 0.0000
+
+[Epoch 414/3000] D Loss: -1.4846 | G Loss: -1.4688 | W Dist: 2.3854 | Aux MSE: 0.0000
+
+[Epoch 415/3000] D Loss: -1.4021 | G Loss: -1.5062 | W Dist: 2.3264 | Aux MSE: 0.0000
+
+[Epoch 416/3000] D Loss: -1.5991 | G Loss: -1.4923 | W Dist: 2.4096 | Aux MSE: 0.0000
+
+[Epoch 417/3000] D Loss: -1.5801 | G Loss: -1.5658 | W Dist: 2.4109 | Aux MSE: 0.0000
+
+[Epoch 418/3000] D Loss: -1.4394 | G Loss: -1.4937 | W Dist: 2.4562 | Aux MSE: 0.0000
+
+[Epoch 419/3000] D Loss: -1.5451 | G Loss: -1.3830 | W Dist: 2.4644 | Aux MSE: 0.0000
+
+[Epoch 420/3000] D Loss: -1.7053 | G Loss: -1.3231 | W Dist: 2.5741 | Aux MSE: 0.0000
+
+[Epoch 421/3000] D Loss: -1.8366 | G Loss: -1.2849 | W Dist: 2.6946 | Aux MSE: 0.0001
+
+[Epoch 422/3000] D Loss: -1.9073 | G Loss: -1.4064 | W Dist: 2.8175 | Aux MSE: 0.0000
+
+[Epoch 423/3000] D Loss: -1.9141 | G Loss: -1.6495 | W Dist: 2.7743 | Aux MSE: 0.0000
+
+[Epoch 424/3000] D Loss: -1.9453 | G Loss: -1.7388 | W Dist: 2.9056 | Aux MSE: 0.0000
+
+[Epoch 425/3000] D Loss: -2.1327 | G Loss: -1.5677 | W Dist: 3.0546 | Aux MSE: 0.0000
+
+[Epoch 426/3000] D Loss: -2.2797 | G Loss: -1.3281 | W Dist: 3.3226 | Aux MSE: 0.0000
+
+[Epoch 427/3000] D Loss: -2.2345 | G Loss: -1.3208 | W Dist: 3.3891 | Aux MSE: 0.0000
+
+[Epoch 428/3000] D Loss: -2.1059 | G Loss: -1.4904 | W Dist: 3.3109 | Aux MSE: 0.0000
+
+[Epoch 429/3000] D Loss: -2.3302 | G Loss: -1.5852 | W Dist: 3.3734 | Aux MSE: 0.0000
+
+[Epoch 430/3000] D Loss: -1.7041 | G Loss: -1.5436 | W Dist: 3.3254 | Aux MSE: 0.0000
+
+[Epoch 431/3000] D Loss: -1.5885 | G Loss: -1.6435 | W Dist: 3.0124 | Aux MSE: 0.0000
+
+[Epoch 432/3000] D Loss: -1.8691 | G Loss: -1.6559 | W Dist: 3.0063 | Aux MSE: 0.0000
+
+[Epoch 433/3000] D Loss: -1.7703 | G Loss: -1.4949 | W Dist: 2.9631 | Aux MSE: 0.0000
+
+[Epoch 434/3000] D Loss: -1.7395 | G Loss: -1.5402 | W Dist: 2.8592 | Aux MSE: 0.0000
+
+[Epoch 435/3000] D Loss: -1.7618 | G Loss: -1.6366 | W Dist: 2.8713 | Aux MSE: 0.0000
+
+[Epoch 436/3000] D Loss: -1.8400 | G Loss: -1.6688 | W Dist: 2.8410 | Aux MSE: 0.0000
+
+[Epoch 437/3000] D Loss: -1.9038 | G Loss: -1.6542 | W Dist: 2.9599 | Aux MSE: 0.0000
+
+[Epoch 438/3000] D Loss: -2.0023 | G Loss: -1.6514 | W Dist: 2.9799 | Aux MSE: 0.0000
+
+[Epoch 439/3000] D Loss: -2.2786 | G Loss: -1.4198 | W Dist: 3.2160 | Aux MSE: 0.0000
+
+[Epoch 440/3000] D Loss: -2.4827 | G Loss: -1.1516 | W Dist: 3.4862 | Aux MSE: 0.0000
+
+[Epoch 441/3000] D Loss: -2.8787 | G Loss: -0.8699 | W Dist: 3.7988 | Aux MSE: 0.0000
+
+[Epoch 442/3000] D Loss: -3.0164 | G Loss: -0.6640 | W Dist: 4.0608 | Aux MSE: 0.0000
+
+[Epoch 443/3000] D Loss: -3.2775 | G Loss: -0.5270 | W Dist: 4.2910 | Aux MSE: 0.0000
+
+[Epoch 444/3000] D Loss: -3.4850 | G Loss: -0.3703 | W Dist: 4.6660 | Aux MSE: 0.0000
+
+[Epoch 445/3000] D Loss: -3.6406 | G Loss: -0.2357 | W Dist: 4.8510 | Aux MSE: 0.0000
+
+[Epoch 446/3000] D Loss: -3.7502 | G Loss: -0.1332 | W Dist: 5.1864 | Aux MSE: 0.0000
+
+[Epoch 447/3000] D Loss: -2.9410 | G Loss: -0.1927 | W Dist: 5.0854 | Aux MSE: 0.0000
+
+[Epoch 448/3000] D Loss: -3.6809 | G Loss: -0.2389 | W Dist: 5.1269 | Aux MSE: 0.0000
+
+[Epoch 449/3000] D Loss: -3.9154 | G Loss: -0.2807 | W Dist: 5.3623 | Aux MSE: 0.0000
+
+[Epoch 450/3000] D Loss: -4.5501 | G Loss: -0.0614 | W Dist: 5.7885 | Aux MSE: 0.0001
+
+[Epoch 451/3000] D Loss: -4.6296 | G Loss: -0.0626 | W Dist: 6.0218 | Aux MSE: 0.0000
+
+[Epoch 452/3000] D Loss: -4.1066 | G Loss: -0.1248 | W Dist: 5.9981 | Aux MSE: 0.0000
+
+[Epoch 453/3000] D Loss: -3.0479 | G Loss: -0.2008 | W Dist: 5.7352 | Aux MSE: 0.0004
+
+[Epoch 454/3000] D Loss: -2.1788 | G Loss: -0.4880 | W Dist: 5.0663 | Aux MSE: 0.0001
+
+[Epoch 455/3000] D Loss: -2.7268 | G Loss: -0.7497 | W Dist: 4.7374 | Aux MSE: 0.0005
+
+[Epoch 456/3000] D Loss: -3.2099 | G Loss: -0.9998 | W Dist: 4.5900 | Aux MSE: 0.0004
+
+[Epoch 457/3000] D Loss: -3.2006 | G Loss: -1.0307 | W Dist: 4.7458 | Aux MSE: 0.0016
+
+[Epoch 458/3000] D Loss: -2.6224 | G Loss: -1.2034 | W Dist: 4.5057 | Aux MSE: 0.0001
+
+[Epoch 459/3000] D Loss: -2.8063 | G Loss: -1.3485 | W Dist: 4.4462 | Aux MSE: 0.0003
+
+[Epoch 460/3000] D Loss: -2.6358 | G Loss: -1.5183 | W Dist: 4.1776 | Aux MSE: 0.0004
+
+[Epoch 461/3000] D Loss: -2.5460 | G Loss: -1.5752 | W Dist: 4.0954 | Aux MSE: 0.0005
+
+[Epoch 462/3000] D Loss: -2.6076 | G Loss: -1.5653 | W Dist: 4.0951 | Aux MSE: 0.0001
+
+[Epoch 463/3000] D Loss: -2.6459 | G Loss: -1.5342 | W Dist: 4.0337 | Aux MSE: 0.0001
+
+[Epoch 464/3000] D Loss: -2.7170 | G Loss: -1.6054 | W Dist: 4.0339 | Aux MSE: 0.0000
+
+[Epoch 465/3000] D Loss: -3.0210 | G Loss: -1.4916 | W Dist: 4.1045 | Aux MSE: 0.0000
+
+[Epoch 466/3000] D Loss: -3.4218 | G Loss: -1.3721 | W Dist: 4.3519 | Aux MSE: 0.0000
+
+[Epoch 467/3000] D Loss: -3.6341 | G Loss: -1.4081 | W Dist: 4.6478 | Aux MSE: 0.0002
+
+[Epoch 468/3000] D Loss: -3.9295 | G Loss: -1.3467 | W Dist: 4.9469 | Aux MSE: 0.0002
+
+[Epoch 469/3000] D Loss: -4.2877 | G Loss: -1.2226 | W Dist: 5.3566 | Aux MSE: 0.0000
+
+[Epoch 470/3000] D Loss: -4.6417 | G Loss: -1.2000 | W Dist: 5.8267 | Aux MSE: 0.0001
+
+[Epoch 471/3000] D Loss: -4.6284 | G Loss: -1.2495 | W Dist: 5.9121 | Aux MSE: 0.0001
+
+[Epoch 472/3000] D Loss: -5.3213 | G Loss: -1.1643 | W Dist: 6.5212 | Aux MSE: 0.0000
+
+[Epoch 473/3000] D Loss: -5.1795 | G Loss: -0.9683 | W Dist: 6.8999 | Aux MSE: 0.0008
+
+[Epoch 474/3000] D Loss: -4.9904 | G Loss: -1.0100 | W Dist: 7.2026 | Aux MSE: 0.0001
+
+[Epoch 475/3000] D Loss: -4.1954 | G Loss: -1.2017 | W Dist: 6.7571 | Aux MSE: 0.0001
+
+[Epoch 476/3000] D Loss: -4.0988 | G Loss: -1.5482 | W Dist: 6.2034 | Aux MSE: 0.0000
+
+[Epoch 477/3000] D Loss: -4.5842 | G Loss: -1.6413 | W Dist: 6.2901 | Aux MSE: 0.0000
+
+[Epoch 478/3000] D Loss: -4.2649 | G Loss: -1.7047 | W Dist: 6.2751 | Aux MSE: 0.0000
+
+[Epoch 479/3000] D Loss: -4.2146 | G Loss: -1.8683 | W Dist: 6.1688 | Aux MSE: 0.0000
+
+[Epoch 480/3000] D Loss: -3.9454 | G Loss: -1.9762 | W Dist: 6.1073 | Aux MSE: 0.0000
+
+[Epoch 481/3000] D Loss: -3.3695 | G Loss: -2.0316 | W Dist: 6.0189 | Aux MSE: 0.0000
+
+[Epoch 482/3000] D Loss: -1.9208 | G Loss: -2.1627 | W Dist: 5.5040 | Aux MSE: 0.0001
+
+[Epoch 483/3000] D Loss: -2.6756 | G Loss: -2.4260 | W Dist: 5.1992 | Aux MSE: 0.0000
+
+[Epoch 484/3000] D Loss: -2.9396 | G Loss: -2.5850 | W Dist: 4.9931 | Aux MSE: 0.0000
+
+[Epoch 485/3000] D Loss: -2.7361 | G Loss: -2.4488 | W Dist: 4.9023 | Aux MSE: 0.0000
+
+[Epoch 486/3000] D Loss: -2.3484 | G Loss: -2.3822 | W Dist: 4.8045 | Aux MSE: 0.0000
+
+[Epoch 487/3000] D Loss: -1.4663 | G Loss: -2.4607 | W Dist: 4.2693 | Aux MSE: 0.0000
+
+[Epoch 488/3000] D Loss: 2.5082 | G Loss: -3.0385 | W Dist: 2.8532 | Aux MSE: 0.0000
+
+[Epoch 489/3000] D Loss: 1.2176 | G Loss: -3.0728 | W Dist: 2.6208 | Aux MSE: 0.0000
+
+[Epoch 490/3000] D Loss: -0.2085 | G Loss: -2.9875 | W Dist: 2.3985 | Aux MSE: 0.0000
+
+[Epoch 491/3000] D Loss: -0.4178 | G Loss: -3.1553 | W Dist: 2.0367 | Aux MSE: 0.0000
+
+[Epoch 492/3000] D Loss: -1.1836 | G Loss: -2.8150 | W Dist: 2.4430 | Aux MSE: 0.0000
+
+[Epoch 493/3000] D Loss: -1.9655 | G Loss: -2.8226 | W Dist: 2.8713 | Aux MSE: 0.0000
+
+[Epoch 494/3000] D Loss: -2.2148 | G Loss: -2.8572 | W Dist: 3.0819 | Aux MSE: 0.0000
+
+[Epoch 495/3000] D Loss: -2.6262 | G Loss: -2.8132 | W Dist: 3.5010 | Aux MSE: 0.0000
+
+[Epoch 496/3000] D Loss: -2.2218 | G Loss: -3.2768 | W Dist: 3.3464 | Aux MSE: 0.0000
+
+[Epoch 497/3000] D Loss: -1.5183 | G Loss: -3.4330 | W Dist: 2.9299 | Aux MSE: 0.0000
+
+[Epoch 498/3000] D Loss: -1.5656 | G Loss: -3.0586 | W Dist: 3.0394 | Aux MSE: 0.0000
+
+[Epoch 499/3000] D Loss: -1.3174 | G Loss: -2.7853 | W Dist: 2.8764 | Aux MSE: 0.0000
+
+[Epoch 500/3000] D Loss: -1.5895 | G Loss: -2.7099 | W Dist: 2.7586 | Aux MSE: 0.0000
+
+[Epoch 501/3000] D Loss: -1.8360 | G Loss: -2.6238 | W Dist: 2.7577 | Aux MSE: 0.0000
+
+[Epoch 502/3000] D Loss: -2.1387 | G Loss: -2.6097 | W Dist: 2.8687 | Aux MSE: 0.0000
+
+[Epoch 503/3000] D Loss: -2.0903 | G Loss: -2.5876 | W Dist: 2.9855 | Aux MSE: 0.0000
+
+[Epoch 504/3000] D Loss: -2.0803 | G Loss: -2.5932 | W Dist: 3.0398 | Aux MSE: 0.0000
+
+[Epoch 505/3000] D Loss: -1.9404 | G Loss: -2.5376 | W Dist: 3.0236 | Aux MSE: 0.0000
+
+[Epoch 506/3000] D Loss: -1.9034 | G Loss: -2.5316 | W Dist: 3.0130 | Aux MSE: 0.0000
+
+[Epoch 507/3000] D Loss: -2.4147 | G Loss: -2.4969 | W Dist: 3.1532 | Aux MSE: 0.0000
+
+[Epoch 508/3000] D Loss: -2.6673 | G Loss: -2.2744 | W Dist: 3.3920 | Aux MSE: 0.0000
+
+[Epoch 509/3000] D Loss: -2.5346 | G Loss: -2.2087 | W Dist: 3.3199 | Aux MSE: 0.0000
+
+[Epoch 510/3000] D Loss: -2.9080 | G Loss: -2.0017 | W Dist: 3.8999 | Aux MSE: 0.0000
+
+[Epoch 511/3000] D Loss: -2.9800 | G Loss: -1.8234 | W Dist: 4.1998 | Aux MSE: 0.0000
+
+[Epoch 512/3000] D Loss: -1.6906 | G Loss: -1.7302 | W Dist: 4.1223 | Aux MSE: 0.0000
+
+[Epoch 513/3000] D Loss: -2.5555 | G Loss: -1.6710 | W Dist: 4.1167 | Aux MSE: 0.0000
+
+[Epoch 514/3000] D Loss: -2.5125 | G Loss: -1.7868 | W Dist: 3.9086 | Aux MSE: 0.0000
+
+[Epoch 515/3000] D Loss: -2.3426 | G Loss: -2.0040 | W Dist: 3.6606 | Aux MSE: 0.0000
+
+[Epoch 516/3000] D Loss: -2.0780 | G Loss: -1.9029 | W Dist: 3.6093 | Aux MSE: 0.0000
+
+[Epoch 517/3000] D Loss: -2.3757 | G Loss: -1.8276 | W Dist: 3.6056 | Aux MSE: 0.0000
+
+[Epoch 518/3000] D Loss: -2.3805 | G Loss: -1.7132 | W Dist: 3.6988 | Aux MSE: 0.0000
+
+[Epoch 519/3000] D Loss: -2.2645 | G Loss: -1.6387 | W Dist: 3.7954 | Aux MSE: 0.0000
+
+[Epoch 520/3000] D Loss: -1.7636 | G Loss: -1.6233 | W Dist: 3.4820 | Aux MSE: 0.0003
+
+[Epoch 521/3000] D Loss: -1.4352 | G Loss: -1.5634 | W Dist: 3.2644 | Aux MSE: 0.0002
+
+[Epoch 522/3000] D Loss: -1.0833 | G Loss: -1.6293 | W Dist: 3.0572 | Aux MSE: 0.0000
+
+[Epoch 523/3000] D Loss: -1.1954 | G Loss: -1.7071 | W Dist: 2.8179 | Aux MSE: 0.0002
+
+[Epoch 524/3000] D Loss: -1.5905 | G Loss: -1.6827 | W Dist: 2.8118 | Aux MSE: 0.0002
+
+[Epoch 525/3000] D Loss: -1.7697 | G Loss: -1.6656 | W Dist: 2.8279 | Aux MSE: 0.0002
+
+[Epoch 526/3000] D Loss: -1.9645 | G Loss: -1.6223 | W Dist: 2.9836 | Aux MSE: 0.0002
+
+[Epoch 527/3000] D Loss: -2.2980 | G Loss: -1.5788 | W Dist: 3.2437 | Aux MSE: 0.0000
+
+[Epoch 528/3000] D Loss: -2.2851 | G Loss: -1.4763 | W Dist: 3.3641 | Aux MSE: 0.0000
+
+[Epoch 529/3000] D Loss: -1.9322 | G Loss: -1.5671 | W Dist: 3.2116 | Aux MSE: 0.0000
+
+[Epoch 530/3000] D Loss: -1.9423 | G Loss: -1.4566 | W Dist: 3.1621 | Aux MSE: 0.0000
+
+[Epoch 531/3000] D Loss: -2.2759 | G Loss: -1.3873 | W Dist: 3.2770 | Aux MSE: 0.0000
+
+[Epoch 532/3000] D Loss: -2.2351 | G Loss: -1.4443 | W Dist: 3.3229 | Aux MSE: 0.0005
+
+[Epoch 533/3000] D Loss: -1.8585 | G Loss: -1.5799 | W Dist: 3.1241 | Aux MSE: 0.0001
+
+[Epoch 534/3000] D Loss: -1.9801 | G Loss: -1.6368 | W Dist: 3.1252 | Aux MSE: 0.0000
+
+[Epoch 535/3000] D Loss: -2.0057 | G Loss: -1.7335 | W Dist: 3.0525 | Aux MSE: 0.0000
+
+[Epoch 536/3000] D Loss: -2.1597 | G Loss: -1.7833 | W Dist: 3.2020 | Aux MSE: 0.0000
+
+[Epoch 537/3000] D Loss: -2.3013 | G Loss: -1.8390 | W Dist: 3.2503 | Aux MSE: 0.0000
+
+[Epoch 538/3000] D Loss: -2.4765 | G Loss: -1.8825 | W Dist: 3.4489 | Aux MSE: 0.0000
+
+[Epoch 539/3000] D Loss: -2.3445 | G Loss: -1.8130 | W Dist: 3.4568 | Aux MSE: 0.0000
+
+[Epoch 540/3000] D Loss: -2.6079 | G Loss: -1.6739 | W Dist: 3.6412 | Aux MSE: 0.0000
+
+[Epoch 541/3000] D Loss: -2.7600 | G Loss: -1.5746 | W Dist: 3.8522 | Aux MSE: 0.0001
+
+[Epoch 542/3000] D Loss: -2.7586 | G Loss: -1.4526 | W Dist: 3.9512 | Aux MSE: 0.0000
+
+[Epoch 543/3000] D Loss: -2.5899 | G Loss: -1.3462 | W Dist: 3.9511 | Aux MSE: 0.0001
+
+[Epoch 544/3000] D Loss: -2.8879 | G Loss: -1.2374 | W Dist: 4.0619 | Aux MSE: 0.0000
+
+[Epoch 545/3000] D Loss: -2.8538 | G Loss: -1.1875 | W Dist: 4.1028 | Aux MSE: 0.0000
+
+[Epoch 546/3000] D Loss: -3.0932 | G Loss: -1.2390 | W Dist: 4.2179 | Aux MSE: 0.0000
+
+[Epoch 547/3000] D Loss: -2.8725 | G Loss: -1.3409 | W Dist: 4.1939 | Aux MSE: 0.0000
+
+[Epoch 548/3000] D Loss: -2.7844 | G Loss: -1.4638 | W Dist: 4.0401 | Aux MSE: 0.0000
+
+[Epoch 549/3000] D Loss: -3.0912 | G Loss: -1.5355 | W Dist: 4.1822 | Aux MSE: 0.0000
+
+[Epoch 550/3000] D Loss: -3.0962 | G Loss: -1.4751 | W Dist: 4.3764 | Aux MSE: 0.0000
+
+[Epoch 551/3000] D Loss: -3.1728 | G Loss: -1.3178 | W Dist: 4.5388 | Aux MSE: 0.0001
+
+[Epoch 552/3000] D Loss: -3.0645 | G Loss: -1.2186 | W Dist: 4.6069 | Aux MSE: 0.0000
+
+[Epoch 553/3000] D Loss: -3.3660 | G Loss: -1.1516 | W Dist: 4.6901 | Aux MSE: 0.0000
+
+[Epoch 554/3000] D Loss: -3.7082 | G Loss: -1.0860 | W Dist: 4.9663 | Aux MSE: 0.0000
+
+[Epoch 555/3000] D Loss: -3.3718 | G Loss: -1.1177 | W Dist: 5.0447 | Aux MSE: 0.0003
+
+[Epoch 556/3000] D Loss: -3.4030 | G Loss: -1.1789 | W Dist: 4.9487 | Aux MSE: 0.0000
+
+[Epoch 557/3000] D Loss: -3.3977 | G Loss: -1.2697 | W Dist: 4.8298 | Aux MSE: 0.0000
+
+[Epoch 558/3000] D Loss: -3.2369 | G Loss: -1.2894 | W Dist: 4.8945 | Aux MSE: 0.0000
+
+[Epoch 559/3000] D Loss: -2.1512 | G Loss: -1.3997 | W Dist: 4.4440 | Aux MSE: 0.0001
+
+[Epoch 560/3000] D Loss: -1.7999 | G Loss: -1.4127 | W Dist: 4.1332 | Aux MSE: 0.0001
+
+[Epoch 561/3000] D Loss: -2.1234 | G Loss: -1.4165 | W Dist: 3.8697 | Aux MSE: 0.0000
+
+[Epoch 562/3000] D Loss: -2.3267 | G Loss: -1.3460 | W Dist: 3.8169 | Aux MSE: 0.0000
+
+[Epoch 563/3000] D Loss: -2.0895 | G Loss: -1.4786 | W Dist: 3.7029 | Aux MSE: 0.0000
+
+[Epoch 564/3000] D Loss: -1.6103 | G Loss: -1.6641 | W Dist: 3.4958 | Aux MSE: 0.0001
+
+[Epoch 565/3000] D Loss: -1.9821 | G Loss: -1.7908 | W Dist: 3.4261 | Aux MSE: 0.0000
+
+[Epoch 566/3000] D Loss: -2.5180 | G Loss: -1.7043 | W Dist: 3.5764 | Aux MSE: 0.0002
+
+[Epoch 567/3000] D Loss: -3.0183 | G Loss: -1.6002 | W Dist: 3.9765 | Aux MSE: 0.0000
+
+[Epoch 568/3000] D Loss: -3.3593 | G Loss: -1.3794 | W Dist: 4.3215 | Aux MSE: 0.0000
+
+[Epoch 569/3000] D Loss: -3.8411 | G Loss: -1.2297 | W Dist: 4.8583 | Aux MSE: 0.0000
+
+[Epoch 570/3000] D Loss: -3.9320 | G Loss: -1.2961 | W Dist: 5.1209 | Aux MSE: 0.0000
+
+[Epoch 571/3000] D Loss: -3.2192 | G Loss: -1.2765 | W Dist: 5.2456 | Aux MSE: 0.0000
+
+[Epoch 572/3000] D Loss: -2.4581 | G Loss: -1.4072 | W Dist: 4.7843 | Aux MSE: 0.0000
+
+[Epoch 573/3000] D Loss: -1.9692 | G Loss: -1.6819 | W Dist: 4.2030 | Aux MSE: 0.0000
+
+[Epoch 574/3000] D Loss: -1.8605 | G Loss: -1.8153 | W Dist: 3.9516 | Aux MSE: 0.0000
+
+[Epoch 575/3000] D Loss: -2.2608 | G Loss: -1.9684 | W Dist: 3.8137 | Aux MSE: 0.0000
+
+[Epoch 576/3000] D Loss: -2.1297 | G Loss: -1.8000 | W Dist: 3.8985 | Aux MSE: 0.0000
+
+[Epoch 577/3000] D Loss: -2.7454 | G Loss: -1.7519 | W Dist: 3.9842 | Aux MSE: 0.0000
+
+[Epoch 578/3000] D Loss: -2.7615 | G Loss: -1.9009 | W Dist: 4.0743 | Aux MSE: 0.0000
+
+[Epoch 579/3000] D Loss: -3.4325 | G Loss: -2.0198 | W Dist: 4.4372 | Aux MSE: 0.0000
+
+[Epoch 580/3000] D Loss: -3.9738 | G Loss: -1.8298 | W Dist: 5.0368 | Aux MSE: 0.0000
+
+[Epoch 581/3000] D Loss: -4.1559 | G Loss: -1.5823 | W Dist: 5.4433 | Aux MSE: 0.0000
+
+[Epoch 582/3000] D Loss: -4.1255 | G Loss: -1.5311 | W Dist: 5.6462 | Aux MSE: 0.0000
+
+[Epoch 583/3000] D Loss: -2.7166 | G Loss: -1.7419 | W Dist: 4.8675 | Aux MSE: 0.0000
+
+[Epoch 584/3000] D Loss: -0.7054 | G Loss: -2.5070 | W Dist: 3.1030 | Aux MSE: 0.0000
+
+[Epoch 585/3000] D Loss: -0.3635 | G Loss: -2.3310 | W Dist: 3.1791 | Aux MSE: 0.0000
+
+[Epoch 586/3000] D Loss: -1.9769 | G Loss: -2.2151 | W Dist: 3.5087 | Aux MSE: 0.0000
+
+[Epoch 587/3000] D Loss: -2.1971 | G Loss: -1.8533 | W Dist: 3.4982 | Aux MSE: 0.0000
+
+[Epoch 588/3000] D Loss: -2.6932 | G Loss: -1.9718 | W Dist: 3.5587 | Aux MSE: 0.0000
+
+[Epoch 589/3000] D Loss: -3.6859 | G Loss: -1.5588 | W Dist: 4.3436 | Aux MSE: 0.0000
+
+[Epoch 590/3000] D Loss: -4.1170 | G Loss: -1.1471 | W Dist: 5.0290 | Aux MSE: 0.0000
+
+[Epoch 591/3000] D Loss: -4.7522 | G Loss: -0.9543 | W Dist: 5.7706 | Aux MSE: 0.0000
+
+[Epoch 592/3000] D Loss: -4.6305 | G Loss: -0.9834 | W Dist: 5.9554 | Aux MSE: 0.0000
+
+[Epoch 593/3000] D Loss: -4.2923 | G Loss: -1.0873 | W Dist: 6.2241 | Aux MSE: 0.0000
+
+[Epoch 594/3000] D Loss: -3.8429 | G Loss: -0.9808 | W Dist: 6.2981 | Aux MSE: 0.0000
+
+[Epoch 595/3000] D Loss: -0.2724 | G Loss: -1.2516 | W Dist: 5.6962 | Aux MSE: 0.0000
+
+[Epoch 596/3000] D Loss: 0.8550 | G Loss: -1.5523 | W Dist: 4.8825 | Aux MSE: 0.0000
+
+[Epoch 597/3000] D Loss: -0.2965 | G Loss: -1.7086 | W Dist: 4.3597 | Aux MSE: 0.0000
+
+[Epoch 598/3000] D Loss: -2.4826 | G Loss: -1.6942 | W Dist: 4.3909 | Aux MSE: 0.0000
+
+[Epoch 599/3000] D Loss: -1.6721 | G Loss: -1.7724 | W Dist: 4.0968 | Aux MSE: 0.0000
+
+[Epoch 600/3000] D Loss: -2.5783 | G Loss: -1.6937 | W Dist: 4.0847 | Aux MSE: 0.0000
+
+[Epoch 601/3000] D Loss: -2.9056 | G Loss: -1.5662 | W Dist: 4.1551 | Aux MSE: 0.0000
+
+[Epoch 602/3000] D Loss: -2.8143 | G Loss: -1.4561 | W Dist: 4.2256 | Aux MSE: 0.0000
+
+[Epoch 603/3000] D Loss: -2.6327 | G Loss: -1.4844 | W Dist: 4.1118 | Aux MSE: 0.0000
+
+[Epoch 604/3000] D Loss: -2.6257 | G Loss: -1.5837 | W Dist: 3.9716 | Aux MSE: 0.0000
+
+[Epoch 605/3000] D Loss: -2.5778 | G Loss: -1.8045 | W Dist: 3.7703 | Aux MSE: 0.0000
+
+[Epoch 606/3000] D Loss: -3.1985 | G Loss: -1.2891 | W Dist: 4.1931 | Aux MSE: 0.0000
+
+[Epoch 607/3000] D Loss: -3.6348 | G Loss: -1.3391 | W Dist: 4.4653 | Aux MSE: 0.0000
+
+[Epoch 608/3000] D Loss: -4.0958 | G Loss: -0.7033 | W Dist: 5.0610 | Aux MSE: 0.0000
+
+[Epoch 609/3000] D Loss: -4.8989 | G Loss: -0.2757 | W Dist: 5.8112 | Aux MSE: 0.0000
+
+[Epoch 610/3000] D Loss: -5.1838 | G Loss: -0.2308 | W Dist: 6.3255 | Aux MSE: 0.0000
+
+[Epoch 611/3000] D Loss: -5.2420 | G Loss: 0.1480 | W Dist: 6.8325 | Aux MSE: 0.0000
+
+[Epoch 612/3000] D Loss: -5.8987 | G Loss: 0.1476 | W Dist: 7.3361 | Aux MSE: 0.0000
+
+[Epoch 613/3000] D Loss: -4.3329 | G Loss: 0.0240 | W Dist: 7.2110 | Aux MSE: 0.0000
+
+[Epoch 614/3000] D Loss: -3.4358 | G Loss: -0.5570 | W Dist: 6.5848 | Aux MSE: 0.0000
+
+[Epoch 615/3000] D Loss: -2.0828 | G Loss: -1.1321 | W Dist: 5.8929 | Aux MSE: 0.0000
+
+[Epoch 616/3000] D Loss: -2.4117 | G Loss: -1.4235 | W Dist: 5.2920 | Aux MSE: 0.0000
+
+[Epoch 617/3000] D Loss: -2.2607 | G Loss: -1.5420 | W Dist: 4.9303 | Aux MSE: 0.0000
+
+[Epoch 618/3000] D Loss: -1.8763 | G Loss: -1.6324 | W Dist: 4.6142 | Aux MSE: 0.0000
+
+[Epoch 619/3000] D Loss: -2.7377 | G Loss: -1.4552 | W Dist: 4.5635 | Aux MSE: 0.0000
+
+[Epoch 620/3000] D Loss: -2.9892 | G Loss: -1.3223 | W Dist: 4.6839 | Aux MSE: 0.0000
+
+[Epoch 621/3000] D Loss: -2.7908 | G Loss: -1.1590 | W Dist: 4.7850 | Aux MSE: 0.0000
+
+[Epoch 622/3000] D Loss: -1.4037 | G Loss: -1.2468 | W Dist: 4.4388 | Aux MSE: 0.0000
+
+[Epoch 623/3000] D Loss: -0.7200 | G Loss: -1.4624 | W Dist: 3.8379 | Aux MSE: 0.0000
+
+[Epoch 624/3000] D Loss: -1.9301 | G Loss: -1.5307 | W Dist: 3.7391 | Aux MSE: 0.0000
+
+[Epoch 625/3000] D Loss: -2.2592 | G Loss: -1.3919 | W Dist: 3.6820 | Aux MSE: 0.0000
+
+[Epoch 626/3000] D Loss: -2.3508 | G Loss: -1.3531 | W Dist: 3.7168 | Aux MSE: 0.0000
+
+[Epoch 627/3000] D Loss: -2.5139 | G Loss: -1.4424 | W Dist: 3.6862 | Aux MSE: 0.0000
+
+[Epoch 628/3000] D Loss: -2.6163 | G Loss: -1.4486 | W Dist: 3.6840 | Aux MSE: 0.0000
+
+[Epoch 629/3000] D Loss: -2.8039 | G Loss: -1.4713 | W Dist: 3.9200 | Aux MSE: 0.0000
+
+[Epoch 630/3000] D Loss: -2.8876 | G Loss: -1.5091 | W Dist: 4.0009 | Aux MSE: 0.0000
+
+[Epoch 631/3000] D Loss: -2.8246 | G Loss: -1.5491 | W Dist: 4.1353 | Aux MSE: 0.0000
+
+[Epoch 632/3000] D Loss: -2.4770 | G Loss: -1.6531 | W Dist: 3.9473 | Aux MSE: 0.0000
+
+[Epoch 633/3000] D Loss: -2.5203 | G Loss: -1.7357 | W Dist: 3.9167 | Aux MSE: 0.0000
+
+[Epoch 634/3000] D Loss: -2.4704 | G Loss: -1.8392 | W Dist: 3.7021 | Aux MSE: 0.0000
+
+[Epoch 635/3000] D Loss: -2.5079 | G Loss: -1.9359 | W Dist: 3.8132 | Aux MSE: 0.0000
+
+[Epoch 636/3000] D Loss: -2.1247 | G Loss: -2.0451 | W Dist: 3.6124 | Aux MSE: 0.0000
+
+[Epoch 637/3000] D Loss: 2.8238 | G Loss: -2.3448 | W Dist: 3.1082 | Aux MSE: 0.0000
+
+[Epoch 638/3000] D Loss: 2.0659 | G Loss: -2.3839 | W Dist: 2.2903 | Aux MSE: 0.0000
+
+[Epoch 639/3000] D Loss: -0.7027 | G Loss: -2.2398 | W Dist: 2.4019 | Aux MSE: 0.0000
+
+[Epoch 640/3000] D Loss: -1.2948 | G Loss: -2.1112 | W Dist: 2.5348 | Aux MSE: 0.0000
+
+[Epoch 641/3000] D Loss: -1.1765 | G Loss: -2.0181 | W Dist: 2.5433 | Aux MSE: 0.0000
+
+[Epoch 642/3000] D Loss: -1.6746 | G Loss: -1.9448 | W Dist: 2.6516 | Aux MSE: 0.0000
+
+[Epoch 643/3000] D Loss: -1.7998 | G Loss: -1.8599 | W Dist: 2.8022 | Aux MSE: 0.0001
+
+[Epoch 644/3000] D Loss: -2.1333 | G Loss: -1.7110 | W Dist: 3.0412 | Aux MSE: 0.0006
+
+[Epoch 645/3000] D Loss: -2.2138 | G Loss: -1.6017 | W Dist: 3.1866 | Aux MSE: 0.0004
+
+[Epoch 646/3000] D Loss: -2.0106 | G Loss: -1.5127 | W Dist: 3.1467 | Aux MSE: 0.0000
+
+[Epoch 647/3000] D Loss: -1.9406 | G Loss: -1.4447 | W Dist: 3.1119 | Aux MSE: 0.0001
+
+[Epoch 648/3000] D Loss: -1.9875 | G Loss: -1.3708 | W Dist: 3.0818 | Aux MSE: 0.0010
+
+[Epoch 649/3000] D Loss: -1.8731 | G Loss: -1.3805 | W Dist: 3.0541 | Aux MSE: 0.0006
+
+[Epoch 650/3000] D Loss: -1.9051 | G Loss: -1.2913 | W Dist: 3.1013 | Aux MSE: 0.0009
+
+[Epoch 651/3000] D Loss: -2.1042 | G Loss: -1.2413 | W Dist: 3.1764 | Aux MSE: 0.0008
+
+[Epoch 652/3000] D Loss: -1.9427 | G Loss: -1.2379 | W Dist: 3.0535 | Aux MSE: 0.0016
+
+[Epoch 653/3000] D Loss: -2.1262 | G Loss: -1.2373 | W Dist: 3.1739 | Aux MSE: 0.0016
+
+[Epoch 654/3000] D Loss: -2.0229 | G Loss: -1.2055 | W Dist: 3.1423 | Aux MSE: 0.0014
+
+[Epoch 655/3000] D Loss: -2.1526 | G Loss: -1.0769 | W Dist: 3.2995 | Aux MSE: 0.0016
+
+[Epoch 656/3000] D Loss: -1.9403 | G Loss: -1.0901 | W Dist: 3.2569 | Aux MSE: 0.0036
+
+[Epoch 657/3000] D Loss: -2.0341 | G Loss: -1.0922 | W Dist: 3.2051 | Aux MSE: 0.0028
+
+[Epoch 658/3000] D Loss: -2.2480 | G Loss: -1.0626 | W Dist: 3.3876 | Aux MSE: 0.0055
+
+[Epoch 659/3000] D Loss: -2.4385 | G Loss: -1.0370 | W Dist: 3.5247 | Aux MSE: 0.0032
+
+[Epoch 660/3000] D Loss: -2.3967 | G Loss: -1.0113 | W Dist: 3.5938 | Aux MSE: 0.0028
+
+[Epoch 661/3000] D Loss: -2.5067 | G Loss: -1.0661 | W Dist: 3.7068 | Aux MSE: 0.0028
+
+[Epoch 662/3000] D Loss: -2.6896 | G Loss: -1.0223 | W Dist: 3.8198 | Aux MSE: 0.0046
+
+[Epoch 663/3000] D Loss: -2.7724 | G Loss: -0.8942 | W Dist: 3.9700 | Aux MSE: 0.0035
+
+[Epoch 664/3000] D Loss: -2.8337 | G Loss: -0.8403 | W Dist: 3.9718 | Aux MSE: 0.0040
+
+[Epoch 665/3000] D Loss: -3.0145 | G Loss: -0.8698 | W Dist: 4.1813 | Aux MSE: 0.0046
+
+[Epoch 666/3000] D Loss: -3.0151 | G Loss: -0.9013 | W Dist: 4.2530 | Aux MSE: 0.0036
+
+[Epoch 667/3000] D Loss: -2.9681 | G Loss: -0.9793 | W Dist: 4.2101 | Aux MSE: 0.0037
+
+[Epoch 668/3000] D Loss: -3.1487 | G Loss: -0.9794 | W Dist: 4.4267 | Aux MSE: 0.0035
+
+[Epoch 669/3000] D Loss: -2.6953 | G Loss: -1.1218 | W Dist: 4.3458 | Aux MSE: 0.0024
+
+[Epoch 670/3000] D Loss: -2.0582 | G Loss: -1.2110 | W Dist: 4.0558 | Aux MSE: 0.0013
+
+[Epoch 671/3000] D Loss: -2.0823 | G Loss: -1.2022 | W Dist: 3.8108 | Aux MSE: 0.0005
+
+[Epoch 672/3000] D Loss: -2.4298 | G Loss: -1.1350 | W Dist: 3.7947 | Aux MSE: 0.0004
+
+[Epoch 673/3000] D Loss: -2.4356 | G Loss: -1.1308 | W Dist: 3.7357 | Aux MSE: 0.0004
+
+[Epoch 674/3000] D Loss: -2.5666 | G Loss: -1.1133 | W Dist: 3.7540 | Aux MSE: 0.0003
+
+[Epoch 675/3000] D Loss: -2.5364 | G Loss: -1.1188 | W Dist: 3.7054 | Aux MSE: 0.0000
+
+[Epoch 676/3000] D Loss: -2.6156 | G Loss: -1.0225 | W Dist: 3.7498 | Aux MSE: 0.0001
+
+[Epoch 677/3000] D Loss: -3.0592 | G Loss: -0.9446 | W Dist: 4.0640 | Aux MSE: 0.0002
+
+[Epoch 678/3000] D Loss: -3.2065 | G Loss: -0.7702 | W Dist: 4.2914 | Aux MSE: 0.0002
+
+[Epoch 679/3000] D Loss: -3.0170 | G Loss: -0.6928 | W Dist: 4.4728 | Aux MSE: 0.0002
+
+[Epoch 680/3000] D Loss: -2.6933 | G Loss: -0.7115 | W Dist: 4.3124 | Aux MSE: 0.0001
+
+[Epoch 681/3000] D Loss: -1.5764 | G Loss: -0.9652 | W Dist: 3.8287 | Aux MSE: 0.0001
+
+[Epoch 682/3000] D Loss: -2.1105 | G Loss: -1.2859 | W Dist: 3.4834 | Aux MSE: 0.0001
+
+[Epoch 683/3000] D Loss: -2.6505 | G Loss: -1.2947 | W Dist: 3.6941 | Aux MSE: 0.0001
+
+[Epoch 684/3000] D Loss: -2.9231 | G Loss: -1.1586 | W Dist: 4.0042 | Aux MSE: 0.0003
+
+[Epoch 685/3000] D Loss: -2.8531 | G Loss: -1.0832 | W Dist: 4.2152 | Aux MSE: 0.0000
+
+[Epoch 686/3000] D Loss: -2.9706 | G Loss: -0.9993 | W Dist: 4.3520 | Aux MSE: 0.0000
+
+[Epoch 687/3000] D Loss: -2.2759 | G Loss: -1.0887 | W Dist: 4.0698 | Aux MSE: 0.0001
+
+[Epoch 688/3000] D Loss: -1.3765 | G Loss: -1.2586 | W Dist: 3.7287 | Aux MSE: 0.0000
+
+[Epoch 689/3000] D Loss: -2.0579 | G Loss: -1.4435 | W Dist: 3.5143 | Aux MSE: 0.0000
+
+[Epoch 690/3000] D Loss: -2.4381 | G Loss: -1.5195 | W Dist: 3.5474 | Aux MSE: 0.0000
+
+[Epoch 691/3000] D Loss: -2.8588 | G Loss: -1.5541 | W Dist: 3.7381 | Aux MSE: 0.0000
+
+[Epoch 692/3000] D Loss: -3.0113 | G Loss: -1.4237 | W Dist: 4.1323 | Aux MSE: 0.0000
+
+[Epoch 693/3000] D Loss: -2.3707 | G Loss: -1.5534 | W Dist: 4.0510 | Aux MSE: 0.0000
+
+[Epoch 694/3000] D Loss: -2.5069 | G Loss: -1.6029 | W Dist: 3.9062 | Aux MSE: 0.0000
+
+[Epoch 695/3000] D Loss: -2.7456 | G Loss: -1.6463 | W Dist: 4.0039 | Aux MSE: 0.0000
+
+[Epoch 696/3000] D Loss: -3.0308 | G Loss: -1.7640 | W Dist: 4.1826 | Aux MSE: 0.0000
+
+[Epoch 697/3000] D Loss: -3.0535 | G Loss: -1.7781 | W Dist: 4.2520 | Aux MSE: 0.0000
+
+[Epoch 698/3000] D Loss: -3.2338 | G Loss: -1.8252 | W Dist: 4.3940 | Aux MSE: 0.0000
+
+[Epoch 699/3000] D Loss: -3.2808 | G Loss: -1.9995 | W Dist: 4.3811 | Aux MSE: 0.0000
+
+[Epoch 700/3000] D Loss: -3.5340 | G Loss: -2.0581 | W Dist: 4.6479 | Aux MSE: 0.0000
+
+[Epoch 701/3000] D Loss: -3.8461 | G Loss: -2.0081 | W Dist: 4.9207 | Aux MSE: 0.0000
+
+[Epoch 702/3000] D Loss: -4.4352 | G Loss: -1.8453 | W Dist: 5.3654 | Aux MSE: 0.0000
+
+[Epoch 703/3000] D Loss: -4.9522 | G Loss: -1.5520 | W Dist: 6.1266 | Aux MSE: 0.0000
+
+[Epoch 704/3000] D Loss: -5.2309 | G Loss: -1.2280 | W Dist: 6.4924 | Aux MSE: 0.0002
+
+[Epoch 705/3000] D Loss: -5.4501 | G Loss: -1.1328 | W Dist: 6.9277 | Aux MSE: 0.0004
+
+[Epoch 706/3000] D Loss: -5.2916 | G Loss: -1.1906 | W Dist: 7.0550 | Aux MSE: 0.0006
+
+[Epoch 707/3000] D Loss: -4.5819 | G Loss: -1.4441 | W Dist: 6.9677 | Aux MSE: 0.0006
+
+[Epoch 708/3000] D Loss: -3.0713 | G Loss: -1.7090 | W Dist: 6.3305 | Aux MSE: 0.0006
+
+[Epoch 709/3000] D Loss: -2.5427 | G Loss: -1.8396 | W Dist: 5.9029 | Aux MSE: 0.0003
+
+[Epoch 710/3000] D Loss: -4.3232 | G Loss: -1.7716 | W Dist: 5.8212 | Aux MSE: 0.0000
+
+[Epoch 711/3000] D Loss: -4.1528 | G Loss: -1.6535 | W Dist: 6.0341 | Aux MSE: 0.0000
+
+[Epoch 712/3000] D Loss: -4.7392 | G Loss: -1.3908 | W Dist: 6.3469 | Aux MSE: 0.0000
+
+[Epoch 713/3000] D Loss: -4.6850 | G Loss: -1.2824 | W Dist: 6.4981 | Aux MSE: 0.0000
+
+[Epoch 714/3000] D Loss: -4.6072 | G Loss: -1.3364 | W Dist: 6.4992 | Aux MSE: 0.0000
+
+[Epoch 715/3000] D Loss: -4.7431 | G Loss: -1.5890 | W Dist: 6.6017 | Aux MSE: 0.0000
+
+[Epoch 716/3000] D Loss: -3.6593 | G Loss: -1.8365 | W Dist: 6.2146 | Aux MSE: 0.0000
+
+[Epoch 717/3000] D Loss: -3.8849 | G Loss: -1.8938 | W Dist: 6.0459 | Aux MSE: 0.0000
+
+[Epoch 718/3000] D Loss: -4.5665 | G Loss: -1.7437 | W Dist: 6.4416 | Aux MSE: 0.0000
+
+[Epoch 719/3000] D Loss: -4.4826 | G Loss: -1.6542 | W Dist: 6.5274 | Aux MSE: 0.0000
+
+[Epoch 720/3000] D Loss: -4.7471 | G Loss: -1.5032 | W Dist: 6.7292 | Aux MSE: 0.0000
+
+[Epoch 721/3000] D Loss: -4.9163 | G Loss: -1.4457 | W Dist: 6.8393 | Aux MSE: 0.0000
+
+[Epoch 722/3000] D Loss: -5.2191 | G Loss: -1.4634 | W Dist: 7.1025 | Aux MSE: 0.0000
+
+[Epoch 723/3000] D Loss: -5.1610 | G Loss: -1.4536 | W Dist: 7.1492 | Aux MSE: 0.0000
+
+[Epoch 724/3000] D Loss: -5.5356 | G Loss: -1.5479 | W Dist: 7.3881 | Aux MSE: 0.0000
+
+[Epoch 725/3000] D Loss: -5.0988 | G Loss: -1.5196 | W Dist: 7.4771 | Aux MSE: 0.0000
+
+[Epoch 726/3000] D Loss: -4.6703 | G Loss: -1.6796 | W Dist: 7.3933 | Aux MSE: 0.0000
+
+[Epoch 727/3000] D Loss: -4.6044 | G Loss: -1.8332 | W Dist: 7.1792 | Aux MSE: 0.0000
+
+[Epoch 728/3000] D Loss: -5.7439 | G Loss: -1.9330 | W Dist: 7.3420 | Aux MSE: 0.0000
+
+[Epoch 729/3000] D Loss: -6.4759 | G Loss: -1.8712 | W Dist: 7.9325 | Aux MSE: 0.0000
+
+[Epoch 730/3000] D Loss: -7.1330 | G Loss: -1.8035 | W Dist: 8.4895 | Aux MSE: 0.0000
+
+[Epoch 731/3000] D Loss: -7.8912 | G Loss: -1.5071 | W Dist: 9.3657 | Aux MSE: 0.0000
+
+[Epoch 732/3000] D Loss: -7.7093 | G Loss: -1.5268 | W Dist: 9.7598 | Aux MSE: 0.0000
+
+[Epoch 733/3000] D Loss: -7.7240 | G Loss: -1.6187 | W Dist: 10.1969 | Aux MSE: 0.0000
+
+[Epoch 734/3000] D Loss: -6.9381 | G Loss: -1.9879 | W Dist: 10.2785 | Aux MSE: 0.0000
+
+[Epoch 735/3000] D Loss: -6.9268 | G Loss: -2.3600 | W Dist: 10.0012 | Aux MSE: 0.0000
+
+[Epoch 736/3000] D Loss: -6.8313 | G Loss: -2.5509 | W Dist: 9.9560 | Aux MSE: 0.0000
+
+[Epoch 737/3000] D Loss: -5.4215 | G Loss: -2.9404 | W Dist: 9.4968 | Aux MSE: 0.0000
+
+[Epoch 738/3000] D Loss: -4.3117 | G Loss: -3.4293 | W Dist: 8.5916 | Aux MSE: 0.0000
+
+[Epoch 739/3000] D Loss: -6.8116 | G Loss: -3.2642 | W Dist: 8.9987 | Aux MSE: 0.0000
+
+[Epoch 740/3000] D Loss: -6.4464 | G Loss: -3.1612 | W Dist: 9.1235 | Aux MSE: 0.0000
+
+[Epoch 741/3000] D Loss: -4.0069 | G Loss: -3.5565 | W Dist: 8.6933 | Aux MSE: 0.0000
+
+[Epoch 742/3000] D Loss: -0.4153 | G Loss: -3.9597 | W Dist: 7.6767 | Aux MSE: 0.0000
+
+[Epoch 743/3000] D Loss: -0.8053 | G Loss: -3.8471 | W Dist: 7.0955 | Aux MSE: 0.0000
+
+[Epoch 744/3000] D Loss: -2.1293 | G Loss: -3.7250 | W Dist: 6.7582 | Aux MSE: 0.0000
+
+[Epoch 745/3000] D Loss: -2.5921 | G Loss: -4.0921 | W Dist: 5.8617 | Aux MSE: 0.0000
+
+[Epoch 746/3000] D Loss: -1.7235 | G Loss: -4.1651 | W Dist: 5.1269 | Aux MSE: 0.0000
+
+[Epoch 747/3000] D Loss: -3.4710 | G Loss: -4.0597 | W Dist: 5.1735 | Aux MSE: 0.0000
+
+[Epoch 748/3000] D Loss: -3.9088 | G Loss: -3.8499 | W Dist: 5.8342 | Aux MSE: 0.0000
+
+[Epoch 749/3000] D Loss: -3.6694 | G Loss: -3.9149 | W Dist: 6.3085 | Aux MSE: 0.0000
+
+[Epoch 750/3000] D Loss: -1.3919 | G Loss: -3.9658 | W Dist: 6.0550 | Aux MSE: 0.0000
+
+[Epoch 751/3000] D Loss: -3.6791 | G Loss: -3.7996 | W Dist: 6.0276 | Aux MSE: 0.0000
+
+[Epoch 752/3000] D Loss: -4.2063 | G Loss: -3.6640 | W Dist: 5.9818 | Aux MSE: 0.0000
+
+[Epoch 753/3000] D Loss: -3.8041 | G Loss: -3.7581 | W Dist: 5.7307 | Aux MSE: 0.0000
+
+[Epoch 754/3000] D Loss: -3.8474 | G Loss: -3.7357 | W Dist: 5.5916 | Aux MSE: 0.0000
+
+[Epoch 755/3000] D Loss: -4.6006 | G Loss: -3.8564 | W Dist: 5.7922 | Aux MSE: 0.0000
+
+[Epoch 756/3000] D Loss: -5.5889 | G Loss: -3.2909 | W Dist: 6.7303 | Aux MSE: 0.0000
+
+[Epoch 757/3000] D Loss: -5.9897 | G Loss: -2.7253 | W Dist: 7.4902 | Aux MSE: 0.0000
+
+[Epoch 758/3000] D Loss: -7.0040 | G Loss: -2.4108 | W Dist: 8.3566 | Aux MSE: 0.0000
+
+[Epoch 759/3000] D Loss: -6.1005 | G Loss: -2.6581 | W Dist: 8.6862 | Aux MSE: 0.0000
+
+[Epoch 760/3000] D Loss: -5.7283 | G Loss: -2.9698 | W Dist: 8.5815 | Aux MSE: 0.0000
+
+[Epoch 761/3000] D Loss: -4.9500 | G Loss: -2.7740 | W Dist: 8.5873 | Aux MSE: 0.0000
+
+[Epoch 762/3000] D Loss: -4.8253 | G Loss: -2.8224 | W Dist: 8.5734 | Aux MSE: 0.0000
+
+[Epoch 763/3000] D Loss: -2.8933 | G Loss: -2.9251 | W Dist: 8.1717 | Aux MSE: 0.0000
+
+[Epoch 764/3000] D Loss: -1.7946 | G Loss: -2.8868 | W Dist: 7.3161 | Aux MSE: 0.0000
+
+[Epoch 765/3000] D Loss: -1.7413 | G Loss: -2.9083 | W Dist: 6.6494 | Aux MSE: 0.0000
+
+[Epoch 766/3000] D Loss: -4.1767 | G Loss: -2.8369 | W Dist: 6.5067 | Aux MSE: 0.0000
+
+[Epoch 767/3000] D Loss: -5.6962 | G Loss: -2.3571 | W Dist: 7.0898 | Aux MSE: 0.0000
+
+[Epoch 768/3000] D Loss: -6.6427 | G Loss: -1.9860 | W Dist: 8.0213 | Aux MSE: 0.0000
+
+[Epoch 769/3000] D Loss: -7.0444 | G Loss: -1.7549 | W Dist: 8.6892 | Aux MSE: 0.0000
+
+[Epoch 770/3000] D Loss: -7.6040 | G Loss: -1.3225 | W Dist: 9.3255 | Aux MSE: 0.0000
+
+[Epoch 771/3000] D Loss: -8.1348 | G Loss: -0.9396 | W Dist: 10.1459 | Aux MSE: 0.0000
+
+[Epoch 772/3000] D Loss: -8.4339 | G Loss: -0.6920 | W Dist: 10.8809 | Aux MSE: 0.0000
+
+[Epoch 773/3000] D Loss: -8.8692 | G Loss: -0.6926 | W Dist: 11.1419 | Aux MSE: 0.0000
+
+[Epoch 774/3000] D Loss: -4.6448 | G Loss: -2.1251 | W Dist: 9.6305 | Aux MSE: 0.0000
+
+[Epoch 775/3000] D Loss: -2.3498 | G Loss: -2.3028 | W Dist: 9.2551 | Aux MSE: 0.0000
+
+[Epoch 776/3000] D Loss: -3.9538 | G Loss: -2.5227 | W Dist: 8.5174 | Aux MSE: 0.0000
+
+[Epoch 777/3000] D Loss: -4.0093 | G Loss: -2.7338 | W Dist: 8.2814 | Aux MSE: 0.0000
+
+[Epoch 778/3000] D Loss: -3.2394 | G Loss: -2.7923 | W Dist: 7.7538 | Aux MSE: 0.0000
+
+[Epoch 779/3000] D Loss: -4.7719 | G Loss: -2.8807 | W Dist: 7.5820 | Aux MSE: 0.0000
+
+[Epoch 780/3000] D Loss: -5.4282 | G Loss: -2.8062 | W Dist: 7.7916 | Aux MSE: 0.0000
+
+[Epoch 781/3000] D Loss: -4.9051 | G Loss: -2.8576 | W Dist: 7.6432 | Aux MSE: 0.0000
+
+[Epoch 782/3000] D Loss: -1.1634 | G Loss: -3.3064 | W Dist: 6.9097 | Aux MSE: 0.0000
+
+[Epoch 783/3000] D Loss: -3.5686 | G Loss: -3.3238 | W Dist: 6.6529 | Aux MSE: 0.0000
+
+[Epoch 784/3000] D Loss: -3.7180 | G Loss: -3.2635 | W Dist: 6.4978 | Aux MSE: 0.0000
+
+[Epoch 785/3000] D Loss: -3.7088 | G Loss: -3.2376 | W Dist: 6.2284 | Aux MSE: 0.0000
+
+[Epoch 786/3000] D Loss: -2.1281 | G Loss: -3.2356 | W Dist: 5.9690 | Aux MSE: 0.0000
+
+[Epoch 787/3000] D Loss: -2.8420 | G Loss: -3.3471 | W Dist: 5.5537 | Aux MSE: 0.0000
+
+[Epoch 788/3000] D Loss: -1.5800 | G Loss: -3.4717 | W Dist: 5.1800 | Aux MSE: 0.0000
+
+[Epoch 789/3000] D Loss: 4.6493 | G Loss: -3.9396 | W Dist: 3.9405 | Aux MSE: 0.0000
+
+[Epoch 790/3000] D Loss: 2.4670 | G Loss: -3.9475 | W Dist: 3.5277 | Aux MSE: 0.0000
+
+[Epoch 791/3000] D Loss: -0.0530 | G Loss: -3.4466 | W Dist: 3.5478 | Aux MSE: 0.0000
+
+[Epoch 792/3000] D Loss: -1.2225 | G Loss: -3.2268 | W Dist: 3.4401 | Aux MSE: 0.0000
+
+[Epoch 793/3000] D Loss: -1.9215 | G Loss: -3.1199 | W Dist: 3.2793 | Aux MSE: 0.0000
+
+[Epoch 794/3000] D Loss: -2.1783 | G Loss: -3.0018 | W Dist: 3.3875 | Aux MSE: 0.0000
+
+[Epoch 795/3000] D Loss: -2.2065 | G Loss: -2.9475 | W Dist: 3.4179 | Aux MSE: 0.0000
+
+[Epoch 796/3000] D Loss: -2.5096 | G Loss: -2.8820 | W Dist: 3.6332 | Aux MSE: 0.0000
+
+[Epoch 797/3000] D Loss: -2.7630 | G Loss: -2.8437 | W Dist: 3.8318 | Aux MSE: 0.0000
+
+[Epoch 798/3000] D Loss: -2.1060 | G Loss: -2.9451 | W Dist: 3.7887 | Aux MSE: 0.0000
+
+[Epoch 799/3000] D Loss: -2.1907 | G Loss: -2.9451 | W Dist: 3.8361 | Aux MSE: 0.0000
+
+[Epoch 800/3000] D Loss: -2.2539 | G Loss: -2.9746 | W Dist: 3.7412 | Aux MSE: 0.0000
+
+[Epoch 801/3000] D Loss: -2.2517 | G Loss: -2.9041 | W Dist: 3.6663 | Aux MSE: 0.0000
+
+[Epoch 802/3000] D Loss: -2.4707 | G Loss: -2.9051 | W Dist: 3.7609 | Aux MSE: 0.0000
+
+[Epoch 803/3000] D Loss: -2.5680 | G Loss: -2.9046 | W Dist: 3.8915 | Aux MSE: 0.0000
+
+[Epoch 804/3000] D Loss: -2.4166 | G Loss: -2.8829 | W Dist: 3.9051 | Aux MSE: 0.0000
+
+[Epoch 805/3000] D Loss: -2.7501 | G Loss: -2.9259 | W Dist: 3.8946 | Aux MSE: 0.0000
+
+[Epoch 806/3000] D Loss: -3.0905 | G Loss: -2.8522 | W Dist: 4.2560 | Aux MSE: 0.0000
+
+[Epoch 807/3000] D Loss: -2.3402 | G Loss: -2.9959 | W Dist: 3.9142 | Aux MSE: 0.0000
+
+[Epoch 808/3000] D Loss: -2.6012 | G Loss: -3.0874 | W Dist: 3.7952 | Aux MSE: 0.0000
+
+[Epoch 809/3000] D Loss: -2.4857 | G Loss: -3.0275 | W Dist: 3.8374 | Aux MSE: 0.0000
+
+[Epoch 810/3000] D Loss: -2.5173 | G Loss: -3.0376 | W Dist: 3.8594 | Aux MSE: 0.0000
+
+[Epoch 811/3000] D Loss: -2.4269 | G Loss: -2.9595 | W Dist: 3.9194 | Aux MSE: 0.0000
+
+[Epoch 812/3000] D Loss: -2.5493 | G Loss: -2.9512 | W Dist: 4.0718 | Aux MSE: 0.0000
+
+[Epoch 813/3000] D Loss: -2.8514 | G Loss: -2.9658 | W Dist: 4.1606 | Aux MSE: 0.0000
+
+[Epoch 814/3000] D Loss: -3.0155 | G Loss: -3.0431 | W Dist: 4.2813 | Aux MSE: 0.0000
+
+[Epoch 815/3000] D Loss: -3.2894 | G Loss: -3.0833 | W Dist: 4.4169 | Aux MSE: 0.0000
+
+[Epoch 816/3000] D Loss: -3.3775 | G Loss: -3.0347 | W Dist: 4.5734 | Aux MSE: 0.0000
+
+[Epoch 817/3000] D Loss: -3.0956 | G Loss: -3.1245 | W Dist: 4.5230 | Aux MSE: 0.0000
+
+[Epoch 818/3000] D Loss: -3.1934 | G Loss: -3.2895 | W Dist: 4.6228 | Aux MSE: 0.0000
+
+[Epoch 819/3000] D Loss: -3.3198 | G Loss: -3.3100 | W Dist: 4.6442 | Aux MSE: 0.0000
+
+[Epoch 820/3000] D Loss: -3.6806 | G Loss: -3.3195 | W Dist: 4.7770 | Aux MSE: 0.0000
+
+[Epoch 821/3000] D Loss: -3.8166 | G Loss: -3.3122 | W Dist: 5.1544 | Aux MSE: 0.0000
+
+[Epoch 822/3000] D Loss: -3.2300 | G Loss: -3.5204 | W Dist: 5.0010 | Aux MSE: 0.0000
+
+[Epoch 823/3000] D Loss: -3.2486 | G Loss: -3.7011 | W Dist: 4.9361 | Aux MSE: 0.0000
+
+[Epoch 824/3000] D Loss: -3.0324 | G Loss: -3.8786 | W Dist: 4.7440 | Aux MSE: 0.0000
+
+[Epoch 825/3000] D Loss: -3.4488 | G Loss: -4.0001 | W Dist: 4.8576 | Aux MSE: 0.0000
+
+[Epoch 826/3000] D Loss: -3.9626 | G Loss: -3.9824 | W Dist: 5.2357 | Aux MSE: 0.0000
+
+[Epoch 827/3000] D Loss: -4.2537 | G Loss: -4.1395 | W Dist: 5.4541 | Aux MSE: 0.0000
+
+[Epoch 828/3000] D Loss: -4.5346 | G Loss: -4.2064 | W Dist: 5.8806 | Aux MSE: 0.0000
+
+[Epoch 829/3000] D Loss: -4.8561 | G Loss: -4.2589 | W Dist: 6.2006 | Aux MSE: 0.0000
+
+[Epoch 830/3000] D Loss: -4.8849 | G Loss: -4.4105 | W Dist: 6.3987 | Aux MSE: 0.0000
+
+[Epoch 831/3000] D Loss: -4.8390 | G Loss: -4.5942 | W Dist: 6.4500 | Aux MSE: 0.0000
+
+[Epoch 832/3000] D Loss: -4.5189 | G Loss: -4.5532 | W Dist: 6.5585 | Aux MSE: 0.0000
+
+[Epoch 833/3000] D Loss: -4.5279 | G Loss: -4.7547 | W Dist: 6.3518 | Aux MSE: 0.0000
+
+[Epoch 834/3000] D Loss: -4.6238 | G Loss: -4.8672 | W Dist: 6.4031 | Aux MSE: 0.0000
+
+[Epoch 835/3000] D Loss: -4.9641 | G Loss: -4.9811 | W Dist: 6.5599 | Aux MSE: 0.0000
+
+[Epoch 836/3000] D Loss: -5.6732 | G Loss: -4.9696 | W Dist: 6.8638 | Aux MSE: 0.0000
+
+[Epoch 837/3000] D Loss: -5.9662 | G Loss: -4.9577 | W Dist: 7.4396 | Aux MSE: 0.0000
+
+[Epoch 838/3000] D Loss: -5.9535 | G Loss: -5.0599 | W Dist: 7.6666 | Aux MSE: 0.0000
+
+[Epoch 839/3000] D Loss: -3.8651 | G Loss: -5.5472 | W Dist: 7.2663 | Aux MSE: 0.0000
+
+[Epoch 840/3000] D Loss: -5.4971 | G Loss: -5.7693 | W Dist: 7.1697 | Aux MSE: 0.0000
+
+[Epoch 841/3000] D Loss: -5.5639 | G Loss: -5.7963 | W Dist: 7.4354 | Aux MSE: 0.0000
+
+[Epoch 842/3000] D Loss: -5.2464 | G Loss: -5.8846 | W Dist: 7.6397 | Aux MSE: 0.0000
+
+[Epoch 843/3000] D Loss: -3.8427 | G Loss: -6.0242 | W Dist: 7.4392 | Aux MSE: 0.0000
+
+[Epoch 844/3000] D Loss: -0.3676 | G Loss: -6.0055 | W Dist: 6.7628 | Aux MSE: 0.0000
+
+[Epoch 845/3000] D Loss: -2.0553 | G Loss: -5.9578 | W Dist: 6.2521 | Aux MSE: 0.0000
+
+[Epoch 846/3000] D Loss: -2.6202 | G Loss: -5.8837 | W Dist: 5.9047 | Aux MSE: 0.0000
+
+[Epoch 847/3000] D Loss: -4.3051 | G Loss: -5.7162 | W Dist: 5.9941 | Aux MSE: 0.0000
+
+[Epoch 848/3000] D Loss: -4.6332 | G Loss: -5.5162 | W Dist: 6.3622 | Aux MSE: 0.0000
+
+[Epoch 849/3000] D Loss: -5.4758 | G Loss: -5.3903 | W Dist: 6.8517 | Aux MSE: 0.0000
+
+[Epoch 850/3000] D Loss: -4.9115 | G Loss: -5.4477 | W Dist: 6.9083 | Aux MSE: 0.0000
+
+[Epoch 851/3000] D Loss: -5.2787 | G Loss: -5.3948 | W Dist: 6.9773 | Aux MSE: 0.0000
+
+[Epoch 852/3000] D Loss: -5.4368 | G Loss: -5.4961 | W Dist: 7.1111 | Aux MSE: 0.0000
+
+[Epoch 853/3000] D Loss: -5.9014 | G Loss: -5.5454 | W Dist: 7.4345 | Aux MSE: 0.0000
+
+[Epoch 854/3000] D Loss: -5.9034 | G Loss: -5.7469 | W Dist: 7.7266 | Aux MSE: 0.0000
+
+[Epoch 855/3000] D Loss: -5.9664 | G Loss: -5.7347 | W Dist: 7.9417 | Aux MSE: 0.0000
+
+[Epoch 856/3000] D Loss: -6.2136 | G Loss: -5.8508 | W Dist: 8.0341 | Aux MSE: 0.0000
+
+[Epoch 857/3000] D Loss: -6.5128 | G Loss: -6.0496 | W Dist: 8.2761 | Aux MSE: 0.0000
+
+[Epoch 858/3000] D Loss: -6.8397 | G Loss: -6.3085 | W Dist: 8.7281 | Aux MSE: 0.0000
+
+[Epoch 859/3000] D Loss: -4.1446 | G Loss: -6.4007 | W Dist: 8.5145 | Aux MSE: 0.0000
+
+[Epoch 860/3000] D Loss: -4.4220 | G Loss: -6.3063 | W Dist: 8.0044 | Aux MSE: 0.0000
+
+[Epoch 861/3000] D Loss: -3.3279 | G Loss: -6.2377 | W Dist: 7.5314 | Aux MSE: 0.0000
+
+[Epoch 862/3000] D Loss: -2.4720 | G Loss: -6.1262 | W Dist: 7.0809 | Aux MSE: 0.0000
+
+[Epoch 863/3000] D Loss: -2.7051 | G Loss: -6.1853 | W Dist: 6.4507 | Aux MSE: 0.0000
+
+[Epoch 864/3000] D Loss: -3.2429 | G Loss: -6.0230 | W Dist: 6.3084 | Aux MSE: 0.0000
+
+[Epoch 865/3000] D Loss: -4.5478 | G Loss: -6.0704 | W Dist: 6.3814 | Aux MSE: 0.0000
+
+[Epoch 866/3000] D Loss: -5.1462 | G Loss: -6.1281 | W Dist: 6.6564 | Aux MSE: 0.0000
+
+[Epoch 867/3000] D Loss: -5.8422 | G Loss: -6.3630 | W Dist: 7.1898 | Aux MSE: 0.0000
+
+[Epoch 868/3000] D Loss: -5.5988 | G Loss: -6.4001 | W Dist: 7.4244 | Aux MSE: 0.0000
+
+[Epoch 869/3000] D Loss: -5.4661 | G Loss: -6.5110 | W Dist: 7.5425 | Aux MSE: 0.0000
+
+[Epoch 870/3000] D Loss: -5.5451 | G Loss: -6.6194 | W Dist: 7.5257 | Aux MSE: 0.0000
+
+[Epoch 871/3000] D Loss: -5.3757 | G Loss: -6.7161 | W Dist: 7.5267 | Aux MSE: 0.0000
+
+[Epoch 872/3000] D Loss: -6.3461 | G Loss: -6.7219 | W Dist: 7.7816 | Aux MSE: 0.0000
+
+[Epoch 873/3000] D Loss: -6.5394 | G Loss: -6.6795 | W Dist: 8.2371 | Aux MSE: 0.0000
+
+[Epoch 874/3000] D Loss: -4.9713 | G Loss: -6.7844 | W Dist: 8.3362 | Aux MSE: 0.0000
+
+[Epoch 875/3000] D Loss: -5.9767 | G Loss: -6.8408 | W Dist: 8.2730 | Aux MSE: 0.0000
+
+[Epoch 876/3000] D Loss: -6.4754 | G Loss: -6.9914 | W Dist: 8.4027 | Aux MSE: 0.0000
+
+[Epoch 877/3000] D Loss: -6.7096 | G Loss: -7.3814 | W Dist: 8.3716 | Aux MSE: 0.0000
+
+[Epoch 878/3000] D Loss: -5.5720 | G Loss: -7.8888 | W Dist: 8.2097 | Aux MSE: 0.0000
+
+[Epoch 879/3000] D Loss: -4.6630 | G Loss: -8.3715 | W Dist: 7.6546 | Aux MSE: 0.0000
+
+[Epoch 880/3000] D Loss: -5.7248 | G Loss: -8.6721 | W Dist: 7.6570 | Aux MSE: 0.0000
+
+[Epoch 881/3000] D Loss: -6.4799 | G Loss: -8.5146 | W Dist: 8.2761 | Aux MSE: 0.0000
+
+[Epoch 882/3000] D Loss: -5.6687 | G Loss: -8.6574 | W Dist: 8.4728 | Aux MSE: 0.0000
+
+[Epoch 883/3000] D Loss: -6.2249 | G Loss: -8.7127 | W Dist: 8.4090 | Aux MSE: 0.0000
+
+[Epoch 884/3000] D Loss: -5.8824 | G Loss: -8.8007 | W Dist: 8.6997 | Aux MSE: 0.0001
+
+[Epoch 885/3000] D Loss: -6.8188 | G Loss: -8.8230 | W Dist: 8.8021 | Aux MSE: 0.0000
+
+[Epoch 886/3000] D Loss: -7.0265 | G Loss: -9.0538 | W Dist: 9.0047 | Aux MSE: 0.0001
+
+[Epoch 887/3000] D Loss: -7.2068 | G Loss: -9.0911 | W Dist: 9.4561 | Aux MSE: 0.0000
+
+[Epoch 888/3000] D Loss: -5.0929 | G Loss: -9.0370 | W Dist: 9.2337 | Aux MSE: 0.0000
+
+[Epoch 889/3000] D Loss: -6.2419 | G Loss: -8.7425 | W Dist: 9.3413 | Aux MSE: 0.0000
+
+[Epoch 890/3000] D Loss: -6.9209 | G Loss: -8.6239 | W Dist: 9.4513 | Aux MSE: 0.0000
+
+[Epoch 891/3000] D Loss: -5.4132 | G Loss: -8.7145 | W Dist: 9.1728 | Aux MSE: 0.0001
+
+[Epoch 892/3000] D Loss: -4.9088 | G Loss: -8.8483 | W Dist: 8.7587 | Aux MSE: 0.0001
+
+[Epoch 893/3000] D Loss: -5.0495 | G Loss: -8.8307 | W Dist: 8.4945 | Aux MSE: 0.0000
+
+[Epoch 894/3000] D Loss: -4.3352 | G Loss: -8.7147 | W Dist: 8.2545 | Aux MSE: 0.0000
+
+[Epoch 895/3000] D Loss: -4.0653 | G Loss: -8.5452 | W Dist: 8.0482 | Aux MSE: 0.0000
+
+[Epoch 896/3000] D Loss: -1.6542 | G Loss: -8.3015 | W Dist: 7.5303 | Aux MSE: 0.0000
+
+[Epoch 897/3000] D Loss: -4.3323 | G Loss: -7.9880 | W Dist: 7.5235 | Aux MSE: 0.0000
+
+[Epoch 898/3000] D Loss: -4.3040 | G Loss: -7.7446 | W Dist: 7.5864 | Aux MSE: 0.0000
+
+[Epoch 899/3000] D Loss: -4.9146 | G Loss: -7.5229 | W Dist: 7.6493 | Aux MSE: 0.0000
+
+[Epoch 900/3000] D Loss: -4.4586 | G Loss: -7.2387 | W Dist: 7.6034 | Aux MSE: 0.0000
+
+[Epoch 901/3000] D Loss: -6.4243 | G Loss: -7.0573 | W Dist: 8.1275 | Aux MSE: 0.0000
+
+[Epoch 902/3000] D Loss: -6.7313 | G Loss: -7.0143 | W Dist: 8.7117 | Aux MSE: 0.0000
+
+[Epoch 903/3000] D Loss: -5.1140 | G Loss: -6.9804 | W Dist: 8.7284 | Aux MSE: 0.0000
+
+[Epoch 904/3000] D Loss: -4.2090 | G Loss: -6.8960 | W Dist: 8.4996 | Aux MSE: 0.0000
+
+[Epoch 905/3000] D Loss: -4.3200 | G Loss: -6.5604 | W Dist: 8.3502 | Aux MSE: 0.0000
+
+[Epoch 906/3000] D Loss: -5.7956 | G Loss: -6.2315 | W Dist: 8.3358 | Aux MSE: 0.0000
+
+[Epoch 907/3000] D Loss: -6.5945 | G Loss: -6.0474 | W Dist: 8.6549 | Aux MSE: 0.0000
+
+[Epoch 908/3000] D Loss: -7.1053 | G Loss: -5.8926 | W Dist: 8.9817 | Aux MSE: 0.0000
+
+[Epoch 909/3000] D Loss: -7.7255 | G Loss: -5.8459 | W Dist: 9.5507 | Aux MSE: 0.0000
+
+[Epoch 910/3000] D Loss: -5.2058 | G Loss: -5.9075 | W Dist: 9.5567 | Aux MSE: 0.0000
+
+[Epoch 911/3000] D Loss: -5.5109 | G Loss: -5.9291 | W Dist: 9.5142 | Aux MSE: 0.0000
+
+[Epoch 912/3000] D Loss: -4.7708 | G Loss: -5.8778 | W Dist: 9.3200 | Aux MSE: 0.0000
+
+[Epoch 913/3000] D Loss: -5.3890 | G Loss: -5.9018 | W Dist: 9.1222 | Aux MSE: 0.0000
+
+[Epoch 914/3000] D Loss: -6.6224 | G Loss: -5.7101 | W Dist: 9.2091 | Aux MSE: 0.0000
+
+[Epoch 915/3000] D Loss: -7.6002 | G Loss: -5.4936 | W Dist: 9.6359 | Aux MSE: 0.0000
+
+[Epoch 916/3000] D Loss: -6.0817 | G Loss: -5.4066 | W Dist: 9.7917 | Aux MSE: 0.0000
+
+[Epoch 917/3000] D Loss: -5.8725 | G Loss: -5.3888 | W Dist: 9.5520 | Aux MSE: 0.0000
+
+[Epoch 918/3000] D Loss: -4.8936 | G Loss: -5.3167 | W Dist: 9.5494 | Aux MSE: 0.0000
+
+[Epoch 919/3000] D Loss: -3.4896 | G Loss: -5.3205 | W Dist: 8.9720 | Aux MSE: 0.0000
+
+[Epoch 920/3000] D Loss: -1.3350 | G Loss: -5.5935 | W Dist: 8.2839 | Aux MSE: 0.0000
+
+[Epoch 921/3000] D Loss: -2.9032 | G Loss: -5.6998 | W Dist: 7.8361 | Aux MSE: 0.0000
+
+[Epoch 922/3000] D Loss: -3.5743 | G Loss: -5.3859 | W Dist: 7.7504 | Aux MSE: 0.0000
+
+[Epoch 923/3000] D Loss: -4.3035 | G Loss: -5.1876 | W Dist: 7.6665 | Aux MSE: 0.0000
+
+[Epoch 924/3000] D Loss: -5.1082 | G Loss: -5.0941 | W Dist: 7.7893 | Aux MSE: 0.0002
+
+[Epoch 925/3000] D Loss: -5.7895 | G Loss: -4.9292 | W Dist: 7.9476 | Aux MSE: 0.0008
+
+[Epoch 926/3000] D Loss: -6.5796 | G Loss: -4.8312 | W Dist: 8.4416 | Aux MSE: 0.0003
+
+[Epoch 927/3000] D Loss: -7.3672 | G Loss: -4.8310 | W Dist: 9.0282 | Aux MSE: 0.0021
+
+[Epoch 928/3000] D Loss: -7.9228 | G Loss: -4.7199 | W Dist: 9.6320 | Aux MSE: 0.0030
+
+[Epoch 929/3000] D Loss: -7.4769 | G Loss: -4.5656 | W Dist: 10.2070 | Aux MSE: 0.0138
+
+[Epoch 930/3000] D Loss: -6.4229 | G Loss: -4.5778 | W Dist: 10.1070 | Aux MSE: 0.0230
+
+[Epoch 931/3000] D Loss: -5.4589 | G Loss: -4.7989 | W Dist: 9.5848 | Aux MSE: 0.0305
+
+[Epoch 932/3000] D Loss: -5.7034 | G Loss: -4.8679 | W Dist: 9.4137 | Aux MSE: 0.0281
+
+[Epoch 933/3000] D Loss: -0.6202 | G Loss: -5.0762 | W Dist: 8.8202 | Aux MSE: 0.0748
+
+[Epoch 934/3000] D Loss: -4.2919 | G Loss: -4.9025 | W Dist: 8.5782 | Aux MSE: 0.1133
+
+[Epoch 935/3000] D Loss: -5.2916 | G Loss: -4.8085 | W Dist: 8.5107 | Aux MSE: 0.1594
+
+[Epoch 936/3000] D Loss: -5.2138 | G Loss: -4.4625 | W Dist: 8.6478 | Aux MSE: 0.1955
+
+[Epoch 937/3000] D Loss: -6.0303 | G Loss: -4.3155 | W Dist: 8.9415 | Aux MSE: 0.2214
+
+[Epoch 938/3000] D Loss: -6.6680 | G Loss: -4.2419 | W Dist: 9.1299 | Aux MSE: 0.2839
+
+[Epoch 939/3000] D Loss: -7.0877 | G Loss: -3.8220 | W Dist: 9.7143 | Aux MSE: 0.3220
+
+[Epoch 940/3000] D Loss: -7.8324 | G Loss: -3.6597 | W Dist: 10.0505 | Aux MSE: 0.3313
+
+[Epoch 941/3000] D Loss: -5.4216 | G Loss: -3.7408 | W Dist: 10.1555 | Aux MSE: 0.2995
+
+[Epoch 942/3000] D Loss: -5.6469 | G Loss: -4.1917 | W Dist: 9.6766 | Aux MSE: 0.2856
+
+[Epoch 943/3000] D Loss: -4.4493 | G Loss: -5.0719 | W Dist: 8.6787 | Aux MSE: 0.1778
+
+[Epoch 944/3000] D Loss: -6.0053 | G Loss: -5.2742 | W Dist: 8.6616 | Aux MSE: 0.1225
+
+[Epoch 945/3000] D Loss: -6.5608 | G Loss: -5.4180 | W Dist: 8.8624 | Aux MSE: 0.0888
+
+[Epoch 946/3000] D Loss: -7.1878 | G Loss: -5.6416 | W Dist: 9.2988 | Aux MSE: 0.0567
+
+[Epoch 947/3000] D Loss: -6.4646 | G Loss: -5.4896 | W Dist: 9.4334 | Aux MSE: 0.0422
+
+[Epoch 948/3000] D Loss: -6.5948 | G Loss: -5.9383 | W Dist: 9.3048 | Aux MSE: 0.0313
+
+[Epoch 949/3000] D Loss: -7.7167 | G Loss: -6.1399 | W Dist: 9.5168 | Aux MSE: 0.0230
+
+[Epoch 950/3000] D Loss: -7.5209 | G Loss: -6.1054 | W Dist: 10.1360 | Aux MSE: 0.0131
+
+[Epoch 951/3000] D Loss: -7.4524 | G Loss: -6.7490 | W Dist: 9.8701 | Aux MSE: 0.0086
+
+[Epoch 952/3000] D Loss: -7.4087 | G Loss: -7.1311 | W Dist: 9.9047 | Aux MSE: 0.0044
+
+[Epoch 953/3000] D Loss: -6.6903 | G Loss: -7.8858 | W Dist: 9.6543 | Aux MSE: 0.0024
+
+[Epoch 954/3000] D Loss: -4.4500 | G Loss: -8.2549 | W Dist: 9.3248 | Aux MSE: 0.0016
+
+[Epoch 955/3000] D Loss: -5.7756 | G Loss: -8.4119 | W Dist: 9.1282 | Aux MSE: 0.0011
+
+[Epoch 956/3000] D Loss: -4.0760 | G Loss: -8.5848 | W Dist: 8.8392 | Aux MSE: 0.0006
+
+[Epoch 957/3000] D Loss: 8.6044 | G Loss: -8.5757 | W Dist: 8.2976 | Aux MSE: 0.0011
+
+[Epoch 958/3000] D Loss: 81.1969 | G Loss: -8.9774 | W Dist: 6.3172 | Aux MSE: 0.0019
+
+[Epoch 959/3000] D Loss: 25.9785 | G Loss: -8.5771 | W Dist: 5.8210 | Aux MSE: 0.0022
+
+[Epoch 960/3000] D Loss: 2.1560 | G Loss: -8.0567 | W Dist: 6.0375 | Aux MSE: 0.0039
+
+[Epoch 961/3000] D Loss: -2.7151 | G Loss: -7.5840 | W Dist: 6.6702 | Aux MSE: 0.0059
+
+[Epoch 962/3000] D Loss: -4.4115 | G Loss: -6.8802 | W Dist: 7.3732 | Aux MSE: 0.0046
+
+[Epoch 963/3000] D Loss: -4.9746 | G Loss: -6.5670 | W Dist: 7.7675 | Aux MSE: 0.0036
+
+[Epoch 964/3000] D Loss: -6.1841 | G Loss: -6.4213 | W Dist: 8.2272 | Aux MSE: 0.0055
+
+[Epoch 965/3000] D Loss: -6.8420 | G Loss: -6.4070 | W Dist: 8.5748 | Aux MSE: 0.0090
+
+[Epoch 966/3000] D Loss: -7.3719 | G Loss: -6.4331 | W Dist: 9.0312 | Aux MSE: 0.0142
+
+[Epoch 967/3000] D Loss: -7.9752 | G Loss: -6.4032 | W Dist: 9.7827 | Aux MSE: 0.0180
+
+[Epoch 968/3000] D Loss: -8.1870 | G Loss: -6.4515 | W Dist: 10.3556 | Aux MSE: 0.0265
+
+[Epoch 969/3000] D Loss: -7.3002 | G Loss: -7.0189 | W Dist: 10.1301 | Aux MSE: 0.0799
+
+[Epoch 970/3000] D Loss: -3.5991 | G Loss: -7.6810 | W Dist: 9.5836 | Aux MSE: 0.0661
+
+[Epoch 971/3000] D Loss: 7.1528 | G Loss: -7.8057 | W Dist: 8.6754 | Aux MSE: 0.0948
+
+[Epoch 972/3000] D Loss: 16.6563 | G Loss: -7.6881 | W Dist: 7.9250 | Aux MSE: 0.1207
+
+[Epoch 973/3000] D Loss: 6.9360 | G Loss: -7.6881 | W Dist: 7.3635 | Aux MSE: 0.1214
+
+[Epoch 974/3000] D Loss: 6.2984 | G Loss: -7.9166 | W Dist: 6.7405 | Aux MSE: 0.1323
+
+[Epoch 975/3000] D Loss: 0.6683 | G Loss: -8.0179 | W Dist: 6.2515 | Aux MSE: 0.1289
+
+[Epoch 976/3000] D Loss: 2.9717 | G Loss: -8.2451 | W Dist: 5.9500 | Aux MSE: 0.1366
+
+[Epoch 977/3000] D Loss: -1.5968 | G Loss: -8.1437 | W Dist: 5.7215 | Aux MSE: 0.1254
+
+[Epoch 978/3000] D Loss: -2.8983 | G Loss: -7.6552 | W Dist: 5.9592 | Aux MSE: 0.1332
+
+[Epoch 979/3000] D Loss: -3.1070 | G Loss: -7.3917 | W Dist: 5.9884 | Aux MSE: 0.1264
+
+[Epoch 980/3000] D Loss: -3.0054 | G Loss: -7.1451 | W Dist: 5.9414 | Aux MSE: 0.1156
+
+[Epoch 981/3000] D Loss: -2.2816 | G Loss: -7.0677 | W Dist: 5.6861 | Aux MSE: 0.1120
+
+[Epoch 982/3000] D Loss: -3.6779 | G Loss: -6.8888 | W Dist: 5.6583 | Aux MSE: 0.1213
+
+[Epoch 983/3000] D Loss: -4.4323 | G Loss: -6.6335 | W Dist: 6.0456 | Aux MSE: 0.0968
+
+[Epoch 984/3000] D Loss: -4.9412 | G Loss: -6.4718 | W Dist: 6.4059 | Aux MSE: 0.0995
+
+[Epoch 985/3000] D Loss: -4.2233 | G Loss: -6.4913 | W Dist: 6.4911 | Aux MSE: 0.1153
+
+[Epoch 986/3000] D Loss: -5.2638 | G Loss: -6.3700 | W Dist: 6.7623 | Aux MSE: 0.1128
+
+[Epoch 987/3000] D Loss: -5.3333 | G Loss: -6.2985 | W Dist: 7.1485 | Aux MSE: 0.0891
+
+[Epoch 988/3000] D Loss: -2.8153 | G Loss: -6.4152 | W Dist: 7.1483 | Aux MSE: 0.0602
+
+[Epoch 989/3000] D Loss: -3.4503 | G Loss: -6.6086 | W Dist: 6.5343 | Aux MSE: 0.0329
+
+[Epoch 990/3000] D Loss: -4.7020 | G Loss: -6.6062 | W Dist: 6.3947 | Aux MSE: 0.0227
+
+[Epoch 991/3000] D Loss: -5.4581 | G Loss: -6.5459 | W Dist: 6.9279 | Aux MSE: 0.0238
+
+[Epoch 992/3000] D Loss: -5.7874 | G Loss: -6.5193 | W Dist: 7.3721 | Aux MSE: 0.0173
+
+[Epoch 993/3000] D Loss: -3.8619 | G Loss: -6.7813 | W Dist: 7.0880 | Aux MSE: 0.0424
+
+[Epoch 994/3000] D Loss: -5.3834 | G Loss: -6.8349 | W Dist: 7.0716 | Aux MSE: 0.0567
+
+[Epoch 995/3000] D Loss: -5.3282 | G Loss: -7.0317 | W Dist: 7.3043 | Aux MSE: 0.0784
+
+[Epoch 996/3000] D Loss: -5.1036 | G Loss: -7.3096 | W Dist: 7.1970 | Aux MSE: 0.0337
+
+[Epoch 997/3000] D Loss: -4.8741 | G Loss: -7.7128 | W Dist: 6.9692 | Aux MSE: 0.0165
+
+[Epoch 998/3000] D Loss: -4.8688 | G Loss: -7.9987 | W Dist: 6.9475 | Aux MSE: 0.0098
+
+[Epoch 999/3000] D Loss: -5.1888 | G Loss: -8.1824 | W Dist: 6.8374 | Aux MSE: 0.0072
+
+[Epoch 1000/3000] D Loss: -6.2545 | G Loss: -7.9795 | W Dist: 7.3828 | Aux MSE: 0.0050
+
+[Epoch 1001/3000] D Loss: -6.9817 | G Loss: -7.7625 | W Dist: 8.2239 | Aux MSE: 0.0073
+
+[Epoch 1002/3000] D Loss: -6.0127 | G Loss: -7.7275 | W Dist: 8.4124 | Aux MSE: 0.0282
+
+[Epoch 1003/3000] D Loss: -5.4129 | G Loss: -8.1631 | W Dist: 7.9679 | Aux MSE: 0.0184
+
+[Epoch 1004/3000] D Loss: -6.7322 | G Loss: -8.5040 | W Dist: 8.1494 | Aux MSE: 0.0093
+
+[Epoch 1005/3000] D Loss: -7.4947 | G Loss: -8.4750 | W Dist: 8.7974 | Aux MSE: 0.0120
+
+[Epoch 1006/3000] D Loss: -7.8810 | G Loss: -8.5528 | W Dist: 9.3530 | Aux MSE: 0.0131
+
+[Epoch 1007/3000] D Loss: -7.4395 | G Loss: -8.5132 | W Dist: 9.7460 | Aux MSE: 0.0141
+
+[Epoch 1008/3000] D Loss: 1.1389 | G Loss: -8.6389 | W Dist: 9.7737 | Aux MSE: 0.0223
+
+[Epoch 1009/3000] D Loss: 29.0351 | G Loss: -9.5694 | W Dist: 7.7637 | Aux MSE: 0.0358
+
+[Epoch 1010/3000] D Loss: 23.7459 | G Loss: -9.5786 | W Dist: 6.7389 | Aux MSE: 0.0332
+
+[Epoch 1011/3000] D Loss: 12.6254 | G Loss: -9.6441 | W Dist: 5.9943 | Aux MSE: 0.0381
+
+[Epoch 1012/3000] D Loss: 4.8658 | G Loss: -9.5560 | W Dist: 5.5443 | Aux MSE: 0.0236
+
+[Epoch 1013/3000] D Loss: 1.7260 | G Loss: -9.2240 | W Dist: 5.4643 | Aux MSE: 0.0161
+
+[Epoch 1014/3000] D Loss: -0.5311 | G Loss: -8.9454 | W Dist: 5.4312 | Aux MSE: 0.0289
+
+[Epoch 1015/3000] D Loss: -3.4996 | G Loss: -8.5094 | W Dist: 5.7539 | Aux MSE: 0.0363
+
+[Epoch 1016/3000] D Loss: -5.3125 | G Loss: -7.9421 | W Dist: 6.5107 | Aux MSE: 0.0587
+
+[Epoch 1017/3000] D Loss: -5.6040 | G Loss: -7.4627 | W Dist: 7.5424 | Aux MSE: 0.0546
+
+[Epoch 1018/3000] D Loss: -4.9402 | G Loss: -7.5559 | W Dist: 7.6224 | Aux MSE: 0.0161
+
+[Epoch 1019/3000] D Loss: -4.3222 | G Loss: -7.7639 | W Dist: 7.4624 | Aux MSE: 0.0096
+
+[Epoch 1020/3000] D Loss: -5.6564 | G Loss: -7.6563 | W Dist: 7.6034 | Aux MSE: 0.0096
+
+[Epoch 1021/3000] D Loss: -5.9038 | G Loss: -7.8597 | W Dist: 7.7147 | Aux MSE: 0.0098
+
+[Epoch 1022/3000] D Loss: -6.1636 | G Loss: -8.4024 | W Dist: 7.6615 | Aux MSE: 0.0064
+
+[Epoch 1023/3000] D Loss: -6.1789 | G Loss: -8.4736 | W Dist: 8.0516 | Aux MSE: 0.0040
+
+[Epoch 1024/3000] D Loss: -6.8783 | G Loss: -8.4201 | W Dist: 8.4769 | Aux MSE: 0.0042
+
+[Epoch 1025/3000] D Loss: -7.4856 | G Loss: -8.5272 | W Dist: 8.9262 | Aux MSE: 0.0060
+
+[Epoch 1026/3000] D Loss: -7.5500 | G Loss: -8.7847 | W Dist: 9.2373 | Aux MSE: 0.0063
+
+[Epoch 1027/3000] D Loss: -7.7775 | G Loss: -9.2638 | W Dist: 9.4398 | Aux MSE: 0.0074
+
+[Epoch 1028/3000] D Loss: -6.7483 | G Loss: -9.9795 | W Dist: 9.1345 | Aux MSE: 0.0053
+
+[Epoch 1029/3000] D Loss: -1.7464 | G Loss: -10.2091 | W Dist: 8.6535 | Aux MSE: 0.0031
+
+[Epoch 1030/3000] D Loss: 1.0946 | G Loss: -10.3725 | W Dist: 8.2916 | Aux MSE: 0.0009
+
+[Epoch 1031/3000] D Loss: -4.3810 | G Loss: -9.6679 | W Dist: 8.5986 | Aux MSE: 0.0005
+
+[Epoch 1032/3000] D Loss: -4.8276 | G Loss: -9.1179 | W Dist: 9.0677 | Aux MSE: 0.0002
+
+[Epoch 1033/3000] D Loss: -6.4359 | G Loss: -9.2331 | W Dist: 9.0090 | Aux MSE: 0.0003
+
+[Epoch 1034/3000] D Loss: -4.7168 | G Loss: -8.8880 | W Dist: 9.5347 | Aux MSE: 0.0003
+
+[Epoch 1035/3000] D Loss: -7.6687 | G Loss: -9.0243 | W Dist: 9.6197 | Aux MSE: 0.0004
+
+[Epoch 1036/3000] D Loss: -6.6518 | G Loss: -9.0213 | W Dist: 9.9420 | Aux MSE: 0.0006
+
+[Epoch 1037/3000] D Loss: -7.5416 | G Loss: -9.4859 | W Dist: 9.7559 | Aux MSE: 0.0009
+
+[Epoch 1038/3000] D Loss: -8.4349 | G Loss: -9.3894 | W Dist: 10.2697 | Aux MSE: 0.0017
+
+[Epoch 1039/3000] D Loss: -7.4435 | G Loss: -9.6972 | W Dist: 10.1393 | Aux MSE: 0.0015
+
+[Epoch 1040/3000] D Loss: -7.8741 | G Loss: -9.6400 | W Dist: 10.4919 | Aux MSE: 0.0013
+
+[Epoch 1041/3000] D Loss: -8.3713 | G Loss: -9.7377 | W Dist: 10.5597 | Aux MSE: 0.0022
+
+[Epoch 1042/3000] D Loss: -7.6665 | G Loss: -10.2969 | W Dist: 10.5150 | Aux MSE: 0.0014
+
+[Epoch 1043/3000] D Loss: -9.1100 | G Loss: -10.3396 | W Dist: 10.9090 | Aux MSE: 0.0018
+
+[Epoch 1044/3000] D Loss: -8.3336 | G Loss: -10.9862 | W Dist: 10.6841 | Aux MSE: 0.0020
+
+[Epoch 1045/3000] D Loss: -3.2157 | G Loss: -11.4438 | W Dist: 10.3724 | Aux MSE: 0.0010
+
+[Epoch 1046/3000] D Loss: -7.9332 | G Loss: -11.8940 | W Dist: 10.1677 | Aux MSE: 0.0012
+
+[Epoch 1047/3000] D Loss: -9.6752 | G Loss: -11.7584 | W Dist: 11.0451 | Aux MSE: 0.0009
+
+[Epoch 1048/3000] D Loss: -10.0916 | G Loss: -11.9178 | W Dist: 11.6203 | Aux MSE: 0.0008
+
+[Epoch 1049/3000] D Loss: -10.3542 | G Loss: -12.1492 | W Dist: 12.1078 | Aux MSE: 0.0004
+
+[Epoch 1050/3000] D Loss: -11.2330 | G Loss: -12.4885 | W Dist: 12.5379 | Aux MSE: 0.0004
+
+[Epoch 1051/3000] D Loss: -11.5955 | G Loss: -12.8809 | W Dist: 13.0488 | Aux MSE: 0.0004
+
+[Epoch 1052/3000] D Loss: -11.7646 | G Loss: -13.5221 | W Dist: 13.3397 | Aux MSE: 0.0006
+
+[Epoch 1053/3000] D Loss: -12.5091 | G Loss: -13.8183 | W Dist: 13.7895 | Aux MSE: 0.0004
+
+[Epoch 1054/3000] D Loss: -12.4327 | G Loss: -14.0603 | W Dist: 14.5965 | Aux MSE: 0.0013
+
+[Epoch 1055/3000] D Loss: -12.6401 | G Loss: -14.2813 | W Dist: 14.9584 | Aux MSE: 0.0038
+
+[Epoch 1056/3000] D Loss: 24.0826 | G Loss: -15.8853 | W Dist: 12.9771 | Aux MSE: 0.0120
+
+[Epoch 1057/3000] D Loss: 2.1996 | G Loss: -16.0337 | W Dist: 12.4161 | Aux MSE: 0.0341
+
+[Epoch 1058/3000] D Loss: 1.1211 | G Loss: -15.4180 | W Dist: 12.9537 | Aux MSE: 0.0446
+
+[Epoch 1059/3000] D Loss: -4.4517 | G Loss: -15.0190 | W Dist: 13.0079 | Aux MSE: 0.0479
+
+[Epoch 1060/3000] D Loss: -10.9680 | G Loss: -14.6397 | W Dist: 13.9448 | Aux MSE: 0.0518
+
+[Epoch 1061/3000] D Loss: -8.9994 | G Loss: -14.3983 | W Dist: 14.1109 | Aux MSE: 0.0492
+
+[Epoch 1062/3000] D Loss: -9.8579 | G Loss: -14.1358 | W Dist: 14.3795 | Aux MSE: 0.0641
+
+[Epoch 1063/3000] D Loss: -5.3639 | G Loss: -13.8008 | W Dist: 14.5071 | Aux MSE: 0.0672
+
+[Epoch 1064/3000] D Loss: -13.2586 | G Loss: -13.6323 | W Dist: 15.1937 | Aux MSE: 0.0545
+
+[Epoch 1065/3000] D Loss: -12.9860 | G Loss: -13.6013 | W Dist: 15.8349 | Aux MSE: 0.0422
+
+[Epoch 1066/3000] D Loss: -14.7262 | G Loss: -13.6261 | W Dist: 16.7517 | Aux MSE: 0.0401
+
+[Epoch 1067/3000] D Loss: -15.3227 | G Loss: -13.6846 | W Dist: 17.3292 | Aux MSE: 0.0313
+
+[Epoch 1068/3000] D Loss: 8.9366 | G Loss: -14.3157 | W Dist: 16.6060 | Aux MSE: 0.0398
+
+[Epoch 1069/3000] D Loss: -9.4381 | G Loss: -14.3592 | W Dist: 16.6029 | Aux MSE: 0.0638
+
+[Epoch 1070/3000] D Loss: -13.9024 | G Loss: -14.1707 | W Dist: 16.9354 | Aux MSE: 0.0924
+
+[Epoch 1071/3000] D Loss: -9.7644 | G Loss: -15.1813 | W Dist: 16.6200 | Aux MSE: 0.1277
+
+[Epoch 1072/3000] D Loss: 26.0413 | G Loss: -16.1388 | W Dist: 15.1232 | Aux MSE: 0.1697
+
+[Epoch 1073/3000] D Loss: -6.6712 | G Loss: -16.3844 | W Dist: 14.8811 | Aux MSE: 0.1658
+
+[Epoch 1074/3000] D Loss: -9.6097 | G Loss: -16.0232 | W Dist: 15.3636 | Aux MSE: 0.1674
+
+[Epoch 1075/3000] D Loss: -10.3927 | G Loss: -15.7682 | W Dist: 15.7009 | Aux MSE: 0.1299
+
+[Epoch 1076/3000] D Loss: -13.5393 | G Loss: -15.8158 | W Dist: 15.8695 | Aux MSE: 0.1171
+
+[Epoch 1077/3000] D Loss: -13.1517 | G Loss: -15.7705 | W Dist: 16.6237 | Aux MSE: 0.0992
+
+[Epoch 1078/3000] D Loss: 8.5852 | G Loss: -16.2023 | W Dist: 15.6446 | Aux MSE: 0.0753
+
+[Epoch 1079/3000] D Loss: -13.7248 | G Loss: -15.5570 | W Dist: 16.7916 | Aux MSE: 0.0728
+
+[Epoch 1080/3000] D Loss: -8.8763 | G Loss: -15.4895 | W Dist: 16.9980 | Aux MSE: 0.0821
+
+[Epoch 1081/3000] D Loss: -15.0111 | G Loss: -15.9551 | W Dist: 17.1270 | Aux MSE: 0.0956
+
+[Epoch 1082/3000] D Loss: -15.8818 | G Loss: -16.5922 | W Dist: 17.6454 | Aux MSE: 0.0786
+
+[Epoch 1083/3000] D Loss: -15.4416 | G Loss: -16.9287 | W Dist: 18.0946 | Aux MSE: 0.0483
+
+[Epoch 1084/3000] D Loss: -14.8419 | G Loss: -17.2197 | W Dist: 18.7127 | Aux MSE: 0.0466
+
+[Epoch 1085/3000] D Loss: -15.0559 | G Loss: -17.7531 | W Dist: 18.6497 | Aux MSE: 0.0484
+
+[Epoch 1086/3000] D Loss: -11.8522 | G Loss: -18.9167 | W Dist: 18.4407 | Aux MSE: 0.0400
+
+[Epoch 1087/3000] D Loss: -14.5006 | G Loss: -19.3274 | W Dist: 17.8993 | Aux MSE: 0.0288
+
+[Epoch 1088/3000] D Loss: -13.4267 | G Loss: -20.1040 | W Dist: 17.7300 | Aux MSE: 0.0226
+
+[Epoch 1089/3000] D Loss: -2.4128 | G Loss: -20.1565 | W Dist: 18.4574 | Aux MSE: 0.0165
+
+[Epoch 1090/3000] D Loss: 9.0230 | G Loss: -20.3604 | W Dist: 17.6308 | Aux MSE: 0.0116
+
+[Epoch 1091/3000] D Loss: -13.6119 | G Loss: -20.0294 | W Dist: 17.9347 | Aux MSE: 0.0151
+
+[Epoch 1092/3000] D Loss: -16.7789 | G Loss: -19.7893 | W Dist: 18.8392 | Aux MSE: 0.0154
+
+[Epoch 1093/3000] D Loss: -8.2841 | G Loss: -19.8903 | W Dist: 19.6337 | Aux MSE: 0.0116
+
+[Epoch 1094/3000] D Loss: -17.0486 | G Loss: -20.0433 | W Dist: 19.5396 | Aux MSE: 0.0133
+
+[Epoch 1095/3000] D Loss: -18.4330 | G Loss: -20.3775 | W Dist: 20.3400 | Aux MSE: 0.0112
+
+[Epoch 1096/3000] D Loss: -16.5277 | G Loss: -21.3058 | W Dist: 20.3344 | Aux MSE: 0.0084
+
+[Epoch 1097/3000] D Loss: -14.9315 | G Loss: -22.2549 | W Dist: 20.0125 | Aux MSE: 0.0068
+
+[Epoch 1098/3000] D Loss: -16.1508 | G Loss: -22.7971 | W Dist: 20.1571 | Aux MSE: 0.0045
+
+[Epoch 1099/3000] D Loss: 15.1392 | G Loss: -22.8031 | W Dist: 20.0063 | Aux MSE: 0.0042
+
+[Epoch 1100/3000] D Loss: 167.1690 | G Loss: -24.2917 | W Dist: 16.7709 | Aux MSE: 0.0048
+
+[Epoch 1101/3000] D Loss: 48.0782 | G Loss: -24.7289 | W Dist: 15.7767 | Aux MSE: 0.0047
+
+[Epoch 1102/3000] D Loss: 225.7950 | G Loss: -24.6072 | W Dist: 15.3161 | Aux MSE: 0.0028
+
+[Epoch 1103/3000] D Loss: 215.4072 | G Loss: -24.9743 | W Dist: 13.7400 | Aux MSE: 0.0023
+
+[Epoch 1104/3000] D Loss: 78.1168 | G Loss: -24.6198 | W Dist: 13.6862 | Aux MSE: 0.0021
+
+[Epoch 1105/3000] D Loss: 71.2554 | G Loss: -24.2806 | W Dist: 13.6560 | Aux MSE: 0.0016
+
+[Epoch 1106/3000] D Loss: 91.5520 | G Loss: -24.1231 | W Dist: 13.0410 | Aux MSE: 0.0014
+
+[Epoch 1107/3000] D Loss: 71.5738 | G Loss: -23.9993 | W Dist: 12.5647 | Aux MSE: 0.0012
+
+[Epoch 1108/3000] D Loss: 31.3057 | G Loss: -23.7391 | W Dist: 12.3947 | Aux MSE: 0.0014
+
+[Epoch 1109/3000] D Loss: 26.7786 | G Loss: -23.2947 | W Dist: 12.4415 | Aux MSE: 0.0015
+
+[Epoch 1110/3000] D Loss: 13.9231 | G Loss: -22.8669 | W Dist: 12.5345 | Aux MSE: 0.0025
+
+[Epoch 1111/3000] D Loss: 8.1639 | G Loss: -22.4555 | W Dist: 12.7136 | Aux MSE: 0.0023
+
+[Epoch 1112/3000] D Loss: 30.3514 | G Loss: -22.0048 | W Dist: 12.8602 | Aux MSE: 0.0032
+
+[Epoch 1113/3000] D Loss: 12.6464 | G Loss: -21.7916 | W Dist: 12.3171 | Aux MSE: 0.0044
+
+[Epoch 1114/3000] D Loss: 10.3248 | G Loss: -21.3339 | W Dist: 12.6041 | Aux MSE: 0.0101
+
+[Epoch 1115/3000] D Loss: 3.9803 | G Loss: -21.3052 | W Dist: 12.3552 | Aux MSE: 0.0157
+
+[Epoch 1116/3000] D Loss: -0.7162 | G Loss: -20.4723 | W Dist: 12.8726 | Aux MSE: 0.0181
+
+[Epoch 1117/3000] D Loss: 17.8678 | G Loss: -20.2665 | W Dist: 12.7037 | Aux MSE: 0.0226
+
+[Epoch 1118/3000] D Loss: -9.3395 | G Loss: -20.0397 | W Dist: 13.4300 | Aux MSE: 0.0340
+
+[Epoch 1119/3000] D Loss: -8.6733 | G Loss: -19.4390 | W Dist: 14.0045 | Aux MSE: 0.0276
+
+[Epoch 1120/3000] D Loss: -6.0649 | G Loss: -19.3914 | W Dist: 14.0767 | Aux MSE: 0.0134
+
+[Epoch 1121/3000] D Loss: 4.6304 | G Loss: -19.1703 | W Dist: 13.6046 | Aux MSE: 0.0055
+
+[Epoch 1122/3000] D Loss: 3.6497 | G Loss: -19.3926 | W Dist: 13.0219 | Aux MSE: 0.0024
+
+[Epoch 1123/3000] D Loss: -1.9340 | G Loss: -19.0077 | W Dist: 12.9053 | Aux MSE: 0.0021
+
+[Epoch 1124/3000] D Loss: 20.6898 | G Loss: -18.7225 | W Dist: 12.3103 | Aux MSE: 0.0019
+
+[Epoch 1125/3000] D Loss: 6.6830 | G Loss: -18.9997 | W Dist: 11.5313 | Aux MSE: 0.0018
+
+[Epoch 1126/3000] D Loss: 24.1899 | G Loss: -18.7379 | W Dist: 10.8028 | Aux MSE: 0.0018
+
+[Epoch 1127/3000] D Loss: 19.9344 | G Loss: -18.3729 | W Dist: 10.4387 | Aux MSE: 0.0024
+
+[Epoch 1128/3000] D Loss: 3.1352 | G Loss: -17.9436 | W Dist: 10.4591 | Aux MSE: 0.0012
+
+[Epoch 1129/3000] D Loss: -3.8599 | G Loss: -17.4026 | W Dist: 10.4754 | Aux MSE: 0.0011
+
+[Epoch 1130/3000] D Loss: -6.7189 | G Loss: -16.5303 | W Dist: 10.9743 | Aux MSE: 0.0006
+
+[Epoch 1131/3000] D Loss: -7.3961 | G Loss: -16.2841 | W Dist: 11.1667 | Aux MSE: 0.0009
+
+[Epoch 1132/3000] D Loss: -7.6691 | G Loss: -16.0717 | W Dist: 11.4086 | Aux MSE: 0.0020
+
+[Epoch 1133/3000] D Loss: -8.2625 | G Loss: -15.7012 | W Dist: 11.6084 | Aux MSE: 0.0033
+
+[Epoch 1134/3000] D Loss: -5.0761 | G Loss: -15.5582 | W Dist: 12.3239 | Aux MSE: 0.0054
+
+[Epoch 1135/3000] D Loss: -10.8513 | G Loss: -15.3450 | W Dist: 12.7328 | Aux MSE: 0.0058
+
+[Epoch 1136/3000] D Loss: -5.1039 | G Loss: -15.2648 | W Dist: 12.9899 | Aux MSE: 0.0074
+
+[Epoch 1137/3000] D Loss: -9.9327 | G Loss: -15.3132 | W Dist: 12.9309 | Aux MSE: 0.0122
+
+[Epoch 1138/3000] D Loss: -8.5091 | G Loss: -15.2715 | W Dist: 13.1462 | Aux MSE: 0.0165
+
+[Epoch 1139/3000] D Loss: -10.9140 | G Loss: -15.5482 | W Dist: 13.3913 | Aux MSE: 0.0320
+
+[Epoch 1140/3000] D Loss: -11.4632 | G Loss: -15.8791 | W Dist: 13.9158 | Aux MSE: 0.0458
+
+[Epoch 1141/3000] D Loss: -12.3333 | G Loss: -16.0802 | W Dist: 14.4499 | Aux MSE: 0.0546
+
+[Epoch 1142/3000] D Loss: -13.0973 | G Loss: -15.8900 | W Dist: 15.3566 | Aux MSE: 0.0546
+
+[Epoch 1143/3000] D Loss: -13.9415 | G Loss: -15.6650 | W Dist: 16.0073 | Aux MSE: 0.0461
+
+[Epoch 1144/3000] D Loss: -12.9934 | G Loss: -16.0438 | W Dist: 16.4235 | Aux MSE: 0.0283
+
+[Epoch 1145/3000] D Loss: -13.7429 | G Loss: -16.6245 | W Dist: 16.3953 | Aux MSE: 0.0180
+
+[Epoch 1146/3000] D Loss: -13.0689 | G Loss: -16.9142 | W Dist: 16.5065 | Aux MSE: 0.0064
+
+[Epoch 1147/3000] D Loss: -15.0766 | G Loss: -16.2740 | W Dist: 17.4893 | Aux MSE: 0.0027
+
+[Epoch 1148/3000] D Loss: -12.4004 | G Loss: -16.5078 | W Dist: 17.7959 | Aux MSE: 0.0024
+
+[Epoch 1149/3000] D Loss: -14.8903 | G Loss: -16.9654 | W Dist: 18.0238 | Aux MSE: 0.0013
+
+[Epoch 1150/3000] D Loss: -14.4658 | G Loss: -17.4596 | W Dist: 18.1214 | Aux MSE: 0.0009
+
+[Epoch 1151/3000] D Loss: -13.6028 | G Loss: -18.3367 | W Dist: 17.6336 | Aux MSE: 0.0003
+
+[Epoch 1152/3000] D Loss: -13.6499 | G Loss: -18.7711 | W Dist: 18.0585 | Aux MSE: 0.0002
+
+[Epoch 1153/3000] D Loss: -15.0970 | G Loss: -19.0140 | W Dist: 18.3072 | Aux MSE: 0.0003
+
+[Epoch 1154/3000] D Loss: -15.0375 | G Loss: -20.1178 | W Dist: 18.1144 | Aux MSE: 0.0003
+
+[Epoch 1155/3000] D Loss: -15.4001 | G Loss: -20.4056 | W Dist: 18.9347 | Aux MSE: 0.0002
+
+[Epoch 1156/3000] D Loss: -17.4098 | G Loss: -20.1783 | W Dist: 19.6457 | Aux MSE: 0.0001
+
+[Epoch 1157/3000] D Loss: -17.4570 | G Loss: -20.5505 | W Dist: 20.4176 | Aux MSE: 0.0001
+
+[Epoch 1158/3000] D Loss: -18.5274 | G Loss: -21.1190 | W Dist: 20.9514 | Aux MSE: 0.0001
+
+[Epoch 1159/3000] D Loss: 7.3357 | G Loss: -22.1156 | W Dist: 20.0779 | Aux MSE: 0.0002
+
+[Epoch 1160/3000] D Loss: 42.1714 | G Loss: -23.5008 | W Dist: 17.3603 | Aux MSE: 0.0001
+
+[Epoch 1161/3000] D Loss: 110.2976 | G Loss: -23.9621 | W Dist: 15.9673 | Aux MSE: 0.0001
+
+[Epoch 1162/3000] D Loss: 66.2559 | G Loss: -24.1174 | W Dist: 15.0678 | Aux MSE: 0.0000
+
+[Epoch 1163/3000] D Loss: 85.6266 | G Loss: -23.6646 | W Dist: 14.9416 | Aux MSE: 0.0000
+
+[Epoch 1164/3000] D Loss: 58.1776 | G Loss: -24.2434 | W Dist: 13.8638 | Aux MSE: 0.0000
+
+[Epoch 1165/3000] D Loss: 50.4851 | G Loss: -23.7432 | W Dist: 14.0939 | Aux MSE: 0.0000
+
+[Epoch 1166/3000] D Loss: 3.8397 | G Loss: -23.6186 | W Dist: 13.9795 | Aux MSE: 0.0000
+
+[Epoch 1167/3000] D Loss: 2.7223 | G Loss: -23.9544 | W Dist: 13.6078 | Aux MSE: 0.0001
+
+[Epoch 1168/3000] D Loss: 1.5635 | G Loss: -23.7850 | W Dist: 13.6914 | Aux MSE: 0.0001
+
+[Epoch 1169/3000] D Loss: -1.3394 | G Loss: -23.4539 | W Dist: 13.9106 | Aux MSE: 0.0001
+
+[Epoch 1170/3000] D Loss: -1.7197 | G Loss: -22.8960 | W Dist: 14.4337 | Aux MSE: 0.0002
+
+[Epoch 1171/3000] D Loss: -13.7111 | G Loss: -22.5217 | W Dist: 15.2819 | Aux MSE: 0.0003
+
+[Epoch 1172/3000] D Loss: -15.8705 | G Loss: -21.2671 | W Dist: 17.2923 | Aux MSE: 0.0001
+
+[Epoch 1173/3000] D Loss: -17.0893 | G Loss: -20.8744 | W Dist: 18.8729 | Aux MSE: 0.0002
+
+[Epoch 1174/3000] D Loss: -17.0516 | G Loss: -21.2487 | W Dist: 19.5620 | Aux MSE: 0.0002
+
+[Epoch 1175/3000] D Loss: -16.5978 | G Loss: -22.4673 | W Dist: 19.3126 | Aux MSE: 0.0003
+
+[Epoch 1176/3000] D Loss: 4.3023 | G Loss: -23.2510 | W Dist: 18.9036 | Aux MSE: 0.0004
+
+[Epoch 1177/3000] D Loss: 66.0115 | G Loss: -24.3295 | W Dist: 15.6042 | Aux MSE: 0.0003
+
+[Epoch 1178/3000] D Loss: 42.0974 | G Loss: -25.1152 | W Dist: 14.4702 | Aux MSE: 0.0000
+
+[Epoch 1179/3000] D Loss: 15.0389 | G Loss: -25.3958 | W Dist: 14.3983 | Aux MSE: 0.0000
+
+[Epoch 1180/3000] D Loss: 29.0335 | G Loss: -24.6277 | W Dist: 14.5928 | Aux MSE: 0.0001
+
+[Epoch 1181/3000] D Loss: -0.1845 | G Loss: -24.5844 | W Dist: 14.6622 | Aux MSE: 0.0002
+
+[Epoch 1182/3000] D Loss: 48.0654 | G Loss: -24.5448 | W Dist: 13.8711 | Aux MSE: 0.0005
+
+[Epoch 1183/3000] D Loss: -3.3196 | G Loss: -25.1025 | W Dist: 12.7767 | Aux MSE: 0.0005
+
+[Epoch 1184/3000] D Loss: 23.6732 | G Loss: -24.8232 | W Dist: 13.0805 | Aux MSE: 0.0003
+
+[Epoch 1185/3000] D Loss: -7.6013 | G Loss: -24.8079 | W Dist: 13.3987 | Aux MSE: 0.0001
+
+[Epoch 1186/3000] D Loss: 2.9248 | G Loss: -23.7219 | W Dist: 14.6257 | Aux MSE: 0.0001
+
+[Epoch 1187/3000] D Loss: -6.1535 | G Loss: -23.6005 | W Dist: 14.2483 | Aux MSE: 0.0001
+
+[Epoch 1188/3000] D Loss: -6.9803 | G Loss: -22.9742 | W Dist: 15.0391 | Aux MSE: 0.0000
+
+[Epoch 1189/3000] D Loss: -10.6753 | G Loss: -22.3252 | W Dist: 15.8384 | Aux MSE: 0.0000
+
+[Epoch 1190/3000] D Loss: -12.1390 | G Loss: -21.7721 | W Dist: 16.5279 | Aux MSE: 0.0000
+
+[Epoch 1191/3000] D Loss: -15.6647 | G Loss: -21.8399 | W Dist: 17.5805 | Aux MSE: 0.0000
+
+[Epoch 1192/3000] D Loss: -16.2748 | G Loss: -21.5628 | W Dist: 18.7188 | Aux MSE: 0.0000
+
+[Epoch 1193/3000] D Loss: -16.5521 | G Loss: -21.9885 | W Dist: 19.3022 | Aux MSE: 0.0000
+
+[Epoch 1194/3000] D Loss: 7.3740 | G Loss: -22.9411 | W Dist: 18.2204 | Aux MSE: 0.0000
+
+[Epoch 1195/3000] D Loss: 34.5148 | G Loss: -23.2638 | W Dist: 16.7321 | Aux MSE: 0.0000
+
+[Epoch 1196/3000] D Loss: 149.3837 | G Loss: -23.8843 | W Dist: 14.9674 | Aux MSE: 0.0000
+
+[Epoch 1197/3000] D Loss: 76.5684 | G Loss: -24.0605 | W Dist: 13.4646 | Aux MSE: 0.0000
+
+[Epoch 1198/3000] D Loss: 75.1357 | G Loss: -24.2310 | W Dist: 12.8347 | Aux MSE: 0.0000
+
+[Epoch 1199/3000] D Loss: 42.6016 | G Loss: -24.3448 | W Dist: 12.3337 | Aux MSE: 0.0000
+
+[Epoch 1200/3000] D Loss: 59.9650 | G Loss: -24.8130 | W Dist: 11.7168 | Aux MSE: 0.0001
+
+[Epoch 1201/3000] D Loss: 33.4685 | G Loss: -24.2244 | W Dist: 11.8591 | Aux MSE: 0.0000
+
+[Epoch 1202/3000] D Loss: 16.4015 | G Loss: -24.4567 | W Dist: 11.7141 | Aux MSE: 0.0001
+
+[Epoch 1203/3000] D Loss: 2.2668 | G Loss: -24.1658 | W Dist: 12.1006 | Aux MSE: 0.0002
+
+[Epoch 1204/3000] D Loss: -3.0803 | G Loss: -23.6510 | W Dist: 12.1837 | Aux MSE: 0.0003
+
+[Epoch 1205/3000] D Loss: -1.3987 | G Loss: -23.5779 | W Dist: 12.3783 | Aux MSE: 0.0006
+
+[Epoch 1206/3000] D Loss: -6.9468 | G Loss: -22.7966 | W Dist: 13.4286 | Aux MSE: 0.0005
+
+[Epoch 1207/3000] D Loss: -9.9308 | G Loss: -22.4442 | W Dist: 13.8522 | Aux MSE: 0.0005
+
+[Epoch 1208/3000] D Loss: -13.2943 | G Loss: -22.0947 | W Dist: 15.1099 | Aux MSE: 0.0002
+
+[Epoch 1209/3000] D Loss: -14.0261 | G Loss: -22.0453 | W Dist: 16.4062 | Aux MSE: 0.0002
+
+[Epoch 1210/3000] D Loss: -10.9768 | G Loss: -22.3185 | W Dist: 16.3487 | Aux MSE: 0.0002
+
+[Epoch 1211/3000] D Loss: -15.1161 | G Loss: -22.2725 | W Dist: 17.1578 | Aux MSE: 0.0001
+
+[Epoch 1212/3000] D Loss: -14.7565 | G Loss: -22.8524 | W Dist: 17.4693 | Aux MSE: 0.0002
+
+[Epoch 1213/3000] D Loss: -15.1573 | G Loss: -23.5648 | W Dist: 17.7058 | Aux MSE: 0.0002
+
+[Epoch 1214/3000] D Loss: -15.7799 | G Loss: -23.9615 | W Dist: 18.2447 | Aux MSE: 0.0001
+
+[Epoch 1215/3000] D Loss: -16.2948 | G Loss: -24.5610 | W Dist: 18.6536 | Aux MSE: 0.0001
+
+[Epoch 1216/3000] D Loss: -16.8611 | G Loss: -25.1853 | W Dist: 19.1945 | Aux MSE: 0.0003
+
+[Epoch 1217/3000] D Loss: -17.5202 | G Loss: -25.9026 | W Dist: 19.5669 | Aux MSE: 0.0003
+
+[Epoch 1218/3000] D Loss: -18.0601 | G Loss: -26.5022 | W Dist: 20.3172 | Aux MSE: 0.0004
+
+[Epoch 1219/3000] D Loss: -15.3890 | G Loss: -27.3898 | W Dist: 19.7384 | Aux MSE: 0.0007
+
+[Epoch 1220/3000] D Loss: -12.8128 | G Loss: -28.2471 | W Dist: 19.5400 | Aux MSE: 0.0007
+
+[Epoch 1221/3000] D Loss: -16.5398 | G Loss: -28.2081 | W Dist: 20.3123 | Aux MSE: 0.0002
+
+[Epoch 1222/3000] D Loss: -10.3769 | G Loss: -28.4267 | W Dist: 20.2797 | Aux MSE: 0.0002
+
+[Epoch 1223/3000] D Loss: -18.9160 | G Loss: -27.9774 | W Dist: 21.3235 | Aux MSE: 0.0001
+
+[Epoch 1224/3000] D Loss: -16.4046 | G Loss: -28.6954 | W Dist: 21.1637 | Aux MSE: 0.0001
+
+[Epoch 1225/3000] D Loss: -16.1655 | G Loss: -29.4731 | W Dist: 21.1879 | Aux MSE: 0.0001
+
+[Epoch 1226/3000] D Loss: -16.3251 | G Loss: -30.0575 | W Dist: 20.9103 | Aux MSE: 0.0000
+
+[Epoch 1227/3000] D Loss: -16.7143 | G Loss: -30.4321 | W Dist: 21.4362 | Aux MSE: 0.0000
+
+[Epoch 1228/3000] D Loss: -8.9961 | G Loss: -31.2193 | W Dist: 21.1717 | Aux MSE: 0.0000
+
+[Epoch 1229/3000] D Loss: 22.1436 | G Loss: -32.2890 | W Dist: 18.9857 | Aux MSE: 0.0000
+
+[Epoch 1230/3000] D Loss: 37.2128 | G Loss: -32.2590 | W Dist: 17.6315 | Aux MSE: 0.0000
+
+[Epoch 1231/3000] D Loss: 5.1921 | G Loss: -31.1464 | W Dist: 17.4329 | Aux MSE: 0.0000
+
+[Epoch 1232/3000] D Loss: 2.1079 | G Loss: -30.5503 | W Dist: 17.6055 | Aux MSE: 0.0000
+
+[Epoch 1233/3000] D Loss: -8.6923 | G Loss: -29.8759 | W Dist: 17.7677 | Aux MSE: 0.0000
+
+[Epoch 1234/3000] D Loss: -9.7904 | G Loss: -29.4189 | W Dist: 18.0137 | Aux MSE: 0.0000
+
+[Epoch 1235/3000] D Loss: -5.7931 | G Loss: -28.9589 | W Dist: 18.3863 | Aux MSE: 0.0000
+
+[Epoch 1236/3000] D Loss: 6.4264 | G Loss: -29.6496 | W Dist: 17.2945 | Aux MSE: 0.0000
+
+[Epoch 1237/3000] D Loss: -8.0741 | G Loss: -29.9838 | W Dist: 16.6948 | Aux MSE: 0.0000
+
+[Epoch 1238/3000] D Loss: -9.2357 | G Loss: -29.6569 | W Dist: 16.8781 | Aux MSE: 0.0000
+
+[Epoch 1239/3000] D Loss: 11.5308 | G Loss: -29.9224 | W Dist: 15.9298 | Aux MSE: 0.0000
+
+[Epoch 1240/3000] D Loss: -12.0258 | G Loss: -30.2172 | W Dist: 15.8857 | Aux MSE: 0.0000
+
+[Epoch 1241/3000] D Loss: -12.6645 | G Loss: -29.4685 | W Dist: 17.3959 | Aux MSE: 0.0000
+
+[Epoch 1242/3000] D Loss: -2.3408 | G Loss: -30.0818 | W Dist: 17.3452 | Aux MSE: 0.0000
+
+[Epoch 1243/3000] D Loss: -17.4732 | G Loss: -28.6103 | W Dist: 19.0967 | Aux MSE: 0.0000
+
+[Epoch 1244/3000] D Loss: -19.2591 | G Loss: -27.5717 | W Dist: 20.9212 | Aux MSE: 0.0000
+
+[Epoch 1245/3000] D Loss: -19.4388 | G Loss: -27.7006 | W Dist: 22.1243 | Aux MSE: 0.0000
+
+[Epoch 1246/3000] D Loss: -19.0683 | G Loss: -27.9524 | W Dist: 23.0975 | Aux MSE: 0.0000
+
+[Epoch 1247/3000] D Loss: -15.9393 | G Loss: -28.7895 | W Dist: 23.2225 | Aux MSE: 0.0000
+
+[Epoch 1248/3000] D Loss: -20.8197 | G Loss: -28.9588 | W Dist: 23.8231 | Aux MSE: 0.0000
+
+[Epoch 1249/3000] D Loss: -22.5329 | G Loss: -29.5075 | W Dist: 24.8193 | Aux MSE: 0.0000
+
+[Epoch 1250/3000] D Loss: -20.0727 | G Loss: -30.5088 | W Dist: 24.7537 | Aux MSE: 0.0000
+
+[Epoch 1251/3000] D Loss: 17.5625 | G Loss: -32.9073 | W Dist: 23.4166 | Aux MSE: 0.0000
+
+[Epoch 1252/3000] D Loss: -14.1451 | G Loss: -33.2760 | W Dist: 22.2202 | Aux MSE: 0.0000
+
+[Epoch 1253/3000] D Loss: -20.1909 | G Loss: -32.2027 | W Dist: 23.9661 | Aux MSE: 0.0000
+
+[Epoch 1254/3000] D Loss: -21.4137 | G Loss: -32.5327 | W Dist: 24.8492 | Aux MSE: 0.0000
+
+[Epoch 1255/3000] D Loss: -23.3345 | G Loss: -33.1547 | W Dist: 25.4895 | Aux MSE: 0.0000
+
+[Epoch 1256/3000] D Loss: -22.7822 | G Loss: -34.0841 | W Dist: 25.9044 | Aux MSE: 0.0000
+
+[Epoch 1257/3000] D Loss: -21.9842 | G Loss: -35.5574 | W Dist: 25.9852 | Aux MSE: 0.0000
+
+[Epoch 1258/3000] D Loss: 373.1696 | G Loss: -38.2683 | W Dist: 21.5469 | Aux MSE: 0.0000
+
+[Epoch 1259/3000] D Loss: 153.4644 | G Loss: -38.7139 | W Dist: 20.8702 | Aux MSE: 0.0000
+
+[Epoch 1260/3000] D Loss: 5.5488 | G Loss: -39.2089 | W Dist: 20.9984 | Aux MSE: 0.0000
+
+[Epoch 1261/3000] D Loss: 2.0980 | G Loss: -38.1575 | W Dist: 21.4995 | Aux MSE: 0.0000
+
+[Epoch 1262/3000] D Loss: -18.0966 | G Loss: -37.0798 | W Dist: 23.2961 | Aux MSE: 0.0000
+
+[Epoch 1263/3000] D Loss: 8.9401 | G Loss: -37.9997 | W Dist: 21.6143 | Aux MSE: 0.0000
+
+[Epoch 1264/3000] D Loss: 141.6669 | G Loss: -37.8634 | W Dist: 20.7902 | Aux MSE: 0.0000
+
+[Epoch 1265/3000] D Loss: 9.1222 | G Loss: -37.3974 | W Dist: 21.0789 | Aux MSE: 0.0000
+
+[Epoch 1266/3000] D Loss: -19.5064 | G Loss: -36.7641 | W Dist: 22.1235 | Aux MSE: 0.0000
+
+[Epoch 1267/3000] D Loss: -22.7423 | G Loss: -35.7419 | W Dist: 24.4266 | Aux MSE: 0.0000
+
+[Epoch 1268/3000] D Loss: -22.7697 | G Loss: -36.1004 | W Dist: 25.7169 | Aux MSE: 0.0000
+
+[Epoch 1269/3000] D Loss: -13.9653 | G Loss: -38.0867 | W Dist: 24.6686 | Aux MSE: 0.0000
+
+[Epoch 1270/3000] D Loss: 31.7570 | G Loss: -39.5458 | W Dist: 22.5650 | Aux MSE: 0.0000
+
+[Epoch 1271/3000] D Loss: 18.1860 | G Loss: -39.8695 | W Dist: 21.6765 | Aux MSE: 0.0000
+
+[Epoch 1272/3000] D Loss: 9.5223 | G Loss: -39.5358 | W Dist: 20.7521 | Aux MSE: 0.0000
