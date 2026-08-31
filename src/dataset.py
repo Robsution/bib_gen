@@ -1,78 +1,122 @@
-import torch
+"""PyTorch dataset for processed beam-induced-background families."""
+
+from pathlib import Path
+
 import numpy as np
+import torch
 from torch.utils.data import Dataset
-import os
 
-class BibDataset(Dataset):
-    def __init__(self, data_dir, prefix="bib_data", min_n=0, max_n=np.inf):
+
+class BIBDataset(Dataset):
+    """Load padded parent/daughter arrays produced by the preprocessing script.
+
+    Each daughter row contains an activity mask in column zero, followed by
+    continuous kinematics and a one-hot particle-species encoding.
+
+    Args:
+        data_dir: Directory containing ``<prefix>_parents.npy`` and
+            ``<prefix>_daughters.npy``.
+        prefix: Shared file prefix.
+        min_daughters: Minimum accepted family size, inclusive.
+        max_daughters: Maximum accepted family size, inclusive. ``None`` keeps
+            all family sizes and normalizes counts by the stored padded length.
+        filter_batch_size: Families inspected at once when filtering.
+    """
+
+    def __init__(
+        self,
+        data_dir: str | Path,
+        prefix: str = "bib_data",
+        min_daughters: int = 0,
+        max_daughters: int | None = None,
+        filter_batch_size: int = 20_000,
+    ) -> None:
         super().__init__()
-        """
-        Args:
-            data_dir (str): Path to folder containing .npy files
-            prefix (str): Prefix of the files (e.g., 'bib_data')
-        """
-        parents_path = os.path.join(data_dir, f"{prefix}_parents.npy")
-        daughters_path = os.path.join(data_dir, f"{prefix}_daughters.npy")
-        
-        # self.parents = np.load(parents_path, mmap_mode='r')
-        # self.daughters = np.load(daughters_path, mmap_mode='r')
-        
-        self.parents = np.load(parents_path, mmap_mode='r')
-        self.daughters = np.load(daughters_path, mmap_mode='r')
-        
-        self.n_samples = self.parents.shape[0]
-        
+        data_dir = Path(data_dir)
+        parents_path = data_dir / f"{prefix}_parents.npy"
+        daughters_path = data_dir / f"{prefix}_daughters.npy"
 
-        filtering = not (min_n == 0 and max_n == np.inf)
+        if not parents_path.exists() or not daughters_path.exists():
+            raise FileNotFoundError(
+                f"Expected processed arrays at {parents_path} and {daughters_path}"
+            )
+        if min_daughters < 0:
+            raise ValueError("min_daughters must be non-negative")
+        if max_daughters is not None and max_daughters < min_daughters:
+            raise ValueError("max_daughters must be greater than or equal to min_daughters")
 
-        if not filtering:
-            self.parents = torch.tensor(np.array(self.parents), dtype=torch.float32)
-            self.daughters = torch.tensor(np.array(self.daughters), dtype=torch.float32)
-        else:
-            print(f"Filtering dataset for families with [{min_n}, {max_n}] daughters...")
-            
-            filtered_parents = []
-            filtered_daughters = []
-            
-            BATCH_SIZE = 20000  # Adjust this based on your RAM availability
-            num_samples = len(self.parents)
-            
-            for i in range(0, num_samples, BATCH_SIZE):
-                # Slice a manageable chunk of your Python lists
-                p_batch = self.parents[i : i + BATCH_SIZE]
-                d_batch = self.daughters[i : i + BATCH_SIZE]
-                
-                # Vectorized math on just this small batch
-                d_batch_arr = np.array(d_batch)
-                true_counts = np.sum(d_batch_arr[:, :, 0], axis=1)
-                
-                # Boolean mask for the batch
-                mask = (true_counts >= min_n) & (true_counts <= max_n)
-                
-                # Extract passing elements and convert to list elements temporarily
-                filtered_parents.extend(np.array(p_batch)[mask])
-                filtered_daughters.extend(d_batch_arr[mask])
-                
-            # Convert the final consolidated lists into PyTorch tensors
-            self.parents = torch.tensor(np.array(filtered_parents), dtype=torch.float32)
-            self.daughters = torch.tensor(np.array(filtered_daughters), dtype=torch.float32)
-        
-        self.min_daughters = min_n
-        self.max_daughters = max_n
-        print(f"Success! Filtered down to {len(self.parents)} families.")
+        parents = np.load(parents_path, mmap_mode="r")
+        daughters = np.load(daughters_path, mmap_mode="r")
+        self._validate_shapes(parents, daughters)
 
-    def __len__(self):
+        self.padded_size = int(daughters.shape[1])
+        self.count_scale = max_daughters if max_daughters is not None else self.padded_size
+
+        needs_filter = min_daughters > 0 or (
+            max_daughters is not None and max_daughters < self.padded_size
+        )
+        if needs_filter:
+            parents, daughters = self._filter_families(
+                parents,
+                daughters,
+                min_daughters=min_daughters,
+                max_daughters=max_daughters,
+                batch_size=filter_batch_size,
+            )
+
+        self.parents = parents
+        self.daughters = daughters
+
+    @staticmethod
+    def _validate_shapes(parents: np.ndarray, daughters: np.ndarray) -> None:
+        if parents.ndim != 2:
+            raise ValueError(f"Parent array must be rank 2, got shape {parents.shape}")
+        if daughters.ndim != 3:
+            raise ValueError(f"Daughter array must be rank 3, got shape {daughters.shape}")
+        if len(parents) != len(daughters):
+            raise ValueError("Parent and daughter arrays contain different numbers of families")
+        if daughters.shape[2] < 2:
+            raise ValueError("Daughter rows must contain a mask and at least one feature")
+
+    @staticmethod
+    def _filter_families(
+        parents: np.ndarray,
+        daughters: np.ndarray,
+        min_daughters: int,
+        max_daughters: int | None,
+        batch_size: int,
+    ) -> tuple[np.ndarray, np.ndarray]:
+        parent_chunks: list[np.ndarray] = []
+        daughter_chunks: list[np.ndarray] = []
+
+        for start in range(0, len(parents), batch_size):
+            stop = min(start + batch_size, len(parents))
+            daughter_chunk = np.asarray(daughters[start:stop])
+            counts = (daughter_chunk[:, :, 0] > 0.5).sum(axis=1)
+            keep = counts >= min_daughters
+            if max_daughters is not None:
+                keep &= counts <= max_daughters
+            if np.any(keep):
+                parent_chunks.append(np.asarray(parents[start:stop])[keep])
+                daughter_chunks.append(daughter_chunk[keep])
+
+        if not parent_chunks:
+            raise ValueError(
+                "No families satisfy the requested multiplicity interval "
+                f"[{min_daughters}, {max_daughters}]"
+            )
+
+        return np.concatenate(parent_chunks), np.concatenate(daughter_chunks)
+
+    def __len__(self) -> int:
         return len(self.parents)
 
-    def __getitem__(self, idx):
-        
-        parent = torch.from_numpy(np.array(self.parents[idx])).float()
-        raw_daughters = np.array(self.daughters[idx]) 
-        
-        # Split Mask and Features
-        mask = torch.from_numpy(raw_daughters[:, 0:1]).float()
-        features = torch.from_numpy(raw_daughters[:, 1:]).float()
-        
-        true_n = torch.sum(mask) / self.max_daughters
-        
-        return parent, features, mask, true_n
+    def __getitem__(
+        self, index: int
+    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
+        parent = torch.as_tensor(np.array(self.parents[index]), dtype=torch.float32)
+        daughter_rows = np.array(self.daughters[index])
+        mask = torch.as_tensor(daughter_rows[:, :1], dtype=torch.float32)
+        features = torch.as_tensor(daughter_rows[:, 1:], dtype=torch.float32)
+        normalized_n = mask.sum() / self.count_scale
+        return parent, features, mask, normalized_n

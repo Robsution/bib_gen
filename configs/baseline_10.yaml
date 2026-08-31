@@ -1,0 +1,29 @@
+device: cuda
+seed: 12345
+
+data_dir: data/processed/large10
+save_dir: outputs/baseline_10/checkpoints
+plot_dir: outputs/baseline_10/plots
+
+min_daughters: 0
+max_daughters: 10
+kinematic_dim: 8
+
+epochs: 1000
+batch_size: 128
+num_workers: 8
+lr_g: 0.0001
+lr_d: 0.0001
+n_critic: 5
+checkpoint_interval: 50
+
+z_dim: 128
+generator_hidden_dim: 256
+discriminator_hidden_dim: 128
+
+multiplicity_hidden_dim: 128
+multiplicity_learning_rate: 0.001
+multiplicity_batch_size: 256
+multiplicity_epochs: 500
+multiplicity_patience: 10
+multiplicity_min_delta: 0.0001

@@ -1,0 +1,14 @@
+device: cuda
+seed: 12345
+
+data_dir: data/processed/large50
+plot_dir: outputs/multiplicity_50/plots
+
+min_daughters: 0
+max_daughters: 50
+batch_size: 256
+
+multiplicity_hidden_dim: 128
+multiplicity_learning_rate: 0.001
+multiplicity_epochs: 50
+mixture_components: 5
