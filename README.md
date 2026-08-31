@@ -4,9 +4,9 @@ This repository contains a conditional generative baseline for beam-induced-back
 (BIB) particle families. A family is represented as a parent state and a variable-size set
 of daughter particles. The current baseline factorizes generation into
 
-\[
+$$
 p(N\mid c)\,p(\{s_i,k_i\}_{i=1}^{N}\mid N,c),
-\]
+$$
 
 where `c` is the parent position, `N` is daughter multiplicity, `s_i` is particle species,
 and `k_i` contains eight continuous particle features.
