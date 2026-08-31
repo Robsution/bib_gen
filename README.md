@@ -65,9 +65,9 @@ Processed files use the following layout:
 
 - `bib_data_parents.npy`: `(families, 3)`, MinMax-scaled to `[-1, 1]`;
 - `bib_data_daughters.npy`: `(families, max_daughters, 1 + 8 + n_species)`;
-- daughter column 0: activity mask;
-- daughter columns 1–8: scaled continuous features;
-- remaining columns: one-hot PDG category;
+  - daughter column 0: activity mask;
+  - daughter columns 1–8: Min-max scaled continuous features to `[-1, 1]`;
+  - remaining columns: one-hot PDG category;
 - `bib_data_scalers.json` and `bib_data_parent_scalers.json`: feature order, ranges, and
   PDG-category mapping.
 
@@ -78,19 +78,13 @@ python -m scripts.data.preprocess RAW.csv --output-dir data/processed/full
 python -m scripts.data.validate_dataset --data-dir data/processed/full
 ```
 
-The 10- and 50-particle datasets should contain only complete families naturally satisfying
-the multiplicity limit. They are not clipped versions of larger families:
+One might filter their data for a small training dataset via filtering:
 
 ```bash
 python -m scripts.data.filter_dataset \
-  --input-dir data/processed/full \
-  --output-dir data/processed/large10 \
+  --input-dir data/raw/your_data \
+  --output-dir data/processed/your_data_10 \
   --max-daughters 10
-
-python -m scripts.data.filter_dataset \
-  --input-dir data/processed/full \
-  --output-dir data/processed/large50 \
-  --max-daughters 50
 ```
 
 ## Training and evaluation
